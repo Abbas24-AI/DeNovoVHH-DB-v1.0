@@ -1,0 +1,1411 @@
+denovovhh_id,target,uniprot,has_structure,has_affinity,is_de_novo,quality,group,split
+DNVHH000001,"Vascular endothelial growth factor A, long form",P15692,True,False,False,Moderate,"target:Vascular endothelial growth factor A, long form",train
+DNVHH000002,"Vascular endothelial growth factor A, long form",P15692,True,False,False,Moderate,"target:Vascular endothelial growth factor A, long form",train
+DNVHH000003,"Vascular endothelial growth factor A, long form",P15692,True,False,False,Moderate,"target:Vascular endothelial growth factor A, long form",train
+DNVHH000004,"Vascular endothelial growth factor A, long form",P15692,True,False,False,Moderate,"target:Vascular endothelial growth factor A, long form",train
+DNVHH000005,"Vascular endothelial growth factor A, long form",P15692,True,False,False,Moderate,"target:Vascular endothelial growth factor A, long form",train
+DNVHH000006,"Vascular endothelial growth factor A, long form",P15692,True,False,False,Moderate,"target:Vascular endothelial growth factor A, long form",train
+DNVHH000007,"Vascular endothelial growth factor A, long form",P15692,True,False,False,Moderate,"target:Vascular endothelial growth factor A, long form",train
+DNVHH000008,"Vascular endothelial growth factor A, long form",P15692,True,False,False,Moderate,"target:Vascular endothelial growth factor A, long form",train
+DNVHH000009,"Vascular endothelial growth factor A, long form",P15692,True,False,False,Moderate,"target:Vascular endothelial growth factor A, long form",train
+DNVHH000010,"Vascular endothelial growth factor A, long form",P15692,True,False,False,Moderate,"target:Vascular endothelial growth factor A, long form",train
+DNVHH000011,"Vascular endothelial growth factor A, long form",P15692,True,False,False,Moderate,"target:Vascular endothelial growth factor A, long form",train
+DNVHH000012,"Vascular endothelial growth factor A, long form",P15692,True,False,False,Moderate,"target:Vascular endothelial growth factor A, long form",train
+DNVHH000013,"Vascular endothelial growth factor A, long form",P15692,True,False,False,Moderate,"target:Vascular endothelial growth factor A, long form",train
+DNVHH000014,,,True,False,False,Moderate,seq:5986d8ece349,validation
+DNVHH000015,,,True,False,False,Moderate,seq:eb84982b225a,validation
+DNVHH000016,,,True,False,False,Moderate,seq:2cb638a4da97,validation
+DNVHH000017,HEW Lysozyme,,True,False,False,Moderate,target:HEW Lysozyme,train
+DNVHH000018,HEW Lysozyme,,True,False,False,Moderate,target:HEW Lysozyme,train
+DNVHH000019,HEW Lysozyme,,True,False,False,Moderate,target:HEW Lysozyme,train
+DNVHH000020,HEW Lysozyme,,True,False,False,Moderate,target:HEW Lysozyme,train
+DNVHH000021,HEW Lysozyme,,True,False,False,Moderate,target:HEW Lysozyme,train
+DNVHH000022,,,True,False,False,Moderate,seq:e70e28dfbfa9,validation
+DNVHH000023,Carbonic anhydrase 2,P00921,True,True,False,High,target:Carbonic anhydrase 2,test
+DNVHH000024,Carbonic anhydrase 2,P00921,True,True,False,High,target:Carbonic anhydrase 2,test
+DNVHH000025,,,True,False,False,Moderate,seq:dab209d30ce8,test
+DNVHH000026,,,True,False,False,Moderate,seq:ca85bc1be8b2,validation
+DNVHH000027,,,True,False,False,Moderate,seq:1689342abf82,train
+DNVHH000028,,,True,False,False,Moderate,seq:64d9b13a9bb0,train
+DNVHH000029,Pancreatic alpha-amylase,P00690,True,True,False,High,target:Pancreatic alpha-amylase,train
+DNVHH000030,Pancreatic alpha-amylase,P00690,True,True,False,High,target:Pancreatic alpha-amylase,train
+DNVHH000031,Pancreatic alpha-amylase,P00690,True,True,False,High,target:Pancreatic alpha-amylase,train
+DNVHH000032,Pancreatic alpha-amylase,P00690,True,True,False,High,target:Pancreatic alpha-amylase,train
+DNVHH000033,Pancreatic alpha-amylase,P00690,True,True,False,High,target:Pancreatic alpha-amylase,train
+DNVHH000034,Pancreatic alpha-amylase,P00690,True,True,False,High,target:Pancreatic alpha-amylase,train
+DNVHH000035,Lysozyme C,P00698,True,True,False,High,target:Lysozyme C,train
+DNVHH000036,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000037,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000038,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000039,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000040,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000041,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000042,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000043,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000044,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000045,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000046,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000047,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000048,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000049,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000050,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000051,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000052,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000053,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000054,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000055,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000056,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000057,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000058,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000059,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000060,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000061,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000062,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000063,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000064,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000065,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000066,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000067,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000068,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000069,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000070,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000071,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000072,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000073,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000074,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000075,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000076,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000077,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000078,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000079,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000080,Integrin alpha-1,P18614,True,False,False,Moderate,target:Integrin alpha-1,train
+DNVHH000081,Antitoxin MazE,P0AE72,True,False,False,Moderate,target:Antitoxin MazE,test
+DNVHH000082,Antitoxin MazE,P0AE72,True,False,False,Moderate,target:Antitoxin MazE,test
+DNVHH000083,Lysozyme C,P61626,True,True,False,High,target:Lysozyme C,train
+DNVHH000084,Lysozyme C,P61626,True,True,False,High,target:Lysozyme C,train
+DNVHH000085,Lysozyme C,P00698,True,True,False,High,target:Lysozyme C,train
+DNVHH000086,Lysozyme C,P00698,True,True,False,High,target:Lysozyme C,train
+DNVHH000087,Lysozyme C,P00698,True,True,False,High,target:Lysozyme C,train
+DNVHH000088,,,True,False,False,Moderate,seq:3fcf4c32d581,test
+DNVHH000089,,,True,False,False,Moderate,seq:0698f7e65bba,validation
+DNVHH000090,,,True,False,False,Moderate,seq:df554e43f87d,validation
+DNVHH000091,Lysozyme C,P00698,True,True,False,High,target:Lysozyme C,train
+DNVHH000092,,,True,False,False,Moderate,seq:eb658e4c4bd0,validation
+DNVHH000093,,,True,False,False,Moderate,seq:fc3dc32af033,test
+DNVHH000094,,,True,False,False,Moderate,seq:77029a01485d,test
+DNVHH000095,,,True,False,False,Moderate,seq:526927d3e3cb,train
+DNVHH000096,Lysozyme C,P00698,True,True,False,High,target:Lysozyme C,train
+DNVHH000097,Lysozyme C,P00698,True,True,False,High,target:Lysozyme C,train
+DNVHH000098,Lysozyme C,P00698,True,True,False,High,target:Lysozyme C,train
+DNVHH000099,Lysozyme C,P00698,True,True,False,High,target:Lysozyme C,train
+DNVHH000100,Lysozyme C,P00698,True,True,False,High,target:Lysozyme C,train
+DNVHH000101,Lysozyme C,P00698,True,True,False,High,target:Lysozyme C,train
+DNVHH000102,Integrin alpha-1,P18614,True,False,True,Moderate,target:Integrin alpha-1,train
+DNVHH000103,Integrin alpha-1,P18614,True,False,True,Moderate,target:Integrin alpha-1,train
+DNVHH000104,Integrin alpha-1,P18614,True,False,True,Moderate,target:Integrin alpha-1,train
+DNVHH000105,LAB; HSPC046; NTAL; LAT2; WSCR5; WBSCR15; WBSCR5,,True,True,False,High,target:LAB; HSPC046; NTAL; LAT2; WSCR5; WBSCR15; WBSCR5,validation
+DNVHH000106,,,True,False,False,Moderate,seq:0713dc6b7a91,test
+DNVHH000107,Ribonuclease pancreatic,P61823,True,True,False,High,target:Ribonuclease pancreatic,train
+DNVHH000108,Ribonuclease pancreatic,P61823,True,True,False,High,target:Ribonuclease pancreatic,train
+DNVHH000109,Ribonuclease pancreatic,P61823,True,True,False,High,target:Ribonuclease pancreatic,train
+DNVHH000110,Ribonuclease pancreatic,P61823,True,True,False,High,target:Ribonuclease pancreatic,train
+DNVHH000111,Ribonuclease pancreatic,P61823,True,True,False,High,target:Ribonuclease pancreatic,train
+DNVHH000112,Ribonuclease pancreatic,P61823,True,True,False,High,target:Ribonuclease pancreatic,train
+DNVHH000113,Ribonuclease pancreatic,P61823,True,True,False,High,target:Ribonuclease pancreatic,train
+DNVHH000114,Ribonuclease pancreatic,P61823,True,True,False,High,target:Ribonuclease pancreatic,train
+DNVHH000115,Protein Mdm4,O15151,True,True,False,High,target:Protein Mdm4,train
+DNVHH000116,,,True,False,False,Moderate,seq:f517c3245871,test
+DNVHH000117,,,True,False,False,Moderate,seq:c5066a85d935,test
+DNVHH000118,,,True,False,False,Moderate,seq:0396308a273d,validation
+DNVHH000119,Alpha-synuclein,P37840,True,True,False,High,target:Alpha-synuclein,validation
+DNVHH000120,Beta-2-microglobulin,P61769,True,True,False,High,target:Beta-2-microglobulin,train
+DNVHH000121,Envelope glycoprotein gp160,H6VWK7,True,True,False,High,target:Envelope glycoprotein gp160,train
+DNVHH000122,,,True,False,False,Moderate,seq:e5bcb14bdb02,train
+DNVHH000123,Gag-Pol polyprotein,P12497,True,True,False,Moderate,target:Gag-Pol polyprotein,validation
+DNVHH000124,,,True,False,False,Moderate,seq:87d0de1ac6fc,train
+DNVHH000125,Type II secretion system protein I,Q7MPZ1,True,False,False,Moderate,target:Type II secretion system protein I,validation
+DNVHH000126,Lysozyme C,P61626,True,True,False,High,target:Lysozyme C,train
+DNVHH000127,Lysozyme C,P61626,True,True,False,High,target:Lysozyme C,train
+DNVHH000128,Not reported,Q707C1,True,False,False,Moderate,target:Not reported,train
+DNVHH000129,Not reported,Q707C1,True,False,False,Moderate,target:Not reported,train
+DNVHH000130,Genome polyprotein,P03300,True,True,False,High,target:Genome polyprotein,train
+DNVHH000131,Genome polyprotein,P03300,True,False,False,Moderate,target:Genome polyprotein,train
+DNVHH000132,Genome polyprotein,P03300,True,True,False,High,target:Genome polyprotein,train
+DNVHH000133,Genome polyprotein,P03300,True,True,False,High,target:Genome polyprotein,train
+DNVHH000134,Genome polyprotein,P03300,True,True,False,High,target:Genome polyprotein,train
+DNVHH000135,Genome polyprotein,P03300,True,False,False,Moderate,target:Genome polyprotein,train
+DNVHH000136,Genome polyprotein,P03300,True,False,False,Moderate,target:Genome polyprotein,train
+DNVHH000137,Botulinum neurotoxin type A,P0DPI1,True,True,False,High,target:Botulinum neurotoxin type A,validation
+DNVHH000138,Dihydrofolate reductase,P0ABQ4,True,False,False,Moderate,target:Dihydrofolate reductase,train
+DNVHH000139,mp18 rna editing complex protein,Q38B90,True,True,False,High,target:mp18 rna editing complex protein,validation
+DNVHH000140,,,True,False,False,Moderate,seq:e913e7c136fc,test
+DNVHH000141,,,True,False,False,Moderate,seq:54df5ce6d782,train
+DNVHH000142,,,True,False,False,Moderate,seq:574a535f8bba,validation
+DNVHH000143,,,True,False,False,Moderate,seq:bd199e68368b,train
+DNVHH000144,,,True,False,False,Moderate,seq:01a937d354a3,train
+DNVHH000145,Green fluorescent protein,P42212,True,True,False,High,target:Green fluorescent protein,train
+DNVHH000146,Endolysin,P00720,True,True,False,High,target:Endolysin,test
+DNVHH000147,"Vascular endothelial growth factor A, long form",P15692,True,True,False,High,"target:Vascular endothelial growth factor A, long form",train
+DNVHH000148,Ribonuclease pancreatic,P61823,True,True,False,High,target:Ribonuclease pancreatic,train
+DNVHH000149,Ribonuclease pancreatic,P61823,True,True,False,High,target:Ribonuclease pancreatic,train
+DNVHH000150,METHOTREXATE,,True,True,False,High,target:METHOTREXATE,test
+DNVHH000151,,,True,True,False,High,seq:3de67013d203,train
+DNVHH000152,c186 gp120,,True,True,False,Moderate,target:c186 gp120,test
+DNVHH000153,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1,P62871,True,True,False,High,target:Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1,validation
+DNVHH000154,mp18 rna editing complex protein,Q38B90,True,True,False,High,target:mp18 rna editing complex protein,validation
+DNVHH000155,,,True,False,False,Moderate,seq:e2f29c9c5dfb,test
+DNVHH000156,,,True,False,False,Moderate,seq:130c7f6fc021,train
+DNVHH000157,,,True,False,False,Moderate,seq:3dedca293b4c,validation
+DNVHH000158,,,True,False,False,Moderate,seq:8e0438fbcc01,train
+DNVHH000159,Botulinum neurotoxin type A,P0DPI1,True,True,False,High,target:Botulinum neurotoxin type A,validation
+DNVHH000160,Beta-secretase 2,Q9Y5Z0,True,True,False,High,target:Beta-secretase 2,test
+DNVHH000161,beta-secretase 2,,True,True,False,High,target:beta-secretase 2,test
+DNVHH000162,beta-secretase 2,,True,True,False,High,target:beta-secretase 2,test
+DNVHH000163,Cyclin-G-associated kinase,O14976,True,True,False,High,target:Cyclin-G-associated kinase,test
+DNVHH000164,Cyclin-G-associated kinase,O14976,True,True,False,High,target:Cyclin-G-associated kinase,test
+DNVHH000165,RecQ-like DNA helicase BLM,P54132,True,False,False,Moderate,target:RecQ-like DNA helicase BLM,validation
+DNVHH000166,RecQ-like DNA helicase BLM,P54132,True,True,False,High,target:RecQ-like DNA helicase BLM,validation
+DNVHH000167,Dihydrofolate reductase,P0ABQ4,True,True,False,High,target:Dihydrofolate reductase,train
+DNVHH000168,Dihydrofolate reductase,P0ABQ4,True,True,False,High,target:Dihydrofolate reductase,train
+DNVHH000169,Dihydrofolate reductase,P0ABQ4,True,True,False,High,target:Dihydrofolate reductase,train
+DNVHH000170,Myosin-A tail-interacting protein,Q8I4W8,True,True,False,High,target:Myosin-A tail-interacting protein,validation
+DNVHH000171,Myosin-A tail-interacting protein,Q8I4W8,True,False,False,Moderate,target:Myosin-A tail-interacting protein,validation
+DNVHH000172,Interleukin-12 subunit beta,P29460,True,True,False,High,target:Interleukin-12 subunit beta,validation
+DNVHH000173,Interleukin-12 subunit beta,P29460,True,True,False,High,target:Interleukin-12 subunit beta,validation
+DNVHH000174,Interleukin-12 subunit beta,P29460,True,False,False,Moderate,target:Interleukin-12 subunit beta,validation
+DNVHH000175,Not reported,Q9G096,True,True,False,High,target:Not reported,train
+DNVHH000176,Not reported,Q9G096,True,True,False,High,target:Not reported,train
+DNVHH000177,Interleukin-18,Q14116,True,False,False,Moderate,target:Interleukin-18,test
+DNVHH000178,Interleukin-18,Q14116,True,False,False,Moderate,target:Interleukin-18,test
+DNVHH000179,Lysozyme C,P61626,True,True,False,High,target:Lysozyme C,train
+DNVHH000180,Dihydrofolate reductase,P0ABQ4,True,True,False,Moderate,target:Dihydrofolate reductase,train
+DNVHH000181,Dihydrofolate reductase,P0ABQ4,True,False,False,Moderate,target:Dihydrofolate reductase,train
+DNVHH000182,Dihydrofolate reductase,P0ABQ4,True,True,False,Moderate,target:Dihydrofolate reductase,train
+DNVHH000183,Not reported,Q9G096,True,True,False,High,target:Not reported,train
+DNVHH000184,,,True,False,False,Moderate,seq:74c5d1ab59fa,train
+DNVHH000185,,,True,False,False,Moderate,seq:b6d600cccb01,test
+DNVHH000186,Immunoglobulin heavy variable 3-23,P01764,True,True,False,High,target:Immunoglobulin heavy variable 3-23,test
+DNVHH000187,Major prion protein,P04156,True,False,True,Moderate,target:Major prion protein,validation
+DNVHH000188,Major prion protein,P04156,True,False,True,Moderate,target:Major prion protein,validation
+DNVHH000189,Epidermal growth factor receptor,P00533,True,True,False,High,target:Epidermal growth factor receptor,test
+DNVHH000190,,,True,False,False,Moderate,seq:c7b217b2a1f5,test
+DNVHH000191,DAR; CR2; ATP2B; CD21; C3DR; SERCA2; ATP2A2,,True,True,False,High,target:DAR; CR2; ATP2B; CD21; C3DR; SERCA2; ATP2A2,test
+DNVHH000192,ATP-dependent translocase ABCB1,P21447,True,True,False,High,target:ATP-dependent translocase ABCB1,test
+DNVHH000193,Envelope glycoprotein gp160,P35961,True,True,False,High,target:Envelope glycoprotein gp160,train
+DNVHH000194,Ricin,P02879,True,True,False,High,target:Ricin,train
+DNVHH000195,Ricin,P02879,True,True,False,High,target:Ricin,train
+DNVHH000196,Ricin,P02879,True,False,False,Moderate,target:Ricin,train
+DNVHH000197,Ricin,P02879,True,False,False,Moderate,target:Ricin,train
+DNVHH000198,Beta-lactamase,P00808,True,True,False,Moderate,target:Beta-lactamase,train
+DNVHH000199,Muscarinic acetylcholine receptor M2,P08172,True,False,False,Moderate,target:Muscarinic acetylcholine receptor M2,validation
+DNVHH000200,Lysozyme C,P00698,True,False,False,Moderate,target:Lysozyme C,train
+DNVHH000201,Lysozyme C,P00698,True,False,False,Moderate,target:Lysozyme C,train
+DNVHH000202,Lysozyme C,P00698,True,False,False,Moderate,target:Lysozyme C,train
+DNVHH000203,Lysozyme C,P00698,True,False,False,Moderate,target:Lysozyme C,train
+DNVHH000204,Lysozyme C,P00698,True,False,False,Moderate,target:Lysozyme C,train
+DNVHH000205,Beta-lactamase,P00808,True,True,False,Moderate,target:Beta-lactamase,train
+DNVHH000206,Major prion protein,P04156,True,False,True,Moderate,target:Major prion protein,validation
+DNVHH000207,Tyrosine-protein kinase HCK,P08631,True,True,False,High,target:Tyrosine-protein kinase HCK,train
+DNVHH000208,"shiga toxin 2e, subunit b",,True,True,False,High,"target:shiga toxin 2e, subunit b",test
+DNVHH000209,Lysozyme C,P00698,True,True,False,High,target:Lysozyme C,train
+DNVHH000210,Ribonuclease pancreatic,P61823,True,True,False,High,target:Ribonuclease pancreatic,train
+DNVHH000211,Ribonuclease pancreatic,P61823,True,True,False,High,target:Ribonuclease pancreatic,train
+DNVHH000212,,,True,False,False,Moderate,seq:6f8e1f8a01e6,validation
+DNVHH000213,,,True,False,False,Moderate,seq:25fb6f059c15,validation
+DNVHH000214,,,True,False,False,Moderate,seq:5647e0466914,validation
+DNVHH000215,,,True,False,False,Moderate,seq:adf47026809c,train
+DNVHH000216,Cellular tumor antigen p53,P04637,True,True,False,High,target:Cellular tumor antigen p53,test
+DNVHH000217,T-cell-specific surface glycoprotein CD28,Q9N0N8,True,False,False,Moderate,target:T-cell-specific surface glycoprotein CD28,validation
+DNVHH000218,Gelsolin,P06396,True,False,False,Moderate,target:Gelsolin,test
+DNVHH000219,Nucleoprotein,P27588,True,True,False,High,target:Nucleoprotein,train
+DNVHH000220,Nucleoprotein,P27588,True,True,False,High,target:Nucleoprotein,train
+DNVHH000221,f18 fimbrial adhesin ac,Q47212,True,True,False,High,target:f18 fimbrial adhesin ac,train
+DNVHH000222,f18 fimbrial adhesin ac,Q47212,True,True,False,High,target:f18 fimbrial adhesin ac,train
+DNVHH000223,f18 fimbrial adhesin ac,Q47212,True,True,False,High,target:f18 fimbrial adhesin ac,train
+DNVHH000224,K88 fimbrial protein AC,P14190,True,True,False,High,target:K88 fimbrial protein AC,test
+DNVHH000225,K88 fimbrial protein AC,P14190,True,True,False,High,target:K88 fimbrial protein AC,test
+DNVHH000226,K88 fimbrial protein AD,P14191,True,True,False,High,target:K88 fimbrial protein AD,validation
+DNVHH000227,divalent metal cation transporter mnth,,True,True,False,High,target:divalent metal cation transporter mnth,train
+DNVHH000228,Not reported,B5BTR4,True,True,False,High,target:Not reported,train
+DNVHH000229,vp1,K4LM89,True,True,False,High,target:vp1,validation
+DNVHH000230,Not reported,Q5F4T5,True,True,False,High,target:Not reported,train
+DNVHH000231,Not reported,Q5F4T5,True,True,False,High,target:Not reported,train
+DNVHH000232,G protein-coupled receptor homolog US28,P69332,True,False,False,Moderate,target:G protein-coupled receptor homolog US28,validation
+DNVHH000233,Ricin,P02879,True,True,False,High,target:Ricin,train
+DNVHH000234,,,True,False,False,Moderate,seq:b21ef68407aa,train
+DNVHH000235,,,True,False,False,Moderate,seq:6b12fb611c62,train
+DNVHH000236,octarellin v.1,,True,True,True,High,target:octarellin v.1,validation
+DNVHH000237,Ricin,P02879,True,True,False,High,target:Ricin,train
+DNVHH000238,Soluble cytochrome b562,P0ABE7,True,False,False,Moderate,target:Soluble cytochrome b562,train
+DNVHH000239,54 kDa nucleoporin,K9ZTJ6,True,False,False,Moderate,target:54 kDa nucleoporin,validation
+DNVHH000240,54 kDa nucleoporin,K9ZTJ6,True,False,False,Moderate,target:54 kDa nucleoporin,validation
+DNVHH000241,54 kDa nucleoporin,K9ZTJ6,True,False,False,Moderate,target:54 kDa nucleoporin,validation
+DNVHH000242,54 kDa nucleoporin,K9ZTJ6,True,True,False,High,target:54 kDa nucleoporin,validation
+DNVHH000243,,,True,False,False,Moderate,seq:62ab54319e27,train
+DNVHH000244,,,True,False,False,Moderate,seq:60913d84ce77,test
+DNVHH000245,sulphate transporter,Q1J2S8,True,True,False,High,target:sulphate transporter,test
+DNVHH000246,,,True,False,False,Moderate,seq:d1b8687dcf7a,train
+DNVHH000247,Vacuolar protein sorting-associated protein 38,Q05919,True,True,False,High,target:Vacuolar protein sorting-associated protein 38,validation
+DNVHH000248,Microtubule-associated protein tau,P10636,True,False,False,Moderate,target:Microtubule-associated protein tau,test
+DNVHH000249,Microtubule-associated protein tau,P10636,True,False,False,Moderate,target:Microtubule-associated protein tau,test
+DNVHH000250,Microtubule-associated protein tau,P10636,True,False,False,Moderate,target:Microtubule-associated protein tau,test
+DNVHH000251,Tumor necrosis factor receptor superfamily member 5,P25942,True,True,False,High,target:Tumor necrosis factor receptor superfamily member 5,train
+DNVHH000252,,,True,False,False,Moderate,seq:18f6cb875d9b,train
+DNVHH000253,,,True,False,False,Moderate,seq:d1831440b8d0,train
+DNVHH000254,,,True,False,False,Moderate,seq:581f953f97f0,test
+DNVHH000255,,,True,False,False,Moderate,seq:c2d645cc0e37,test
+DNVHH000256,,,True,False,False,Moderate,seq:da8466c92602,test
+DNVHH000257,,,True,False,False,Moderate,seq:8df387be82ab,validation
+DNVHH000258,,,True,True,False,Moderate,seq:8cf61d4c96af,train
+DNVHH000259,Nuclear pore complex protein Nup98-Nup96,J7I6Y1,True,False,False,Moderate,target:Nuclear pore complex protein Nup98-Nup96,train
+DNVHH000260,Ricin,P02879,True,True,False,High,target:Ricin,train
+DNVHH000261,,,True,True,False,High,seq:9b1c79e28205,train
+DNVHH000262,,,True,True,False,High,seq:feace3cf45d3,test
+DNVHH000263,Protein translocase subunit SecA,P28366,True,True,False,High,target:Protein translocase subunit SecA,validation
+DNVHH000264,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,P28907,True,False,False,Moderate,target:ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,train
+DNVHH000265,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,P28907,True,False,False,Moderate,target:ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,train
+DNVHH000266,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,P28907,True,True,False,High,target:ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,train
+DNVHH000267,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,P28907,True,True,False,High,target:ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,train
+DNVHH000268,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,P28907,True,False,False,Moderate,target:ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,train
+DNVHH000269,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,P28907,True,True,False,High,target:ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,train
+DNVHH000270,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,P28907,True,False,False,Moderate,target:ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,train
+DNVHH000271,Not reported,O52269,True,True,False,High,target:Not reported,train
+DNVHH000272,Not reported,O52269,True,False,False,Moderate,target:Not reported,train
+DNVHH000273,Not reported,O52269,True,True,False,High,target:Not reported,train
+DNVHH000274,Not reported,O52269,True,False,False,Moderate,target:Not reported,train
+DNVHH000275,GFLV,,True,False,False,Moderate,target:GFLV,train
+DNVHH000276,Interleukin-6,P05231,True,True,False,High,target:Interleukin-6,validation
+DNVHH000277,"Vascular endothelial growth factor A, long form",P15692,True,True,False,High,"target:Vascular endothelial growth factor A, long form",train
+DNVHH000278,,,True,False,False,Moderate,seq:0378aa2e81bb,test
+DNVHH000279,Zinc metalloprotease,O29915,True,False,False,Moderate,target:Zinc metalloprotease,validation
+DNVHH000280,Zinc metalloprotease,O29915,True,True,False,High,target:Zinc metalloprotease,validation
+DNVHH000281,Lactose permease,P02920,True,True,False,High,target:Lactose permease,test
+DNVHH000282,,,True,False,False,Moderate,seq:a220a898a1f5,test
+DNVHH000283,,,True,True,False,High,seq:a7fe09a338cd,validation
+DNVHH000284,,,True,True,False,High,seq:f83c2153cac5,validation
+DNVHH000285,Urokinase-type plasminogen activator,P00749,True,True,False,High,target:Urokinase-type plasminogen activator,train
+DNVHH000286,Envelope glycoprotein gp160,P04578,True,True,False,Moderate,target:Envelope glycoprotein gp160,train
+DNVHH000287,Carboxypeptidase B2,Q96IY4,True,True,False,High,target:Carboxypeptidase B2,test
+DNVHH000288,Carboxypeptidase B2,Q96IY4,True,True,False,High,target:Carboxypeptidase B2,test
+DNVHH000289,Carboxypeptidase B2,Q96IY4,True,True,False,High,target:Carboxypeptidase B2,test
+DNVHH000290,Carboxypeptidase B2,Q96IY4,True,True,False,High,target:Carboxypeptidase B2,test
+DNVHH000291,,,True,True,False,High,seq:d2ef32082c94,validation
+DNVHH000292,,,True,False,False,Moderate,seq:5ee68fa010de,test
+DNVHH000293,Neuronal migration protein doublecortin,O43602,True,True,False,High,target:Neuronal migration protein doublecortin,test
+DNVHH000294,cadherin derived peptide,G9GAG7,True,True,False,High,target:cadherin derived peptide,test
+DNVHH000295,Torsin-1A,O14656,True,True,False,High,target:Torsin-1A,validation
+DNVHH000296,Ricin,P02879,True,True,False,High,target:Ricin,train
+DNVHH000297,Ricin,P02879,True,True,False,High,target:Ricin,train
+DNVHH000298,Ricin,P02879,True,True,False,High,target:Ricin,train
+DNVHH000299,Toxin HigB-2,Q9KMA6,True,True,False,High,target:Toxin HigB-2,train
+DNVHH000300,Toxin HigB-2,Q9KMA6,True,True,False,High,target:Toxin HigB-2,train
+DNVHH000301,,,True,True,False,High,seq:8c06aafdc4ab,test
+DNVHH000302,,,True,False,False,Moderate,seq:4fe47fdca107,train
+DNVHH000303,,,True,True,False,High,seq:0476eb594dc8,validation
+DNVHH000304,Furin,P09958,True,True,False,High,target:Furin,train
+DNVHH000305,Endolysin,P00720,True,False,False,Moderate,target:Endolysin,test
+DNVHH000306,Endolysin,P00720,True,False,False,Moderate,target:Endolysin,test
+DNVHH000307,Genome polyprotein,P03300,True,True,False,High,target:Genome polyprotein,train
+DNVHH000308,Genome polyprotein,P03300,True,True,False,High,target:Genome polyprotein,train
+DNVHH000309,Genome polyprotein,P03300,True,True,False,High,target:Genome polyprotein,train
+DNVHH000310,Genome polyprotein,P03300,True,True,False,High,target:Genome polyprotein,train
+DNVHH000311,Botulinum neurotoxin type A,P0DPI1,True,True,False,High,target:Botulinum neurotoxin type A,validation
+DNVHH000312,Urokinase-type plasminogen activator,P06869,True,True,False,High,target:Urokinase-type plasminogen activator,train
+DNVHH000313,Urokinase-type plasminogen activator,P06869,True,True,False,High,target:Urokinase-type plasminogen activator,train
+DNVHH000314,Urokinase-type plasminogen activator,P06869,True,True,False,High,target:Urokinase-type plasminogen activator,train
+DNVHH000315,,,True,False,False,Moderate,seq:18953acd3225,validation
+DNVHH000316,,,True,False,False,Moderate,seq:ae4bdfc444ea,validation
+DNVHH000317,Beta-lactamase,P00808,True,True,False,Moderate,target:Beta-lactamase,train
+DNVHH000318,t9ss component cytoplasmic membrane protein porm,B2RLE8,True,False,False,Moderate,target:t9ss component cytoplasmic membrane protein porm,validation
+DNVHH000319,,,True,False,False,Moderate,seq:ae48de75c024,train
+DNVHH000320,Maltose/maltodextrin-binding periplasmic protein,P0AEX9,True,False,False,Moderate,target:Maltose/maltodextrin-binding periplasmic protein,train
+DNVHH000321,Maltose/maltodextrin-binding periplasmic protein,P0AEX9,True,True,False,High,target:Maltose/maltodextrin-binding periplasmic protein,train
+DNVHH000322,Maltose/maltodextrin-binding periplasmic protein,P0AEX9,True,True,False,High,target:Maltose/maltodextrin-binding periplasmic protein,train
+DNVHH000323,Tumor necrosis factor,P01375,True,True,False,High,target:Tumor necrosis factor,test
+DNVHH000324,Tumor necrosis factor,P01375,True,True,False,High,target:Tumor necrosis factor,test
+DNVHH000325,Tumor necrosis factor,P01375,True,True,False,High,target:Tumor necrosis factor,test
+DNVHH000326,type vi secretion protein,D3GU39,True,True,False,High,target:type vi secretion protein,train
+DNVHH000327,,,True,False,False,Moderate,seq:fed8f9ed1fb3,validation
+DNVHH000328,cytotoxic translational repressor of toxin-antitoxinstability system,,True,True,False,High,target:cytotoxic translational repressor of toxin-antitoxinstability system,validation
+DNVHH000329,Secretin XcpQ,P35818,True,True,False,High,target:Secretin XcpQ,test
+DNVHH000330,Not reported,A0A0P7QEP7,True,False,False,Moderate,target:Not reported,train
+DNVHH000331,Not reported,A0A0P7QEP7,True,True,False,High,target:Not reported,train
+DNVHH000332,Receptor tyrosine-protein kinase erbB-2,P04626,True,True,False,High,target:Receptor tyrosine-protein kinase erbB-2,test
+DNVHH000333,PC4 and SFRS1-interacting protein,O75475,True,True,False,High,target:PC4 and SFRS1-interacting protein,test
+DNVHH000334,,,True,False,False,Moderate,seq:337eec39b627,train
+DNVHH000335,wlab protein,,True,True,False,High,target:wlab protein,train
+DNVHH000336,Actin-related protein 4,P80428,True,False,False,Moderate,target:Actin-related protein 4,train
+DNVHH000337,,,True,False,True,Moderate,seq:eb61bbb8379c,test
+DNVHH000338,,,True,False,True,Moderate,seq:80131a4eee3b,train
+DNVHH000339,,,True,False,True,Moderate,seq:9e2048c16316,test
+DNVHH000340,,,True,False,True,Moderate,seq:1b7da8cf4f62,validation
+DNVHH000341,immunoglobulin heavy constant epsilon,,True,True,False,High,target:immunoglobulin heavy constant epsilon,validation
+DNVHH000342,capsid protein,A0A0A7CJV4,True,True,False,High,target:capsid protein,test
+DNVHH000343,Not reported,Q5F4T5,True,True,False,High,target:Not reported,train
+DNVHH000344,Not reported,Q5F4T5,True,False,False,Moderate,target:Not reported,train
+DNVHH000345,Not reported,Q5F4T5,True,False,False,Moderate,target:Not reported,train
+DNVHH000346,Not reported,Q5F4T5,True,True,False,High,target:Not reported,train
+DNVHH000347,Not reported,Q5F4T5,True,True,False,High,target:Not reported,train
+DNVHH000348,Fructose-bisphosphate aldolase,G0UWE7,True,True,False,High,target:Fructose-bisphosphate aldolase,train
+DNVHH000349,Gag polyprotein,P12493,True,True,False,High,target:Gag polyprotein,train
+DNVHH000350,Gamma-aminobutyric acid receptor subunit beta-3,P28472,True,False,False,Moderate,target:Gamma-aminobutyric acid receptor subunit beta-3,validation
+DNVHH000351,"human gabaa receptor chimera beta3-alpha5,gamma-aminobutyric acid receptor subunit beta-3,gamma-aminobutyric acid receptor subunit alpha-5",,True,True,False,High,"target:human gabaa receptor chimera beta3-alpha5,gamma-aminobutyric acid receptor subunit beta-3,gamma-aminobutyric acid receptor subunit alpha-5",test
+DNVHH000352,,,True,False,False,Moderate,seq:2e3b8c83de02,test
+DNVHH000353,Not reported,Q5F4T5,True,True,False,High,target:Not reported,train
+DNVHH000354,Not reported,Q5F4T5,True,True,False,High,target:Not reported,train
+DNVHH000355,Not reported,Q5F4T5,True,True,False,High,target:Not reported,train
+DNVHH000356,Not reported,Q5F4T5,True,True,False,High,target:Not reported,train
+DNVHH000357,Vitamin B12-binding protein,P37028,True,True,False,High,target:Vitamin B12-binding protein,validation
+DNVHH000358,Ricin,P02879,True,True,False,High,target:Ricin,train
+DNVHH000359,Kinetochore protein NDC80,P40460,True,True,False,High,target:Kinetochore protein NDC80,train
+DNVHH000360,NCB2; CD261; NC2B; NC2-BETA; HLA; TRAILR-1; DR1; TRAILR1; TNFRSF10A; Apo2; capsid; DR4,,True,True,False,High,target:NCB2; CD261; NC2B; NC2-BETA; HLA; TRAILR-1; DR1; TRAILR1; TNFRSF10A; Apo2; capsid; DR4,train
+DNVHH000361,Fusion glycoprotein F0,P03420,True,True,False,High,target:Fusion glycoprotein F0,test
+DNVHH000362,Fusion glycoprotein F0,P03420,True,True,False,High,target:Fusion glycoprotein F0,test
+DNVHH000363,Fusion glycoprotein F0,P03420,True,True,False,High,target:Fusion glycoprotein F0,test
+DNVHH000364,V-type ATP synthase subunit E,P74901,True,False,True,Moderate,target:V-type ATP synthase subunit E,train
+DNVHH000365,Ricin,P02879,True,True,True,High,target:Ricin,train
+DNVHH000366,Nucleoprotein,P03521,True,True,False,High,target:Nucleoprotein,train
+DNVHH000367,Nucleoprotein,A6H4P1,True,True,False,High,target:Nucleoprotein,train
+DNVHH000368,tyrosine--tRNA ligase,A0A3Q8ID88,True,True,False,High,target:tyrosine--tRNA ligase,test
+DNVHH000369,Beta-klotho,Q86Z14,True,True,False,High,target:Beta-klotho,train
+DNVHH000370,"N-(4-chlorophenyl)-N'-(3,4-dichlorophenyl)urea",,True,False,False,Moderate,"target:N-(4-chlorophenyl)-N'-(3,4-dichlorophenyl)urea",test
+DNVHH000371,"N-(4-chlorophenyl)-N'-(3,4-dichlorophenyl)urea",,True,True,False,High,"target:N-(4-chlorophenyl)-N'-(3,4-dichlorophenyl)urea",test
+DNVHH000372,,,True,False,False,Moderate,seq:025b3526ff30,test
+DNVHH000373,Invasin IpaD,P18013,True,True,False,Moderate,target:Invasin IpaD,validation
+DNVHH000374,Invasin IpaD,P18013,True,True,False,Moderate,target:Invasin IpaD,validation
+DNVHH000375,Invasin IpaD,P18013,True,True,False,Moderate,target:Invasin IpaD,validation
+DNVHH000376,Invasin IpaD,P18013,True,True,False,Moderate,target:Invasin IpaD,validation
+DNVHH000377,Fractalkine,P78423,True,False,False,Moderate,target:Fractalkine,test
+DNVHH000378,Fractalkine,P78423,True,False,False,Moderate,target:Fractalkine,test
+DNVHH000379,,,True,False,False,Moderate,seq:932566a89240,test
+DNVHH000380,Nucleoprotein,P27588,True,True,False,High,target:Nucleoprotein,train
+DNVHH000381,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1,P62871,True,True,False,High,target:Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1,validation
+DNVHH000382,"Calcium uniporter protein, mitochondrial",E9DVV4,True,False,False,Moderate,"target:Calcium uniporter protein, mitochondrial",train
+DNVHH000383,Lactose permease,P02920,True,True,False,High,target:Lactose permease,test
+DNVHH000384,fusion protein of lysozyme and beta-2 adrenergic receptor,,True,False,False,Moderate,target:fusion protein of lysozyme and beta-2 adrenergic receptor,validation
+DNVHH000385,Ricin,P02879,True,True,False,High,target:Ricin,train
+DNVHH000386,Internalin,,True,True,False,High,target:Internalin,train
+DNVHH000387,,,True,False,False,Moderate,seq:fd2b56713f8c,validation
+DNVHH000388,Internalin,,True,False,False,Moderate,target:Internalin,train
+DNVHH000389,,,True,False,False,Moderate,seq:c6b0cca2f873,test
+DNVHH000390,,,True,False,False,Moderate,seq:1467f27ec0ce,test
+DNVHH000391,Soluble cytochrome b562,P0ABE7,True,False,False,Moderate,target:Soluble cytochrome b562,train
+DNVHH000392,Complement C3,P01024,True,True,False,High,target:Complement C3,test
+DNVHH000393,t9ss component cytoplasmic membrane protein porm,B2RLE8,True,False,False,Moderate,target:t9ss component cytoplasmic membrane protein porm,validation
+DNVHH000394,putative amino acid/polyamine transport protein,A8UCQ5,True,True,False,High,target:putative amino acid/polyamine transport protein,test
+DNVHH000395,proprotein convertase subtilisin/kexin type 9,,True,True,False,High,target:proprotein convertase subtilisin/kexin type 9,validation
+DNVHH000396,shiga-like toxin 2 subunit b,,True,True,False,High,target:shiga-like toxin 2 subunit b,train
+DNVHH000397,,,True,False,False,Moderate,seq:582831947cdb,validation
+DNVHH000398,"kinesin light chain 1,torsin-1a",,True,True,False,High,"target:kinesin light chain 1,torsin-1a",test
+DNVHH000399,Hemagglutinin,A7Y8I1,True,True,False,High,target:Hemagglutinin,test
+DNVHH000400,Hemagglutinin,A0A097PHH8,True,True,False,High,target:Hemagglutinin,test
+DNVHH000401,Hemagglutinin,C0LT35,True,True,False,High,target:Hemagglutinin,test
+DNVHH000402,ADP/ATP translocase,G2QNH0,True,False,False,Moderate,target:ADP/ATP translocase,train
+DNVHH000403,Cystic fibrosis transmembrane conductance regulator,P13569,True,True,False,High,target:Cystic fibrosis transmembrane conductance regulator,train
+DNVHH000404,Cystic fibrosis transmembrane conductance regulator,P13569,True,False,False,Moderate,target:Cystic fibrosis transmembrane conductance regulator,train
+DNVHH000405,Cystic fibrosis transmembrane conductance regulator,P13569,True,True,False,High,target:Cystic fibrosis transmembrane conductance regulator,train
+DNVHH000406,Cystic fibrosis transmembrane conductance regulator,P13569,True,False,False,Moderate,target:Cystic fibrosis transmembrane conductance regulator,train
+DNVHH000407,Cystic fibrosis transmembrane conductance regulator,P13569,True,True,False,High,target:Cystic fibrosis transmembrane conductance regulator,train
+DNVHH000408,Cystic fibrosis transmembrane conductance regulator,P13569,True,False,False,Moderate,target:Cystic fibrosis transmembrane conductance regulator,train
+DNVHH000409,Cystic fibrosis transmembrane conductance regulator,P13569,True,False,False,Moderate,target:Cystic fibrosis transmembrane conductance regulator,train
+DNVHH000410,Cystic fibrosis transmembrane conductance regulator,P13569,True,False,False,Moderate,target:Cystic fibrosis transmembrane conductance regulator,train
+DNVHH000411,Cystic fibrosis transmembrane conductance regulator,P13569,True,True,False,High,target:Cystic fibrosis transmembrane conductance regulator,train
+DNVHH000412,Cystic fibrosis transmembrane conductance regulator,P13569,True,False,False,Moderate,target:Cystic fibrosis transmembrane conductance regulator,train
+DNVHH000413,Cystic fibrosis transmembrane conductance regulator,P13569,True,False,False,Moderate,target:Cystic fibrosis transmembrane conductance regulator,train
+DNVHH000414,Cystic fibrosis transmembrane conductance regulator,P13569,True,False,False,Moderate,target:Cystic fibrosis transmembrane conductance regulator,train
+DNVHH000415,Dipeptide and tripeptide permease A,P77304,True,True,False,High,target:Dipeptide and tripeptide permease A,test
+DNVHH000416,Plasminogen activator inhibitor 1,P05121,True,True,False,High,target:Plasminogen activator inhibitor 1,train
+DNVHH000417,Plasminogen activator inhibitor 1,P05121,True,True,False,High,target:Plasminogen activator inhibitor 1,train
+DNVHH000418,Mediator of RNA polymerase II transcription subunit 23,Q9ULK4,True,False,False,Moderate,target:Mediator of RNA polymerase II transcription subunit 23,train
+DNVHH000419,Low-density lipoprotein receptor-related protein 6,O75581,True,True,False,High,target:Low-density lipoprotein receptor-related protein 6,validation
+DNVHH000420,Low-density lipoprotein receptor-related protein 6,O75581,True,True,False,High,target:Low-density lipoprotein receptor-related protein 6,validation
+DNVHH000421,Capsid protein VP1,Q83884,True,True,False,High,target:Capsid protein VP1,train
+DNVHH000422,Capsid protein VP1,Q83884,True,True,False,High,target:Capsid protein VP1,train
+DNVHH000423,Capsid protein VP1,Q83884,True,False,False,Moderate,target:Capsid protein VP1,train
+DNVHH000424,Capsid protein VP1,Q83884,True,True,False,High,target:Capsid protein VP1,train
+DNVHH000425,beta-1 adrenergic receptor,,True,False,False,Moderate,target:beta-1 adrenergic receptor,test
+DNVHH000426,Thioredoxin 1,P0AA25,True,True,False,High,target:Thioredoxin 1,validation
+DNVHH000427,Potassium channel Ftrac_2467,E4TN31,True,False,False,Moderate,target:Potassium channel Ftrac_2467,validation
+DNVHH000428,,,True,False,False,Moderate,seq:7255afb75f29,test
+DNVHH000429,Major prion protein,P04925,True,True,False,High,target:Major prion protein,validation
+DNVHH000430,S-layer protein sap,P49051,True,False,False,Moderate,target:S-layer protein sap,test
+DNVHH000431,S-layer protein sap,P49051,True,False,False,Moderate,target:S-layer protein sap,test
+DNVHH000432,,,True,True,False,High,seq:05edf7250a7b,train
+DNVHH000433,cys-loop ligand-gated ion channel,,True,True,False,High,target:cys-loop ligand-gated ion channel,train
+DNVHH000434,n7p-ser-arg-leu-glu-glu-glu-leu-arg-arg-arg-leu-thr-glu-lpd,,True,False,False,Moderate,target:n7p-ser-arg-leu-glu-glu-glu-leu-arg-arg-arg-leu-thr-glu-lpd,train
+DNVHH000435,Protein EDS1L,Q9XF23,True,True,False,High,target:Protein EDS1L,test
+DNVHH000436,Protein EDS1L,Q9XF23,True,True,False,High,target:Protein EDS1L,test
+DNVHH000437,Succinate receptor 1,Q6IYF9,True,True,False,High,target:Succinate receptor 1,validation
+DNVHH000438,Not reported,X5DSL3,True,True,False,High,target:Not reported,train
+DNVHH000439,Not reported,X5DSL3,True,True,False,High,target:Not reported,train
+DNVHH000440,Protein translocase subunit SecA,P28366,True,False,False,Moderate,target:Protein translocase subunit SecA,validation
+DNVHH000441,Protein translocase subunit SecA,P28366,True,False,False,Moderate,target:Protein translocase subunit SecA,validation
+DNVHH000442,,,True,True,False,High,seq:31e805dbcd71,validation
+DNVHH000443,Tumor necrosis factor receptor superfamily member 17,Q02223,True,True,False,High,target:Tumor necrosis factor receptor superfamily member 17,test
+DNVHH000444,Lysozyme C,P00698,True,True,False,High,target:Lysozyme C,train
+DNVHH000445,,,True,False,False,Moderate,seq:609617e7555e,validation
+DNVHH000446,,,True,False,False,Moderate,seq:e553311e7301,test
+DNVHH000447,Rubredoxin,P00268,True,True,False,High,target:Rubredoxin,train
+DNVHH000448,mingas; ggamma; guanine nucleotide-binding protein g(i)/g(s)/g(t) subunitbeta-1,,True,True,False,High,target:mingas; ggamma; guanine nucleotide-binding protein g(i)/g(s)/g(t) subunitbeta-1,train
+DNVHH000449,Green fluorescent protein,P42212,True,True,False,High,target:Green fluorescent protein,train
+DNVHH000450,thermostable green fluorescent protein,,True,False,False,Moderate,target:thermostable green fluorescent protein,test
+DNVHH000451,Envelope glycoprotein gp160,Q2N0S6,True,False,False,Moderate,target:Envelope glycoprotein gp160,train
+DNVHH000452,metabotropic glutamate receptor 5,,True,True,False,High,target:metabotropic glutamate receptor 5,validation
+DNVHH000453,Beta-klotho,Q86Z14,True,True,False,High,target:Beta-klotho,train
+DNVHH000454,Beta-arrestin-1,P17870,True,False,False,Moderate,target:Beta-arrestin-1,test
+DNVHH000455,Not reported,M4NKV9,True,True,False,High,target:Not reported,train
+DNVHH000456,Not reported,M4NKV9,True,True,False,High,target:Not reported,train
+DNVHH000457,Not reported,M4NKV9,True,True,False,High,target:Not reported,train
+DNVHH000458,"type-1 angiotensin ii receptor,soluble cytochrome b562 brilfusion protein",,True,False,False,Moderate,"target:type-1 angiotensin ii receptor,soluble cytochrome b562 brilfusion protein",train
+DNVHH000459,Phospho-N-acetylmuramoyl-pentapeptide-transferase,O66465,True,False,False,Moderate,target:Phospho-N-acetylmuramoyl-pentapeptide-transferase,train
+DNVHH000460,Envelope glycoprotein gp160,Q2N0S6,True,False,False,Moderate,target:Envelope glycoprotein gp160,train
+DNVHH000461,Protein EDS1L,Q9XF23,True,True,False,High,target:Protein EDS1L,test
+DNVHH000462,Gamma-aminobutyric acid receptor subunit beta-3,P28472,True,True,False,High,target:Gamma-aminobutyric acid receptor subunit beta-3,validation
+DNVHH000463,Outer membrane protein assembly factor BamA,P0A940,True,True,False,High,target:Outer membrane protein assembly factor BamA,validation
+DNVHH000464,Outer membrane protein assembly factor BamA,P0A940,True,True,False,High,target:Outer membrane protein assembly factor BamA,validation
+DNVHH000465,Outer membrane protein assembly factor BamA,P0A940,True,True,False,High,target:Outer membrane protein assembly factor BamA,validation
+DNVHH000466,polymerase acidic protein; rna-directed rna polymerase catalytic subunit,,True,True,False,High,target:polymerase acidic protein; rna-directed rna polymerase catalytic subunit,train
+DNVHH000467,Serine/threonine-protein,D3KU53,True,False,False,Moderate,target:Serine/threonine-protein,train
+DNVHH000468,Serine/threonine-protein,D3KU53,True,False,False,Moderate,target:Serine/threonine-protein,train
+DNVHH000469,"uncharacterized abc transporter atp-binding proteintm_0288; abc transporter, atp-binding protein",,True,True,False,High,"target:uncharacterized abc transporter atp-binding proteintm_0288; abc transporter, atp-binding protein",train
+DNVHH000470,"uncharacterized abc transporter atp-binding proteintm_0288; abc transporter, atp-binding protein",,True,True,False,High,"target:uncharacterized abc transporter atp-binding proteintm_0288; abc transporter, atp-binding protein",train
+DNVHH000471,uncharacterized abc transporter atp-binding proteintm_0288,,True,True,False,High,target:uncharacterized abc transporter atp-binding proteintm_0288,test
+DNVHH000472,S-layer protein sap,P49051,True,False,False,Moderate,target:S-layer protein sap,test
+DNVHH000473,Melanoma-associated antigen B1,P43366,True,True,False,Moderate,target:Melanoma-associated antigen B1,validation
+DNVHH000474,multidrug resistance abc transporter atp-binding andpermease protein,,True,False,False,Moderate,target:multidrug resistance abc transporter atp-binding andpermease protein,train
+DNVHH000475,Cytotoxic T-lymphocyte protein 4,P16410,True,True,False,Moderate,target:Cytotoxic T-lymphocyte protein 4,validation
+DNVHH000476,Cytotoxic T-lymphocyte protein 4,P16410,True,True,False,Moderate,target:Cytotoxic T-lymphocyte protein 4,validation
+DNVHH000477,Protein patched homolog 1,Q13635,True,True,False,High,target:Protein patched homolog 1,test
+DNVHH000478,Properdin,P27918,True,False,False,Moderate,target:Properdin,train
+DNVHH000479,Protein patched homolog 1,Q13635,True,True,False,High,target:Protein patched homolog 1,test
+DNVHH000480,Rho-related GTP-binding protein RhoB,P62745,True,True,False,High,target:Rho-related GTP-binding protein RhoB,test
+DNVHH000481,cys-loop ligand-gated ion channel,,True,True,False,High,target:cys-loop ligand-gated ion channel,train
+DNVHH000482,cys-loop ligand-gated ion channel,,True,True,False,High,target:cys-loop ligand-gated ion channel,train
+DNVHH000483,drug abc transporter atp-binding protein,,True,True,False,High,target:drug abc transporter atp-binding protein,validation
+DNVHH000484,Chaperone Ric-8A,Q80ZG1,True,False,False,Moderate,target:Chaperone Ric-8A,test
+DNVHH000485,Chaperone Ric-8A,Q80ZG1,True,True,False,High,target:Chaperone Ric-8A,test
+DNVHH000486,Chaperone Ric-8A,Q80ZG1,True,False,False,Moderate,target:Chaperone Ric-8A,test
+DNVHH000487,Internalin B,P0DQD3,True,True,False,High,target:Internalin B,test
+DNVHH000488,Nucleoprotein,Q9QP77,True,True,False,High,target:Nucleoprotein,train
+DNVHH000489,Nucleoprotein,O72142,True,True,False,High,target:Nucleoprotein,train
+DNVHH000490,Nucleoprotein,Q9QP77,True,True,False,High,target:Nucleoprotein,train
+DNVHH000491,Botulinum neurotoxin type B,P10844,True,True,False,Moderate,target:Botulinum neurotoxin type B,validation
+DNVHH000492,Bacillus; Anthrax; botulinum; edema,,True,True,False,Moderate,target:Bacillus; Anthrax; botulinum; edema,train
+DNVHH000493,Bacillus; Anthrax; botulinum; edema,,True,True,False,Moderate,target:Bacillus; Anthrax; botulinum; edema,train
+DNVHH000494,Botulinum neurotoxin type A,P0DPI1,True,True,False,Moderate,target:Botulinum neurotoxin type A,validation
+DNVHH000495,Chaperone Ric-8A,Q80ZG1,True,True,False,High,target:Chaperone Ric-8A,test
+DNVHH000496,Botulinum neurotoxin type B,P10844,True,True,False,Moderate,target:Botulinum neurotoxin type B,validation
+DNVHH000497,Botulinum neurotoxin type A,P0DPI1,True,True,False,Moderate,target:Botulinum neurotoxin type A,validation
+DNVHH000498,Antigen-presenting glycoprotein CD1d,P15813,True,True,False,Moderate,target:Antigen-presenting glycoprotein CD1d,validation
+DNVHH000499,Antigen-presenting glycoprotein CD1d,P15813,True,True,False,Moderate,target:Antigen-presenting glycoprotein CD1d,validation
+DNVHH000500,Antigen-presenting glycoprotein CD1d,P15813,True,True,False,Moderate,target:Antigen-presenting glycoprotein CD1d,validation
+DNVHH000501,Lactose permease,P02920,True,True,False,High,target:Lactose permease,test
+DNVHH000502,Kappa-type opioid receptor,P41145,True,False,False,Moderate,target:Kappa-type opioid receptor,test
+DNVHH000503,Spike glycoprotein,P59594,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000504,Spike glycoprotein,K9N5Q8,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000505,Soluble cytochrome b562,P0ABE7,True,True,True,High,target:Soluble cytochrome b562,train
+DNVHH000506,Nucleoporin NUP133,P36161,True,False,False,Moderate,target:Nucleoporin NUP133,test
+DNVHH000507,,,True,False,False,Moderate,seq:04081039e09d,test
+DNVHH000508,Capsid protein VP1,Q80J94,True,True,False,High,target:Capsid protein VP1,train
+DNVHH000509,Capsid protein VP1,Q80J94,True,True,False,High,target:Capsid protein VP1,train
+DNVHH000510,Capsid protein VP1,Q80J94,True,True,False,High,target:Capsid protein VP1,train
+DNVHH000511,Capsid protein VP1,Q80J94,True,True,False,High,target:Capsid protein VP1,train
+DNVHH000512,Capsid protein VP1,Q80J94,True,False,False,Moderate,target:Capsid protein VP1,train
+DNVHH000513,,,True,False,False,Moderate,seq:d4ffa6a1feb1,train
+DNVHH000514,Green fluorescent protein,P42212,True,True,False,Moderate,target:Green fluorescent protein,train
+DNVHH000515,Complement C3,P01027,True,True,False,High,target:Complement C3,test
+DNVHH000516,"complement c4-b,complement c4-b",,True,True,False,High,"target:complement c4-b,complement c4-b",validation
+DNVHH000517,Spike glycoprotein,P0DTC2,True,True,False,Moderate,target:Spike glycoprotein,train
+DNVHH000518,CD9 antigen,P21926,True,True,False,High,target:CD9 antigen,train
+DNVHH000519,,,True,True,False,High,seq:26dca3a8be1d,validation
+DNVHH000520,Complement C1q subcomponent subunit A,P02745,True,True,False,High,target:Complement C1q subcomponent subunit A,validation
+DNVHH000521,unknown,,True,True,False,High,target:unknown,test
+DNVHH000522,Sodium- and chloride-dependent glycine transporter 1,P48067,True,True,False,High,target:Sodium- and chloride-dependent glycine transporter 1,test
+DNVHH000523,Cystic fibrosis transmembrane conductance regulator,P13569,True,True,False,High,target:Cystic fibrosis transmembrane conductance regulator,train
+DNVHH000524,Cystic fibrosis transmembrane conductance regulator,P13569,True,False,False,Moderate,target:Cystic fibrosis transmembrane conductance regulator,train
+DNVHH000525,Energy-coupling factor transporter ATP-binding protein EcfA1,Q1GBJ0,True,True,True,High,target:Energy-coupling factor transporter ATP-binding protein EcfA1,test
+DNVHH000526,,,True,False,False,Moderate,seq:4de7221f3106,validation
+DNVHH000527,Plasminogen activator inhibitor 1,P05121,True,True,False,High,target:Plasminogen activator inhibitor 1,train
+DNVHH000528,histone h2ax,,True,True,False,High,target:histone h2ax,train
+DNVHH000529,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000530,Polyphosphatidylinositol phosphatase SYNJ1,O43426,True,True,False,High,target:Polyphosphatidylinositol phosphatase SYNJ1,validation
+DNVHH000531,Polyphosphatidylinositol phosphatase SYNJ1,O43426,True,False,False,Moderate,target:Polyphosphatidylinositol phosphatase SYNJ1,validation
+DNVHH000532,Polyphosphatidylinositol phosphatase SYNJ1,O43426,True,True,False,High,target:Polyphosphatidylinositol phosphatase SYNJ1,validation
+DNVHH000533,aph colied-coil,,True,True,True,High,target:aph colied-coil,validation
+DNVHH000534,aph coiled-coil,,True,True,True,High,target:aph coiled-coil,validation
+DNVHH000535,,,True,False,True,Moderate,seq:b71a93483402,test
+DNVHH000536,General control transcription factor GCN4,P03069,True,True,True,High,target:General control transcription factor GCN4,validation
+DNVHH000537,,,True,True,True,High,seq:e231e1bfa476,validation
+DNVHH000538,coiled-coil aph,,True,True,True,High,target:coiled-coil aph,train
+DNVHH000539,von Willebrand factor,L8E853,True,True,False,High,target:von Willebrand factor,test
+DNVHH000540,Variant surface glycoprotein MITAT 1.2,P26332,True,True,False,High,target:Variant surface glycoprotein MITAT 1.2,train
+DNVHH000541,Variant surface glycoprotein MITAT 1.2,P26332,True,True,False,High,target:Variant surface glycoprotein MITAT 1.2,train
+DNVHH000542,Variant surface glycoprotein MITAT 1.2,P26332,True,True,False,High,target:Variant surface glycoprotein MITAT 1.2,train
+DNVHH000543,Variant surface glycoprotein MITAT 1.2,P26332,True,True,False,High,target:Variant surface glycoprotein MITAT 1.2,train
+DNVHH000544,Discoidin domain-containing receptor 2,Q16832,True,True,False,Moderate,target:Discoidin domain-containing receptor 2,validation
+DNVHH000545,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000546,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000547,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000548,unknown,A0A6M6B9J6,True,True,True,High,target:unknown,test
+DNVHH000549,complement c4 alpha chain; complement c4 beta chain,,True,True,False,High,target:complement c4 alpha chain; complement c4 beta chain,test
+DNVHH000550,complement c4 alpha chain; complement c4 beta chain,,True,True,False,High,target:complement c4 alpha chain; complement c4 beta chain,test
+DNVHH000551,complement c4 gamma chain; complement c4 alpha chain,,True,True,False,High,target:complement c4 gamma chain; complement c4 alpha chain,validation
+DNVHH000552,LexA repressor,P0A7C2,True,True,False,High,target:LexA repressor,train
+DNVHH000553,Proton-coupled folate transporter,F1NJ67,True,False,True,Moderate,target:Proton-coupled folate transporter,test
+DNVHH000554,,,True,False,False,Moderate,seq:54951b03cc21,train
+DNVHH000555,,,True,False,False,Moderate,seq:040fef75abaf,test
+DNVHH000556,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000557,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000558,spike glycoprotein,,True,True,False,High,target:spike glycoprotein,train
+DNVHH000559,thermostable green fluorescent protein (tgp),,True,False,False,Moderate,target:thermostable green fluorescent protein (tgp),train
+DNVHH000560,programmed cell death 1 ligand 1,,True,True,False,High,target:programmed cell death 1 ligand 1,train
+DNVHH000561,spike protein s1,,True,True,False,High,target:spike protein s1,validation
+DNVHH000562,spike protein s1,,True,True,False,High,target:spike protein s1,validation
+DNVHH000563,Tumor necrosis factor receptor superfamily member 9,Q07011,True,True,False,High,target:Tumor necrosis factor receptor superfamily member 9,validation
+DNVHH000564,Quinolone resistance protein NorB,A0A0H2WZS4,True,True,False,High,target:Quinolone resistance protein NorB,test
+DNVHH000565,Eukaryotic translation initiation factor 4E,P06730,True,True,False,Moderate,target:Eukaryotic translation initiation factor 4E,train
+DNVHH000566,,,True,False,False,Moderate,seq:06c7b46a9e4a,validation
+DNVHH000567,,,True,False,False,Moderate,seq:1d4d2f45221d,train
+DNVHH000568,Genome polyprotein,F8UF79,True,True,False,High,target:Genome polyprotein,train
+DNVHH000569,Genome polyprotein,F8UF79,True,True,False,High,target:Genome polyprotein,train
+DNVHH000570,Cytotoxic T-lymphocyte protein 4,P16410,True,True,False,High,target:Cytotoxic T-lymphocyte protein 4,validation
+DNVHH000571,sfGFP,,True,True,False,High,target:sfGFP,train
+DNVHH000572,Extracellular calcium-sensing receptor,P41180,True,True,False,High,target:Extracellular calcium-sensing receptor,train
+DNVHH000573,metabotropic glutamate receptor 2,,True,False,False,Moderate,target:metabotropic glutamate receptor 2,train
+DNVHH000574,,,True,False,False,Moderate,seq:cae43caa83e9,train
+DNVHH000575,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000576,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000577,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000578,SARS; RBD; CoV,,True,True,False,High,target:SARS; RBD; CoV,train
+DNVHH000579,,,True,False,False,Moderate,seq:af2f6fc10024,train
+DNVHH000580,Inducible T-cell costimulator,Q9Y6W8,True,False,False,Moderate,target:Inducible T-cell costimulator,test
+DNVHH000581,SARS; CoV,,True,False,False,Moderate,target:SARS; CoV,train
+DNVHH000582,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000583,Protein patched homolog 1,Q61115,True,True,False,High,target:Protein patched homolog 1,test
+DNVHH000584,neurotoxin,,True,True,False,High,target:neurotoxin,train
+DNVHH000585,Bacillus; Anthrax; botulinum; edema,,True,True,False,High,target:Bacillus; Anthrax; botulinum; edema,train
+DNVHH000586,ricin chain b; ricin chain a,,True,False,False,Moderate,target:ricin chain b; ricin chain a,test
+DNVHH000587,ricin chain b; ricin chain a,,True,False,False,Moderate,target:ricin chain b; ricin chain a,test
+DNVHH000588,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000589,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000590,Surface protein P12p,C6KSX1,True,False,False,Moderate,target:Surface protein P12p,test
+DNVHH000591,Surface protein P12p,C6KSX1,True,False,False,Moderate,target:Surface protein P12p,test
+DNVHH000592,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000593,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000594,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000595,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000596,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000597,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000598,,,True,False,False,Moderate,seq:dc23ca85aed1,train
+DNVHH000599,,,True,False,False,Moderate,seq:8aba40a071d3,test
+DNVHH000600,Spike glycoprotein,P0DTC2,True,True,False,Moderate,target:Spike glycoprotein,train
+DNVHH000601,Envelope glycoprotein gp160,C6G099,True,True,False,High,target:Envelope glycoprotein gp160,train
+DNVHH000602,Fusion glycoprotein F0,P03420,True,True,False,High,target:Fusion glycoprotein F0,test
+DNVHH000603,,,True,False,False,Moderate,seq:5245b1e8e753,validation
+DNVHH000604,,,True,False,False,Moderate,seq:3eba314877c7,validation
+DNVHH000605,botulinum neurotoxin a light chain,,True,False,False,Moderate,target:botulinum neurotoxin a light chain,validation
+DNVHH000606,5'-AMP-activated protein kinase catalytic subunit alpha-1,Q13131,True,False,False,Moderate,target:5'-AMP-activated protein kinase catalytic subunit alpha-1,train
+DNVHH000607,Spike glycoprotein,P0DTC2,True,True,False,Moderate,target:Spike glycoprotein,train
+DNVHH000608,Spike glycoprotein,P0DTC2,True,True,False,Moderate,target:Spike glycoprotein,train
+DNVHH000609,Spike glycoprotein,P0DTC2,True,True,False,Moderate,target:Spike glycoprotein,train
+DNVHH000610,Spike glycoprotein,P0DTC2,True,True,False,Moderate,target:Spike glycoprotein,train
+DNVHH000611,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000612,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000613,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000614,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000615,Nucleoprotein,P0DTC9,True,False,False,Moderate,target:Nucleoprotein,train
+DNVHH000616,nucleoprotein,,True,False,False,Moderate,target:nucleoprotein,test
+DNVHH000617,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000618,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000619,Gag polyprotein,P12493,True,False,False,Moderate,target:Gag polyprotein,train
+DNVHH000620,Gag polyprotein,B6DRA0,True,False,False,Moderate,target:Gag polyprotein,train
+DNVHH000621,Polyubiquitin-B,P0CG47,True,True,False,High,target:Polyubiquitin-B,validation
+DNVHH000622,lipid a abc transporter atp-binding protein/permease msba,,True,True,False,High,target:lipid a abc transporter atp-binding protein/permease msba,test
+DNVHH000623,Polymerase basic protein 2,Q6E3N3,True,True,False,High,target:Polymerase basic protein 2,validation
+DNVHH000624,Polymerase basic protein 2,Q6E3N3,True,True,False,High,target:Polymerase basic protein 2,validation
+DNVHH000625,Polymerase basic protein 2,Q6E3N3,True,True,False,High,target:Polymerase basic protein 2,validation
+DNVHH000626,"proton/glutamate symporter, sdf family",Q5JID0,True,True,False,High,"target:proton/glutamate symporter, sdf family",validation
+DNVHH000627,Polymerase acidic protein,Q3HM39,True,False,False,Moderate,target:Polymerase acidic protein,train
+DNVHH000628,Polymerase acidic protein,Q3HM39,True,False,False,Moderate,target:Polymerase acidic protein,train
+DNVHH000629,Polymerase acidic protein,Q3HM39,True,False,False,Moderate,target:Polymerase acidic protein,train
+DNVHH000630,Polymerase acidic protein,Q3HM39,True,False,False,Moderate,target:Polymerase acidic protein,train
+DNVHH000631,Polymerase acidic protein,Q3HM39,True,False,False,Moderate,target:Polymerase acidic protein,train
+DNVHH000632,Polymerase acidic protein,Q3HM39,True,False,False,Moderate,target:Polymerase acidic protein,train
+DNVHH000633,Polymerase acidic protein,Q3HM39,True,False,False,Moderate,target:Polymerase acidic protein,train
+DNVHH000634,Polymerase acidic protein,Q3HM39,True,False,False,Moderate,target:Polymerase acidic protein,train
+DNVHH000635,Spike glycoprotein,P0DTC2,True,True,True,High,target:Spike glycoprotein,train
+DNVHH000636,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000637,Platelet glycoprotein VI,Q9HCN6,True,True,False,High,target:Platelet glycoprotein VI,train
+DNVHH000638,Nuclear pore complex protein Nup98-Nup96,A0A6I8SCP2,True,True,False,High,target:Nuclear pore complex protein Nup98-Nup96,train
+DNVHH000639,Nuclear pore complex protein Nup98-Nup96,A0A6I8SCP2,True,True,False,High,target:Nuclear pore complex protein Nup98-Nup96,train
+DNVHH000640,Solute carrier family 15 member 2,Q63424,True,False,False,Moderate,target:Solute carrier family 15 member 2,validation
+DNVHH000641,T-complex protein 1 subunit epsilon,P48643,True,True,False,High,target:T-complex protein 1 subunit epsilon,train
+DNVHH000642,Leukocyte tyrosine kinase receptor,P29376,True,True,False,High,target:Leukocyte tyrosine kinase receptor,validation
+DNVHH000643,Superoxide dismutase [Cu-Zn],P00441,True,True,False,Moderate,target:Superoxide dismutase [Cu-Zn],train
+DNVHH000644,Centrosomal protein of 164 kDa,Q9UPV0,True,False,False,Moderate,target:Centrosomal protein of 164 kDa,validation
+DNVHH000645,Centrosomal protein of 164 kDa,Q9UPV0,True,True,False,High,target:Centrosomal protein of 164 kDa,validation
+DNVHH000646,,,True,False,False,Moderate,seq:29ebaccae1f0,validation
+DNVHH000647,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000648,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000649,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000650,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000651,lexa repressor,A0A1X3HXW2,True,True,False,High,target:lexa repressor,test
+DNVHH000652,abc transporter atp-binding protein,,True,True,False,High,target:abc transporter atp-binding protein,test
+DNVHH000653,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000654,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000655,Epidermal growth factor receptor,P00533,True,True,False,High,target:Epidermal growth factor receptor,test
+DNVHH000656,LPS-assembly protein LptD,Q5F651,True,True,False,High,target:LPS-assembly protein LptD,validation
+DNVHH000657,LPS-assembly protein LptD,Q5F651,True,True,False,High,target:LPS-assembly protein LptD,validation
+DNVHH000658,Cyclin-dependent kinase inhibitor 2A,P42771,True,False,False,Moderate,target:Cyclin-dependent kinase inhibitor 2A,test
+DNVHH000659,XK-related protein 9,Q5GH54,True,True,False,High,target:XK-related protein 9,train
+DNVHH000660,Integrin alpha-M,P11215,True,True,False,High,target:Integrin alpha-M,validation
+DNVHH000661,Volume-regulated anion channel subunit LRRC8A,Q80WG5,True,True,False,High,target:Volume-regulated anion channel subunit LRRC8A,validation
+DNVHH000662,Volume-regulated anion channel subunit LRRC8A,Q80WG5,True,True,False,High,target:Volume-regulated anion channel subunit LRRC8A,validation
+DNVHH000663,Volume-regulated anion channel subunit LRRC8A,Q80WG5,True,True,False,High,target:Volume-regulated anion channel subunit LRRC8A,validation
+DNVHH000664,Volume-regulated anion channel subunit LRRC8A,Q80WG5,True,True,False,High,target:Volume-regulated anion channel subunit LRRC8A,validation
+DNVHH000665,Volume-regulated anion channel subunit LRRC8A,Q80WG5,True,True,False,High,target:Volume-regulated anion channel subunit LRRC8A,validation
+DNVHH000666,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000667,Beta-lactamase,Q53TY8,True,True,False,High,target:Beta-lactamase,train
+DNVHH000668,licb protein,A0A0H2UQH5,True,False,False,Moderate,target:licb protein,train
+DNVHH000669,ATP-dependent lipid A-core flippase,P60752,True,True,False,High,target:ATP-dependent lipid A-core flippase,test
+DNVHH000670,ATP-dependent lipid A-core flippase,P60752,True,False,False,Moderate,target:ATP-dependent lipid A-core flippase,test
+DNVHH000671,ATP-dependent lipid A-core flippase,P60752,True,False,False,Moderate,target:ATP-dependent lipid A-core flippase,test
+DNVHH000672,ATP-dependent lipid A-core flippase,P60752,True,True,False,High,target:ATP-dependent lipid A-core flippase,test
+DNVHH000673,Multidrug resistance protein NorM,Q9KRU4,True,False,False,Moderate,target:Multidrug resistance protein NorM,validation
+DNVHH000674,Not reported,A0A4U9TNH6,True,False,False,Moderate,target:Not reported,train
+DNVHH000675,,,True,False,False,Moderate,seq:632230e6f1c3,test
+DNVHH000676,,,True,False,False,Moderate,seq:8e8adbb12b06,test
+DNVHH000677,Hepatic sodium/bile acid cotransporter,Q14973,True,True,False,High,target:Hepatic sodium/bile acid cotransporter,test
+DNVHH000678,Hepatic sodium/bile acid cotransporter,Q14973,True,True,False,High,target:Hepatic sodium/bile acid cotransporter,test
+DNVHH000679,Protein-cysteine N-palmitoyltransferase HHAT,Q5VTY9,True,True,False,High,target:Protein-cysteine N-palmitoyltransferase HHAT,test
+DNVHH000680,Spike glycoprotein,P0DTC2,True,True,False,Moderate,target:Spike glycoprotein,train
+DNVHH000681,Spike glycoprotein,P0DTC2,True,True,False,Moderate,target:Spike glycoprotein,train
+DNVHH000682,Transcobalamin-2,P20062,True,True,False,High,target:Transcobalamin-2,validation
+DNVHH000683,Transcobalamin-2,P20062,True,True,False,High,target:Transcobalamin-2,validation
+DNVHH000684,Transcobalamin-2,P20062,True,True,False,High,target:Transcobalamin-2,validation
+DNVHH000685,Transcobalamin-2,P20062,True,True,False,High,target:Transcobalamin-2,validation
+DNVHH000686,divalent metal cation transporter,C8WJ67,True,True,False,High,target:divalent metal cation transporter,train
+DNVHH000687,divalent metal cation transporter,C8WJ67,True,True,False,High,target:divalent metal cation transporter,train
+DNVHH000688,complement c3b alpha' chain; complement c3 beta chain,,True,True,False,High,target:complement c3b alpha' chain; complement c3 beta chain,test
+DNVHH000689,divalent metal cation transporter,C8WJ67,True,True,False,High,target:divalent metal cation transporter,train
+DNVHH000690,divalent metal cation transporter,C8WJ67,True,True,False,High,target:divalent metal cation transporter,train
+DNVHH000691,Gamma-aminobutyric acid receptor subunit beta-3,P28472,True,True,False,High,target:Gamma-aminobutyric acid receptor subunit beta-3,validation
+DNVHH000692,Gamma-aminobutyric acid receptor subunit beta-3,P28472,True,True,False,High,target:Gamma-aminobutyric acid receptor subunit beta-3,validation
+DNVHH000693,Receptor tyrosine-protein kinase erbB-2,P04626,True,True,False,High,target:Receptor tyrosine-protein kinase erbB-2,test
+DNVHH000694,Activity-regulated cytoskeleton-associated protein,Q7LC44,True,True,False,High,target:Activity-regulated cytoskeleton-associated protein,train
+DNVHH000695,Activity-regulated cytoskeleton-associated protein,Q63053,True,True,False,High,target:Activity-regulated cytoskeleton-associated protein,train
+DNVHH000696,Activity-regulated cytoskeleton-associated protein,Q7LC44,True,True,False,High,target:Activity-regulated cytoskeleton-associated protein,train
+DNVHH000697,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000698,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000699,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000700,,,True,False,False,Moderate,seq:f811982d5cf1,validation
+DNVHH000701,Envelope glycoprotein gp160,P04578,True,True,False,High,target:Envelope glycoprotein gp160,train
+DNVHH000702,,,True,False,True,Moderate,seq:9af49d64c855,train
+DNVHH000703,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000704,Envelope glycoprotein gp160,C6G099,True,True,False,High,target:Envelope glycoprotein gp160,train
+DNVHH000705,Acid-sensing ion channel 1,P78348,True,True,False,High,target:Acid-sensing ion channel 1,train
+DNVHH000706,,,True,False,False,Moderate,seq:00517a1e1786,train
+DNVHH000707,Cytokine receptor common subunit gamma,P31785,True,False,False,Moderate,target:Cytokine receptor common subunit gamma,train
+DNVHH000708,Interleukin-2 receptor subunit beta,P14784,True,False,False,Moderate,target:Interleukin-2 receptor subunit beta,validation
+DNVHH000709,Merozoite surface protein P12,C6KSX0,True,False,False,Moderate,target:Merozoite surface protein P12,test
+DNVHH000710,Green fluorescent protein,P42212,True,False,False,Moderate,target:Green fluorescent protein,train
+DNVHH000711,Sodium/glucose cotransporter 1,P13866,True,False,False,Moderate,target:Sodium/glucose cotransporter 1,test
+DNVHH000712,Sodium-coupled monocarboxylate transporter 1,Q8N695,True,False,False,Moderate,target:Sodium-coupled monocarboxylate transporter 1,train
+DNVHH000713,hyaluronan synthase,M1H2Q1,True,False,False,Moderate,target:hyaluronan synthase,test
+DNVHH000714,hyaluronan synthase,M1H2Q1,True,False,False,Moderate,target:hyaluronan synthase,test
+DNVHH000715,"rpa-related protein radx peptide,beta-2-microglobulin,mhcclass i antigen chimera",A0A678ZGP6,True,False,False,Moderate,"target:rpa-related protein radx peptide,beta-2-microglobulin,mhcclass i antigen chimera",validation
+DNVHH000716,Potassium voltage-gated channel subfamily A member 3,P22001,True,False,False,Moderate,target:Potassium voltage-gated channel subfamily A member 3,train
+DNVHH000717,Botulinum neurotoxin type B,P10844,True,True,False,High,target:Botulinum neurotoxin type B,validation
+DNVHH000718,botulinum; neurotoxin,,True,True,False,High,target:botulinum; neurotoxin,train
+DNVHH000719,,,True,False,False,Moderate,seq:c353df96c12a,train
+DNVHH000720,,,True,False,False,Moderate,seq:6cae8e00f49a,test
+DNVHH000721,,,True,True,False,High,seq:95ab9fcd0208,validation
+DNVHH000722,,,True,True,False,High,seq:da1a1a709692,test
+DNVHH000723,CHLORAMPHENICOL,,True,True,False,High,target:CHLORAMPHENICOL,test
+DNVHH000724,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000725,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000726,Toxin A,P16154,True,True,False,High,target:Toxin A,train
+DNVHH000727,Toxin A,P16154,True,True,False,High,target:Toxin A,train
+DNVHH000728,neurotoxin,,True,True,False,High,target:neurotoxin,train
+DNVHH000729,Histamine H2 receptor,P25021,True,False,False,Moderate,target:Histamine H2 receptor,test
+DNVHH000730,cysteine-rich small secreted protein css,Q8IM47,True,True,False,High,target:cysteine-rich small secreted protein css,validation
+DNVHH000731,cysteine-rich small secreted protein css,Q8IM47,True,True,False,High,target:cysteine-rich small secreted protein css,validation
+DNVHH000732,Tribbles homolog 2,Q92519,True,False,False,Moderate,target:Tribbles homolog 2,validation
+DNVHH000733,Gametocyte surface protein P230,P68874,True,True,False,High,target:Gametocyte surface protein P230,validation
+DNVHH000734,Gametocyte surface protein P230,P68874,True,True,False,High,target:Gametocyte surface protein P230,validation
+DNVHH000735,,,True,False,False,Moderate,seq:9da323b66e1c,test
+DNVHH000736,Replicase polyprotein 1ab,P0DTD1,True,True,False,High,target:Replicase polyprotein 1ab,validation
+DNVHH000737,Replicase polyprotein 1ab,P0DTD1,True,True,False,High,target:Replicase polyprotein 1ab,validation
+DNVHH000738,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,P28907,True,True,True,High,target:ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,train
+DNVHH000739,,,True,True,False,High,seq:6f446581842e,validation
+DNVHH000740,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000741,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000742,,,True,False,False,Moderate,seq:90f1d8d520a0,validation
+DNVHH000743,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000744,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000745,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000746,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000747,Complement factor H,P08603,True,True,False,High,target:Complement factor H,train
+DNVHH000748,Nucleoside transporter 1,Q8IDM6,True,True,True,High,target:Nucleoside transporter 1,validation
+DNVHH000749,Nucleoside transporter 1,Q8IDM6,True,True,True,High,target:Nucleoside transporter 1,validation
+DNVHH000750,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000751,Spike glycoprotein,Q19QX0,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000752,,,True,False,False,Moderate,seq:886d077eeaa8,train
+DNVHH000753,,,True,False,False,Moderate,seq:07f43cd4b9ec,train
+DNVHH000754,Iron-regulated surface determinant protein H,Q931P4,True,False,False,Moderate,target:Iron-regulated surface determinant protein H,validation
+DNVHH000755,Transforming protein RhoA,P61589,True,True,False,High,target:Transforming protein RhoA,validation
+DNVHH000756,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000757,Eukaryotic translation initiation factor 4E,P06730,True,True,False,High,target:Eukaryotic translation initiation factor 4E,train
+DNVHH000758,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000759,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000760,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000761,Auxin efflux carrier component 1,Q9C6B8,True,False,False,Moderate,target:Auxin efflux carrier component 1,validation
+DNVHH000762,Calcium-transporting ATPase type 2C member 1,P98194,True,False,False,Moderate,target:Calcium-transporting ATPase type 2C member 1,train
+DNVHH000763,Kappa-type opioid receptor,P41145,True,False,False,Moderate,target:Kappa-type opioid receptor,test
+DNVHH000764,alpha1a adrenergic receptor,,True,True,False,High,target:alpha1a adrenergic receptor,test
+DNVHH000765,Adenylate cyclase,P9WQ35,True,False,False,Moderate,target:Adenylate cyclase,test
+DNVHH000766,,,True,False,False,Moderate,seq:d7a28e7f90e6,train
+DNVHH000767,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000768,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000769,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000770,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000771,Gasdermin-D,P57764,True,True,False,High,target:Gasdermin-D,train
+DNVHH000772,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000773,Fascin,Q16658,True,True,False,High,target:Fascin,test
+DNVHH000774,Interleukin-27 subunit beta,O35228,True,True,False,High,target:Interleukin-27 subunit beta,test
+DNVHH000775,Cystinosin homolog,P57758,True,True,False,High,target:Cystinosin homolog,train
+DNVHH000776,Cystinosin homolog,P57758,True,False,False,Moderate,target:Cystinosin homolog,train
+DNVHH000777,Cystinosin homolog,P57758,True,False,False,Moderate,target:Cystinosin homolog,train
+DNVHH000778,ATP-dependent DNA helicase Q5,O94762,True,True,False,Moderate,target:ATP-dependent DNA helicase Q5,train
+DNVHH000779,ATP-dependent DNA helicase Q5,O94762,True,True,False,Moderate,target:ATP-dependent DNA helicase Q5,train
+DNVHH000780,ATP-dependent DNA helicase Q5,O94762,True,True,False,Moderate,target:ATP-dependent DNA helicase Q5,train
+DNVHH000781,ATP-dependent DNA helicase Q5,O94762,True,True,False,Moderate,target:ATP-dependent DNA helicase Q5,train
+DNVHH000782,ATP-dependent DNA helicase Q5,O94762,True,True,False,Moderate,target:ATP-dependent DNA helicase Q5,train
+DNVHH000783,ATP-dependent DNA helicase Q5,O94762,True,True,False,Moderate,target:ATP-dependent DNA helicase Q5,train
+DNVHH000784,ATP-dependent DNA helicase Q5,O94762,True,True,False,Moderate,target:ATP-dependent DNA helicase Q5,train
+DNVHH000785,ATP-dependent DNA helicase Q5,O94762,True,True,False,Moderate,target:ATP-dependent DNA helicase Q5,train
+DNVHH000786,ATP-dependent DNA helicase Q5,O94762,True,True,False,Moderate,target:ATP-dependent DNA helicase Q5,train
+DNVHH000787,LexA repressor,C3SHL2,True,True,False,High,target:LexA repressor,train
+DNVHH000788,Peripherin-2,P23942,True,False,False,Moderate,target:Peripherin-2,validation
+DNVHH000789,Hepatic sodium/bile acid cotransporter,Q14973,True,False,False,Moderate,target:Hepatic sodium/bile acid cotransporter,test
+DNVHH000790,Endo-beta-N-acetylglucosaminidase EndoS,Q99Y92,True,False,False,Moderate,target:Endo-beta-N-acetylglucosaminidase EndoS,validation
+DNVHH000791,Polyubiquitin-B,P0CG47,True,True,False,High,target:Polyubiquitin-B,validation
+DNVHH000792,Not reported,A0A0H3CD98,True,False,False,Moderate,target:Not reported,train
+DNVHH000793,programmed cell death 1 ligand 1,,True,True,False,High,target:programmed cell death 1 ligand 1,train
+DNVHH000794,programmed cell death 1 ligand 1,,True,True,False,High,target:programmed cell death 1 ligand 1,train
+DNVHH000795,ER lumen protein-retaining receptor 2,Q5ZKX9,True,False,False,Moderate,target:ER lumen protein-retaining receptor 2,validation
+DNVHH000796,Dipeptide and tripeptide permease B,P36837,True,False,True,Moderate,target:Dipeptide and tripeptide permease B,test
+DNVHH000797,interleukin-17a,,True,True,False,High,target:interleukin-17a,train
+DNVHH000798,Synaptotagmin-1,P21579,True,False,False,Moderate,target:Synaptotagmin-1,train
+DNVHH000799,Plexin-B1,Q8CJH3,True,True,False,High,target:Plexin-B1,test
+DNVHH000800,Son of sevenless homolog 1,Q07889,True,False,False,Moderate,target:Son of sevenless homolog 1,test
+DNVHH000801,GTPase KRas,P01116,True,False,False,Moderate,target:GTPase KRas,validation
+DNVHH000802,Son of sevenless homolog 1,Q07889,True,False,False,Moderate,target:Son of sevenless homolog 1,test
+DNVHH000803,Son of sevenless homolog 1,Q07889,True,False,False,Moderate,target:Son of sevenless homolog 1,test
+DNVHH000804,Son of sevenless homolog 1,Q07889,True,False,False,Moderate,target:Son of sevenless homolog 1,test
+DNVHH000805,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000806,Plexin-B1,Q8CJH3,True,True,False,High,target:Plexin-B1,test
+DNVHH000807,nucleoprotein,,True,False,False,Moderate,target:nucleoprotein,test
+DNVHH000808,Solute carrier family 22 member 6,O35956,True,False,False,Moderate,target:Solute carrier family 22 member 6,validation
+DNVHH000809,Ferroportin,Q9NP59,True,True,False,High,target:Ferroportin,test
+DNVHH000810,phage repressor protein ci,Q8XAD6,True,True,False,Moderate,target:phage repressor protein ci,train
+DNVHH000811,Synaptotagmin-1,P21707,True,False,False,Moderate,target:Synaptotagmin-1,train
+DNVHH000812,,,True,False,False,Moderate,seq:e1188d51bd23,test
+DNVHH000813,,,True,False,False,Moderate,seq:c736a654edc1,train
+DNVHH000814,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000815,Neuronal acetylcholine receptor subunit alpha-7,P36544,True,True,False,High,target:Neuronal acetylcholine receptor subunit alpha-7,test
+DNVHH000816,Bifunctional heparan sulfate N-deacetylase/N-sulfotransferase 1,P52848,True,True,False,High,target:Bifunctional heparan sulfate N-deacetylase/N-sulfotransferase 1,validation
+DNVHH000817,Neuronal acetylcholine receptor subunit alpha-7,P36544,True,True,False,High,target:Neuronal acetylcholine receptor subunit alpha-7,test
+DNVHH000818,,,True,False,False,Moderate,seq:15e53c23b537,train
+DNVHH000819,complement c5 alpha chain,,True,True,False,High,target:complement c5 alpha chain,validation
+DNVHH000820,complement c5 beta chain,,True,True,False,High,target:complement c5 beta chain,train
+DNVHH000821,,,True,False,False,Moderate,seq:26751094621d,validation
+DNVHH000822,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000823,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000824,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000825,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000826,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000827,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000828,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000829,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000830,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000831,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000832,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000833,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000834,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000835,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000836,voltage-dependent l-type calcium channel subunit beta-2,A0A8I6AEJ4,True,True,False,High,target:voltage-dependent l-type calcium channel subunit beta-2,train
+DNVHH000837,Voltage-dependent L-type calcium channel subunit beta-1,Q8R3Z5,True,True,False,High,target:Voltage-dependent L-type calcium channel subunit beta-1,test
+DNVHH000838,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000839,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000840,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",P48736,True,False,False,Moderate,"target:Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",validation
+DNVHH000841,Replicase polyprotein 1ab,P0DTD1,True,False,False,Moderate,target:Replicase polyprotein 1ab,validation
+DNVHH000842,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000843,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000844,BCL11 transcription factor A,Q9H165,True,True,False,High,target:BCL11 transcription factor A,train
+DNVHH000845,BCL11 transcription factor A,Q9H165,True,True,False,High,target:BCL11 transcription factor A,train
+DNVHH000846,Cystinosin,O60931,True,False,False,Moderate,target:Cystinosin,train
+DNVHH000847,cftr inhibitory factor,A0A9Q9N8F9,True,False,False,Moderate,target:cftr inhibitory factor,validation
+DNVHH000848,CFTR inhibitory factor,A0A0H2ZD27,True,False,False,Moderate,target:CFTR inhibitory factor,validation
+DNVHH000849,cftr inhibitory factor,A0A9Q9N8F9,True,False,False,Moderate,target:cftr inhibitory factor,validation
+DNVHH000850,"Glutamate receptor ionotropic, NMDA 1",Q05586,True,True,False,High,"target:Glutamate receptor ionotropic, NMDA 1",validation
+DNVHH000851,CFTR inhibitory factor,A0A0H2ZD27,True,False,False,Moderate,target:CFTR inhibitory factor,validation
+DNVHH000852,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000853,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000854,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000855,vp1,K4LM89,True,True,False,High,target:vp1,validation
+DNVHH000856,gii.17 p domain,A0A2K8GS35,True,True,False,High,target:gii.17 p domain,train
+DNVHH000857,capsid protein vp1,A0A1D8MBE6,True,True,False,High,target:capsid protein vp1,train
+DNVHH000858,vp1,K4LM89,True,True,False,High,target:vp1,validation
+DNVHH000859,Not reported,Q5F4T5,True,True,False,High,target:Not reported,train
+DNVHH000860,capsid protein vp1,A0A0S1Z370,True,True,False,High,target:capsid protein vp1,train
+DNVHH000861,vp1,K4LM89,True,True,False,High,target:vp1,validation
+DNVHH000862,vp1,K4LM89,True,True,False,High,target:vp1,validation
+DNVHH000863,vp1,K4LM89,True,True,False,High,target:vp1,validation
+DNVHH000864,Terminal nucleotidyltransferase 5C,Q5VWP2,True,True,False,High,target:Terminal nucleotidyltransferase 5C,train
+DNVHH000865,Prostaglandin G/H synthase 2,Q05769,True,True,False,Moderate,target:Prostaglandin G/H synthase 2,test
+DNVHH000866,cftr inhibitory factor,A0A9Q9N8F9,True,False,False,Moderate,target:cftr inhibitory factor,validation
+DNVHH000867,t-cell surface glycoprotein cd8 alpha chain,,True,True,False,High,target:t-cell surface glycoprotein cd8 alpha chain,validation
+DNVHH000868,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000869,Rhodopsin,P02699,True,True,False,High,target:Rhodopsin,validation
+DNVHH000870,microcystin-lr,,True,True,False,Moderate,target:microcystin-lr,validation
+DNVHH000871,,,True,False,False,Moderate,seq:33f9557e1bf8,validation
+DNVHH000872,,,True,False,False,Moderate,seq:5ab60f827a90,test
+DNVHH000873,Transforming growth factor beta-2 proprotein,P61812,True,True,False,High,target:Transforming growth factor beta-2 proprotein,train
+DNVHH000874,Transforming growth factor beta-2 proprotein,P61812,True,True,False,High,target:Transforming growth factor beta-2 proprotein,train
+DNVHH000875,Green fluorescent protein,P42212,True,False,False,Moderate,target:Green fluorescent protein,train
+DNVHH000876,vp1,K4LM89,True,False,False,Moderate,target:vp1,validation
+DNVHH000877,minig alpha s/q chimera; guanine nucleotide-binding protein g(i)/g(s)/g(t) subunitbeta-1,,True,False,False,Moderate,target:minig alpha s/q chimera; guanine nucleotide-binding protein g(i)/g(s)/g(t) subunitbeta-1,validation
+DNVHH000878,Spike glycoprotein,P0DTC2,True,True,False,Moderate,target:Spike glycoprotein,train
+DNVHH000879,spike glycoprotein,,True,True,False,High,target:spike glycoprotein,train
+DNVHH000880,,,True,False,False,Moderate,seq:294321da19cf,test
+DNVHH000881,NAD(+) hydrolase SARM1,Q6SZW1,True,False,False,Moderate,target:NAD(+) hydrolase SARM1,train
+DNVHH000882,,,True,False,False,Moderate,seq:657e7a7f0fbd,train
+DNVHH000883,7d5 fab light chain; 7d5 fab heavy chain,,True,False,False,Moderate,target:7d5 fab light chain; 7d5 fab heavy chain,test
+DNVHH000884,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000885,Fragilysin,P54355,True,True,False,High,target:Fragilysin,test
+DNVHH000886,Fragilysin,P54355,True,True,False,High,target:Fragilysin,test
+DNVHH000887,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000888,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000889,,,True,False,False,Moderate,seq:468a6a4f0e1a,test
+DNVHH000890,Spike glycoprotein,P0DTC2,True,True,False,Moderate,target:Spike glycoprotein,train
+DNVHH000891,Genome polyprotein,A0A7D5BJ70,True,True,False,High,target:Genome polyprotein,train
+DNVHH000892,Genome polyprotein,A0A7D5BJ70,True,True,False,High,target:Genome polyprotein,train
+DNVHH000893,vp3 of capsid protein; vp2 of capsid protein,,True,True,False,High,target:vp3 of capsid protein; vp2 of capsid protein,test
+DNVHH000894,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000895,Tumor necrosis factor receptor superfamily member 17,Q02223,True,True,False,High,target:Tumor necrosis factor receptor superfamily member 17,test
+DNVHH000896,Tumor necrosis factor receptor superfamily member 17,Q02223,True,True,False,High,target:Tumor necrosis factor receptor superfamily member 17,test
+DNVHH000897,,,True,False,False,Moderate,seq:e88f4ff5aba9,validation
+DNVHH000898,,,True,False,False,Moderate,seq:4e06be7d02fc,train
+DNVHH000899,,,True,False,False,Moderate,seq:3566722fa826,train
+DNVHH000900,Prostaglandin F2-alpha receptor,P43088,True,True,False,High,target:Prostaglandin F2-alpha receptor,test
+DNVHH000901,,,True,False,True,Moderate,seq:8576eba12a22,train
+DNVHH000902,Neuromedin-K receptor,P29371,True,False,False,Moderate,target:Neuromedin-K receptor,train
+DNVHH000903,Neuromedin-K receptor,P29371,True,False,False,Moderate,target:Neuromedin-K receptor,train
+DNVHH000904,Alpha-synuclein,P37840,True,True,False,High,target:Alpha-synuclein,validation
+DNVHH000905,Solute carrier family 22 member 1,O15245,True,True,False,High,target:Solute carrier family 22 member 1,validation
+DNVHH000906,Spike glycoprotein,P0DTC2,True,True,False,High,target:Spike glycoprotein,train
+DNVHH000907,Uracil permease,P0AGM7,True,True,False,High,target:Uracil permease,test
+DNVHH000908,Metal transporter,K3YRE7,True,True,False,High,target:Metal transporter,test
+DNVHH000909,S-layer protein EA1,P94217,True,False,False,Moderate,target:S-layer protein EA1,validation
+DNVHH000910,S-layer protein EA1,P94217,True,False,False,Moderate,target:S-layer protein EA1,validation
+DNVHH000911,Complement C3,P01024,True,False,False,Moderate,target:Complement C3,test
+DNVHH000912,Neutral amino acid transporter B(0),Q15758,True,False,False,Moderate,target:Neutral amino acid transporter B(0),validation
+DNVHH000913,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000914,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000915,Nucleoporin NUP35,Q8NFH5,True,True,False,High,target:Nucleoporin NUP35,train
+DNVHH000916,Nucleoporin NUP35,Q8NFH5,True,False,False,Moderate,target:Nucleoporin NUP35,train
+DNVHH000917,Broad substrate specificity ATP-binding cassette transporter ABCG2,Q9UNQ0,True,False,False,Moderate,target:Broad substrate specificity ATP-binding cassette transporter ABCG2,validation
+DNVHH000918,,,True,False,False,Moderate,seq:b2cf1d30ff8a,validation
+DNVHH000919,,,True,False,False,Moderate,seq:8316b70dad05,validation
+DNVHH000920,Broad substrate specificity ATP-binding cassette transporter ABCG2,Q9UNQ0,True,False,False,Moderate,target:Broad substrate specificity ATP-binding cassette transporter ABCG2,validation
+DNVHH000921,Broad substrate specificity ATP-binding cassette transporter ABCG2,Q9UNQ0,True,False,False,Moderate,target:Broad substrate specificity ATP-binding cassette transporter ABCG2,validation
+DNVHH000922,Phospholipase A2,P00630,True,False,False,Moderate,target:Phospholipase A2,train
+DNVHH000923,Phospholipase A2,P00630,True,False,False,Moderate,target:Phospholipase A2,train
+DNVHH000924,pilin,A0A9K2KM41,True,False,False,Moderate,target:pilin,validation
+DNVHH000925,pilin,A0A1I9GEU1,True,False,False,Moderate,target:pilin,validation
+DNVHH000926,pilin,A0A9K2KM41,True,False,False,Moderate,target:pilin,validation
+DNVHH000927,Triacylglyceride transporter MHAS_02168/C731_2106,K5B8L6,True,True,False,High,target:Triacylglyceride transporter MHAS_02168/C731_2106,train
+DNVHH000928,styrene oxide isomerase,O50216,True,False,True,Moderate,target:styrene oxide isomerase,train
+DNVHH000929,Cyclin-dependent kinase 7,P50613,True,True,False,High,target:Cyclin-dependent kinase 7,test
+DNVHH000930,,,True,False,False,Moderate,seq:939e113d3e1c,train
+DNVHH000931,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000932,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000933,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000934,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000935,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000936,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000937,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000938,Spike glycoprotein,P0DTC2,True,False,False,Moderate,target:Spike glycoprotein,train
+DNVHH000939,Mu-type opioid receptor,P42866,True,False,False,Moderate,target:Mu-type opioid receptor,validation
+DNVHH000940,,,True,False,False,Moderate,seq:53b3d8bdf278,test
+DNVHH000941,alkane 1-monooxygenase,A0A1I2KHB9,True,False,False,Moderate,target:alkane 1-monooxygenase,validation
+DNVHH000942,hyaluronan synthase,M1H2Q1,True,False,False,Moderate,target:hyaluronan synthase,test
+DNVHH000943,hyaluronan synthase,M1H2Q1,True,False,False,Moderate,target:hyaluronan synthase,test
+DNVHH000944,hyaluronan synthase,M1H2Q1,True,False,False,Moderate,target:hyaluronan synthase,test
+DNVHH000945,Transcription factor Jun,P05412,True,True,False,High,target:Transcription factor Jun,train
+DNVHH000946,Pre-glycoprotein polyprotein GP complex,P08669,True,False,False,Moderate,target:Pre-glycoprotein polyprotein GP complex,validation
+DNVHH000947,Melibiose permease,P30878,True,False,False,Moderate,target:Melibiose permease,test
+DNVHH000948,Soluble cytochrome b562,P0ABE7,True,False,False,Moderate,target:Soluble cytochrome b562,train
+DNVHH000949,Envelope glycoprotein gp160,Q2N0S6,True,False,False,Moderate,target:Envelope glycoprotein gp160,train
+DNVHH000950,Envelope glycoprotein gp160,Q2N0S6,True,False,False,Moderate,target:Envelope glycoprotein gp160,train
+DNVHH000951,Fusion glycoprotein F0,Q8B9P0,True,True,False,High,target:Fusion glycoprotein F0,test
+DNVHH000952,Claudin-4,O14493,True,False,False,Moderate,target:Claudin-4,test
+DNVHH000953,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2,P63212,True,True,False,High,target:Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2,validation
+DNVHH000954,Not reported,A0A8S0GSD4,True,False,False,Moderate,target:Not reported,train
+DNVHH001392,Ebola virus envelope glycoprotein (EBOV GP),,False,True,False,Moderate,target:Ebola virus envelope glycoprotein (EBOV GP),test
+DNVHH002933,Ebola virus envelope glycoprotein (EBOV GP),,False,True,False,Moderate,target:Ebola virus envelope glycoprotein (EBOV GP),test
+DNVHH003046,Ebola virus envelope glycoprotein (EBOV GP),,False,True,False,Moderate,target:Ebola virus envelope glycoprotein (EBOV GP),test
+DNVHH003084,Ebola virus envelope glycoprotein (EBOV GP),,False,True,False,Moderate,target:Ebola virus envelope glycoprotein (EBOV GP),test
+DNVHH003097,Ebola virus envelope glycoprotein (EBOV GP),,False,True,False,Moderate,target:Ebola virus envelope glycoprotein (EBOV GP),test
+DNVHH003114,Ebola virus envelope glycoprotein (EBOV GP),,False,True,False,Moderate,target:Ebola virus envelope glycoprotein (EBOV GP),test
+DNVHH007090,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007108,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007123,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007129,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007133,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007134,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007164,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007175,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007180,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007181,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007184,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007200,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007201,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007203,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007204,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007205,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007208,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007210,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007212,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007213,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007214,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007215,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007216,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007217,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007221,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007224,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007225,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007227,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007230,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007235,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007243,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007244,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007262,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007410,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007432,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007434,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007440,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007441,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007443,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007445,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007447,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007453,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007487,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007529,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007530,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007531,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007536,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007539,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007608,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007609,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007765,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007809,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007812,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007814,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007815,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007816,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007819,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007820,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007821,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007823,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007824,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007825,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007826,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007827,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007828,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007829,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007830,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007831,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007832,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007833,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007834,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007835,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007836,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007837,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007839,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007840,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007843,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007844,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007845,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007846,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007847,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007848,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007849,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007851,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007852,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007854,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007855,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007856,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007859,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007860,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007861,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007862,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007863,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007864,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007865,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007866,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007867,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007868,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007869,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007870,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007871,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007872,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007873,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007874,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007875,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007876,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007877,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007878,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007879,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007881,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007882,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007883,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007884,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007885,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007887,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007888,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007889,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007890,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007891,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007892,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007893,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007894,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007895,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007896,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007897,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007898,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007899,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007901,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007902,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007904,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007906,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007907,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007908,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007909,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007910,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007912,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007915,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007917,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007918,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007919,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007921,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007922,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007923,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007924,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007928,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007929,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007930,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007931,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007933,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007934,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007935,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007936,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007937,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007938,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007940,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007941,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007942,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007943,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007944,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007945,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007946,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007947,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007948,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007950,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007951,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007953,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007954,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007955,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007956,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007957,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007959,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007961,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007962,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007963,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007964,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007965,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007966,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007967,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007968,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007969,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007970,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007971,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007972,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007973,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007975,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007977,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007978,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007979,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007981,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007982,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007983,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007984,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007985,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007988,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007989,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007990,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007993,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007994,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007995,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007996,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH007999,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008000,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008001,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008003,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008004,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008005,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008006,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008007,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008011,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008016,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008017,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008019,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008021,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008022,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008023,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008024,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008025,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008028,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008029,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008033,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008034,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008037,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008039,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008040,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008041,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008042,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008043,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008044,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008046,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008049,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008052,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008053,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008054,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008055,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008056,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008059,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008060,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008061,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008062,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008063,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008064,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008065,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008066,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008068,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008070,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008071,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008072,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008073,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008079,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008083,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008085,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008090,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008091,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008092,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008097,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008098,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008099,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008100,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008101,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008103,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008110,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008111,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008112,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008113,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008115,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008120,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008125,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008127,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008129,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008130,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008131,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008133,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008134,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008135,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008137,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008140,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008142,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008145,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008146,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008147,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008148,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008149,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008156,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008158,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008159,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008161,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008162,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008163,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008164,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008165,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008167,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008168,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008169,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008170,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008173,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008174,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008235,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008242,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008293,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008296,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008299,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008300,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008302,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008303,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008304,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008326,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008329,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008332,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008401,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008404,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008426,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008433,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008436,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008437,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008438,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008439,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008442,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008443,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008444,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008447,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008456,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008466,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008468,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008469,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008478,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008479,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008484,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008485,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008490,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008491,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008492,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008493,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008494,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008503,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008505,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008517,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008522,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008524,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008525,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008526,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008527,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008528,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008529,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008530,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008531,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008532,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008533,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008534,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008535,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008536,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008538,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008539,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008540,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008541,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008542,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008543,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008546,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008547,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008548,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008551,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008552,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008553,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008554,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008555,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008556,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008557,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008558,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008561,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008562,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008563,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008564,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008565,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008566,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008567,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008568,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008569,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008570,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008571,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008572,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008573,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008576,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008577,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008578,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008581,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008582,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008583,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008584,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008585,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008586,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008587,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008589,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008592,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008596,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008619,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008651,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008652,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008654,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008655,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008657,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008658,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008659,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008660,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008661,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008662,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008663,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008664,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008665,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008666,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008667,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008668,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008669,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008670,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008671,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008672,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008673,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008674,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008675,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008676,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008677,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008678,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008680,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH008687,Human epidermal growth factor receptor 2,,False,True,True,Moderate,target:Human epidermal growth factor receptor 2,train
+DNVHH016156,leukocyte common antigen(CD45),,False,True,False,Moderate,target:leukocyte common antigen(CD45),validation
+DNVHH016157,leukocyte common antigen(CD46),,False,True,False,Moderate,target:leukocyte common antigen(CD46),test
+DNVHH016225,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH016993,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH017100,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH017119,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH017265,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH017267,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH017316,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH017365,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH017367,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH017391,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH017447,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH017450,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH017636,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH017941,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH018374,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH019008,Pancreatic secretory zymogen-granule membrane glycoprotein 2 (GP2),,False,True,False,Moderate,target:Pancreatic secretory zymogen-granule membrane glycoprotein 2 (GP2),train
+DNVHH019080,Pancreatic secretory zymogen-granule membrane glycoprotein 2 (GP2),,False,True,False,Moderate,target:Pancreatic secretory zymogen-granule membrane glycoprotein 2 (GP2),train
+DNVHH019398,Pancreatic secretory zymogen-granule membrane glycoprotein 2 (GP2),,False,True,False,Moderate,target:Pancreatic secretory zymogen-granule membrane glycoprotein 2 (GP2),train
+DNVHH019467,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH019503,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH019505,Plasmodium falciparum VAR2CSA,,False,True,False,Moderate,target:Plasmodium falciparum VAR2CSA,train
+DNVHH020884,green fluorescent protein (GFP),,False,True,False,Moderate,target:green fluorescent protein (GFP),test
+DNVHH020886,green fluorescent protein (GFP),,False,True,False,Moderate,target:green fluorescent protein (GFP),test
+DNVHH020888,green fluorescent protein (GFP),,False,True,False,Moderate,target:green fluorescent protein (GFP),test
+DNVHH020895,green fluorescent protein (GFP),,False,True,False,Moderate,target:green fluorescent protein (GFP),test
+DNVHH020907,green fluorescent protein (GFP),,False,True,False,Moderate,target:green fluorescent protein (GFP),test

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+{% block title %}{{ t.name }} — {{ brand }}{% endblock %}
+{% block body %}
+<div class="breadcrumb"><a href="/">Home</a> / <a href="/targets">Targets</a> / {{ t.name }}</div>
+<h1>{{ t.name }} {% if t.gene_symbol %}<span class="badge b-gray" style="font-size:14px;vertical-align:middle">{{ t.gene_symbol }}</span>{% endif %}</h1>
+<div class="row">
+  <div class="col panel">
+    <h3>Target information</h3>
+    <table class="kv">
+      <tr><th>Name</th><td>{{ t.name }}</td></tr>
+      <tr><th>Gene symbol</th><td>{{ m.nr(t.gene_symbol) }}</td></tr>
+      <tr><th>UniProt</th><td>{% if t.uniprot %}<a class="mono" href="https://www.uniprot.org/uniprotkb/{{ t.uniprot }}" rel="noopener">{{ t.uniprot }} ↗</a>{% else %}{{ m.nr(none) }}{% endif %}</td></tr>
+      <tr><th>Organism</th><td>{{ m.nr(t.organism) }}</td></tr>
+      <tr><th>Target class</th><td>{{ m.nr(t.target_class) }}</td></tr>
+      <tr><th>Associated VHH</th><td>{{ n }}</td></tr>
+    </table>
+  </div>
+  <div class="col panel">
+    <h3>Function</h3>
+    <p style="font-size:13px">{{ m.nr(t.function) }}</p>
+  </div>
+</div>
+<div class="panel" style="padding:0;overflow-x:auto">
+  <div style="padding:14px 18px"><h3 style="margin:0">Associated single-domain antibodies</h3></div>
+  <table class="data">
+    <thead><tr><th>ID</th><th>Name</th><th>Target</th><th>Method</th><th>K<sub>D</sub></th><th>Struct.</th><th>Status</th></tr></thead>
+    <tbody>{% for r in vhhs %}{{ m.vhh_row(r) }}{% endfor %}</tbody>
+  </table>
+</div>
+{% endblock %}

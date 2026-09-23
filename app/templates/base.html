@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ brand }}{% endblock %}</title>
+<meta name="description" content="DeNovoVHH-DB — academic database of computationally designed and experimentally validated single-domain antibodies (VHH / nanobodies) with full field-level provenance.">
+<link rel="stylesheet" href="/static/style.css">
+<link rel="icon" href="/static/favicon.svg">
+</head>
+<body>
+{% set p = request.url.path %}
+<header class="site">
+  <div class="container">
+    <div class="topnav">
+      <a class="brand" href="/">
+        <svg class="logo" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22 3l16.5 9.5v19L22 41 5.5 31.5v-19L22 3z" fill="#0e7c86"/>
+          <path d="M22 10l10 5.8v11.4L22 33l-10-5.8V15.8L22 10z" fill="#ffffff" opacity="0.15"/>
+          <circle cx="22" cy="21.5" r="4.4" fill="#fff"/>
+        </svg>
+        <span>
+          <span class="name">DeNovoVHH-DB</span>
+          <span class="sub">The De Novo Nanobody Database · Design · Validate · Benchmark</span>
+        </span>
+      </a>
+      <span class="spacer"></span>
+      <ul class="menu">
+        <li><a href="/search" class="{{ 'active' if p.startswith('/search') }}">Search <span class="caret">▾</span></a>
+          <div class="drop">
+            <a href="/search">Advanced search<span class="hint">Sequence · target · method · evidence</span></a>
+            <a href="/browse">Browse all records</a>
+          </div>
+        </li>
+        <li><a class="{{ 'active' if p.startswith(('/browse','/target','/structure','/publication','/design')) }}">Browse By <span class="caret">▾</span></a>
+          <div class="drop">
+            <a href="/browse">Records<span class="hint">Filterable VHH table</span></a>
+            <a href="/targets">Targets / antigens</a>
+            <a href="/structures">Structures (PDB)</a>
+            <a href="/publications">Literature</a>
+            <a href="/design-methods">Design methods</a>
+          </div>
+        </li>
+        <li><a href="/datasets" class="{{ 'active' if p.startswith('/dataset') }}">Data <span class="caret">▾</span></a>
+          <div class="drop">
+            <a href="/datasets">Datasets &amp; downloads<span class="hint">FASTA · CSV · TSV · JSON</span></a>
+            <a href="/datasets">Benchmark splits</a>
+            <a href="/docs">API (OpenAPI)</a>
+          </div>
+        </li>
+        <li><a class="{{ 'active' if p.startswith(('/compare','/statistic')) }}">Tools <span class="caret">▾</span></a>
+          <div class="drop">
+            <a href="/statistics">Statistics &amp; charts</a>
+            <a href="/compare">Compare records</a>
+            <a href="/search">Structure &amp; sequence search</a>
+          </div>
+        </li>
+        <li><a class="{{ 'active' if p.startswith(('/about','/help')) }}">About <span class="caret">▾</span></a>
+          <div class="drop">
+            <a href="/about">About &amp; citation</a>
+            <a href="/help">Help &amp; methods</a>
+          </div>
+        </li>
+      </ul>
+      <a class="uni-logo" href="https://www.sunway.edu.my" rel="noopener" title="Sunway University">
+        <img src="/static/img/sunway_logo.png" alt="Sunway University">
+      </a>
+    </div>
+  </div>
+</header>
+{% block masthead %}{% endblock %}
+<main>
+  <div class="container">
+    {% block body %}{% endblock %}
+  </div>
+</main>
+<footer class="site">
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <div class="brand" style="margin-bottom:8px">
+          <span class="name" style="font-size:17px;font-weight:800">DeNovoVHH-DB</span>
+        </div>
+        <p style="max-width:46ch">An open academic resource cataloguing single-domain antibodies
+        across the design → validation continuum with traceable, field-level provenance.
+        <b>Designed ≠ tested ≠ binder ≠ functional ≠ therapeutic.</b></p>
+      </div>
+      <div>
+        <b>Data</b><br>
+        <a href="/browse">Browse records</a><br>
+        <a href="/datasets">Datasets &amp; downloads</a><br>
+        <a href="/statistics">Statistics</a><br>
+        <a href="/docs">API (OpenAPI)</a>
+      </div>
+      <div>
+        <b>Sources</b><br>
+        <a href="https://www.rcsb.org" rel="noopener">RCSB PDB</a><br>
+        <a href="https://www.uniprot.org" rel="noopener">UniProt</a><br>
+        <a href="https://europepmc.org" rel="noopener">Europe PMC</a><br>
+        ANDD (Zenodo 18151718)
+      </div>
+      <div>
+        <b>About</b><br>
+        <a href="/about">About &amp; citation</a><br>
+        <a href="/help">Help &amp; methods</a><br>
+        <span>Release v1.0</span><br>
+        <span>Data: CC-BY-4.0 / CC0</span>
+      </div>
+    </div>
+    <div class="footbar">
+      <span>Maintained at the Department of Biomedical Sciences, Sunway University, Malaysia.</span>
+      <span><a href="/about">Cite</a><a href="/help">Documentation</a><a href="/docs">API</a></span>
+    </div>
+  </div>
+</footer>
+{% block scripts %}{% endblock %}
+</body>
+</html>

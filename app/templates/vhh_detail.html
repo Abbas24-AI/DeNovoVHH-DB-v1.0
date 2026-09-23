@@ -1,0 +1,297 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+{% block title %}{{ v.denovovhh_id }} — {{ brand }}{% endblock %}
+{% block body %}
+<div class="breadcrumb"><a href="/">Home</a> / <a href="/browse">Browse</a> / {{ v.denovovhh_id }}</div>
+
+<div class="pill-row" style="justify-content:space-between;align-items:flex-start">
+  <div>
+    <h1 style="margin-bottom:4px">{{ v.name or ('Anti-' ~ v.target.name if v.target else v.denovovhh_id) }}</h1>
+    <div class="pill-row">
+      <span class="mono badge b-gray">{{ v.denovovhh_id }}</span>
+      <span class="badge b-teal">{{ v.sdab_type or 'sdAb' }}</span>
+      {{ m.status_badge(v) }}
+      {{ m.quality_badge(v.quality_label) }}
+      {{ m.design_badge(v.design_class) }}
+      {{ m.ev_flags(v.evidence_flags) }}
+    </div>
+  </div>
+  <div class="pill-row">
+    <a class="btn outline sm" href="/api/v1/vhh/{{ v.denovovhh_id }}/sequence">⬇ FASTA</a>
+    <a class="btn outline sm" href="/api/v1/vhh/{{ v.denovovhh_id }}.json">⬇ JSON</a>
+    <a class="btn outline sm" href="/api/v1/vhh/{{ v.denovovhh_id }}/cite.bib">⬇ BibTeX</a>
+  </div>
+</div>
+
+<div class="tabs" id="tabs">
+  <button class="active" data-t="overview">Overview</button>
+  <button data-t="sequence">Sequence &amp; CDRs</button>
+  <button data-t="structure">Structure {% if v.has_structure %}<span class="badge b-blue" style="margin-left:4px">{{ v.n_structures }}</span>{% endif %}</button>
+  <button data-t="binding">Binding &amp; Specificity</button>
+  <button data-t="design">Design Method</button>
+  <button data-t="literature">Literature</button>
+  <button data-t="provenance">Provenance</button>
+</div>
+
+<!-- OVERVIEW -->
+<div class="tabpane active" id="overview">
+  <div class="row">
+    <div class="col panel">
+      <h3>Basic information</h3>
+      <table class="kv">
+        <tr><th>DeNovoVHH ID</th><td class="mono">{{ v.denovovhh_id }}</td></tr>
+        <tr><th>Name / description</th><td>{{ m.nr(v.name) }}</td></tr>
+        <tr><th>Single-domain type</th><td>{{ m.nr(v.sdab_type) }}</td></tr>
+        <tr><th>Target</th><td>{% if v.target %}<a href="/targets?q={{ v.target.name }}">{{ v.target.name }}</a>{% if v.target.gene_symbol %} <span class="badge b-gray">{{ v.target.gene_symbol }}</span>{% endif %}{% else %}{{ m.nr(none) }}{% endif %}</td></tr>
+        <tr><th>Target UniProt</th><td>{% if v.target_uniprot %}<a class="mono" href="https://www.uniprot.org/uniprotkb/{{ v.target_uniprot }}" rel="noopener">{{ v.target_uniprot }}</a>{% else %}{{ m.nr(none) }}{% endif %}</td></tr>
+        <tr><th>Antigen (as tested)</th><td>{{ m.nr(v.antigen.name) }}</td></tr>
+        <tr><th>Design classification</th><td>{{ m.design_badge(v.design_class) }} <span style="color:var(--muted)">{{ v.design_status }}</span></td></tr>
+        <tr><th>Sequence length</th><td>{{ v.length }} aa</td></tr>
+        <tr><th>Best measured K<sub>D</sub></th><td class="mono">{{ m.kd_fmt(v.best_kd_M) }}</td></tr>
+        <tr><th>Source datasets</th><td style="font-size:12px;color:var(--muted)">{{ m.nr(v.source) }}</td></tr>
+      </table>
+    </div>
+    <div class="col panel">
+      <h3>Evidence &amp; verification</h3>
+      <table class="kv">
+        <tr><th>Evidence flags</th><td>{{ m.ev_flags(v.evidence_flags) }}</td></tr>
+        <tr><th>Quality label</th><td>{{ m.quality_badge(v.quality_label) }}</td></tr>
+        <tr><th>Sequence verified</th><td>{{ '✓ yes' if v.flags.sequence_verified else '—' }}</td></tr>
+        <tr><th>Structure verified</th><td>{{ '✓ yes' if v.flags.structure_verified else '—' }}</td></tr>
+        <tr><th>Affinity verified</th><td>{{ '✓ yes' if v.flags.affinity_verified else '—' }}</td></tr>
+        <tr><th>Publication verified</th><td>{{ '✓ yes' if v.flags.publication_verified else '—' }}</td></tr>
+        <tr><th>Data status</th><td>{% if v.flags.predicted_or_experimental=='real' %}<span class="badge b-green">Experimental / curated</span>{% else %}<span class="badge b-amber">{{ v.flags.predicted_or_experimental }}</span>{% endif %}</td></tr>
+      </table>
+      <p class="note" style="margin-top:14px">Evidence flags: E2 tested · E3 binding · E4 affinity ·
+        E5 functional · E6 structure. Absent evidence is never inferred.</p>
+    </div>
+  </div>
+</div>
+
+<!-- SEQUENCE -->
+<div class="tabpane" id="sequence">
+  <div class="panel">
+    <h3>Amino-acid sequence <span style="font-weight:400;font-size:12px;color:var(--muted)">(SHA1 {{ v.sequence.checksum_sha1[:12] }})</span></h3>
+    <div class="fasta">&gt;{{ v.denovovhh_id }} | {{ v.name or 'sdAb' }} | {{ v.length }} aa
+{{ v.sequence.normalized }}</div>
+    {% if v.cdrs %}
+    <h3>CDR annotation <span style="font-weight:400;font-size:12px;color:var(--muted)">(scheme: {{ v.cdrs[0].numbering_scheme or 'source-curated' }})</span></h3>
+    <table class="data">
+      <thead><tr><th>Region</th><th>Sequence</th><th>Length</th><th>Scheme</th><th>Source</th></tr></thead>
+      <tbody>
+      {% for c in v.cdrs %}
+        <tr><td><b>{{ c.region }}</b></td><td class="mono">{{ m.nr(c.sequence) }}</td>
+            <td>{{ c.length or '—' }}</td><td>{{ m.nr(c.numbering_scheme) }}</td>
+            <td style="font-size:11.5px;color:var(--muted)">{{ m.nr(c.source) }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% else %}<p class="nr">CDR annotation not reported for this record.</p>{% endif %}
+  </div>
+  <div class="panel">
+    <h3>Sequence statistics <span style="font-weight:400;font-size:12px;color:var(--muted)">(calculated · {{ v.physchem.calc_version }})</span></h3>
+    <div class="row">
+      <table class="kv col">
+        <tr><th>Molecular weight</th><td>{{ v.physchem.molecular_weight }} Da</td></tr>
+        <tr><th>Theoretical pI</th><td>{{ v.physchem.theoretical_pi }}</td></tr>
+        <tr><th>Net charge (pH 7)</th><td>{{ v.physchem.net_charge_ph7 }}</td></tr>
+        <tr><th>GRAVY</th><td>{{ v.physchem.gravy }}</td></tr>
+        <tr><th>Aromaticity</th><td>{{ v.physchem.aromaticity }}</td></tr>
+      </table>
+      <table class="kv col">
+        <tr><th>Instability index</th><td>{{ v.physchem.instability_index }}</td></tr>
+        <tr><th>Ext. coefficient</th><td>{{ v.physchem.extinction_coefficient }} M⁻¹cm⁻¹</td></tr>
+        <tr><th>Cysteine count</th><td>{{ v.physchem.cysteine_count }}</td></tr>
+        <tr><th>CDR3 length</th><td>{{ v.physchem.cdr3_length or '—' }}</td></tr>
+        <tr><th>CDR3 net charge</th><td>{{ v.physchem.cdr3_charge if v.physchem.cdr3_charge is not none else '—' }}</td></tr>
+      </table>
+    </div>
+    <p class="note" style="margin-top:12px">Physicochemical properties are calculated from the
+      sequence with {{ v.physchem.method }}; they are labelled <b>Calculated</b>, not experimental.</p>
+  </div>
+</div>
+
+<!-- STRUCTURE -->
+<div class="tabpane" id="structure">
+  {% if v.structures %}
+  {% set s0 = v.structures[0] %}
+  <div class="panel">
+    <div class="pill-row" style="justify-content:space-between">
+      <h3 style="margin:0">Experimental structure — <span class="mono">{{ s0.pdb_id }}</span></h3>
+      <div class="pill-row">
+        <a class="btn outline sm" href="https://www.rcsb.org/structure/{{ s0.pdb_id }}" rel="noopener">RCSB ↗</a>
+        <a class="btn outline sm" href="https://files.rcsb.org/download/{{ s0.pdb_id }}.pdb" rel="noopener">PDB file ↗</a>
+      </div>
+    </div>
+    <div id="molstar" data-pdb="{{ s0.pdb_id }}"></div>
+    <p class="note" style="margin-top:10px">Interactive viewer loads coordinates directly from RCSB
+      PDB. Rendering the crystallographic/cryo-EM model, not a prediction.</p>
+    <h3>Structure information</h3>
+    <table class="kv">
+      <tr><th>PDB ID</th><td class="mono">{{ s0.pdb_id }}</td></tr>
+      <tr><th>Method</th><td>{{ m.nr(s0.method) }}</td></tr>
+      <tr><th>Resolution</th><td>{% if s0.resolution %}{{ s0.resolution }} Å{% else %}{{ m.nr(none) }}{% endif %}</td></tr>
+      <tr><th>Title</th><td>{{ m.nr(s0.title) }}</td></tr>
+      <tr><th>Deposited</th><td>{{ m.nr(s0.deposition_date) }}</td></tr>
+      <tr><th>VHH–antigen complex</th><td>{{ 'Yes' if s0.is_complex else 'No' }}</td></tr>
+    </table>
+  </div>
+  {% if v.structures|length > 1 %}
+  <div class="panel">
+    <h3>All associated structures ({{ v.structures|length }})</h3>
+    <p style="font-size:12.5px;color:var(--muted)">This sequence maps to multiple deposited entries.</p>
+    <div class="panel" style="padding:0;max-height:320px;overflow:auto">
+    <table class="data">
+      <thead><tr><th>PDB</th><th>Method</th><th>Res. (Å)</th><th>Complex</th><th>Title</th></tr></thead>
+      <tbody>
+      {% for st in v.structures[:60] %}
+        <tr><td><a class="mono" href="/structure/{{ st.pdb_id }}">{{ st.pdb_id }}</a></td>
+            <td>{{ m.nr(st.method) }}</td><td>{{ st.resolution or '—' }}</td>
+            <td>{{ '✓' if st.is_complex else '—' }}</td>
+            <td style="font-size:11.5px">{{ (st.title or '')[:70] }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    </div>
+  </div>
+  {% endif %}
+  {% else %}
+  <div class="panel"><p class="nr">No experimental structure reported for this record.</p>
+    <p class="note">No structure is shown rather than displaying a predicted model, per the
+      database policy of separating experimental from predicted data.</p></div>
+  {% endif %}
+</div>
+
+<!-- BINDING -->
+<div class="tabpane" id="binding">
+  <div class="panel">
+    <h3>Binding measurements</h3>
+    {% if v.affinities %}
+    <div class="panel" style="padding:0;max-height:360px;overflow:auto">
+    <table class="data">
+      <thead><tr><th>K<sub>D</sub> (M)</th><th>Original value</th><th>ΔG (kJ/mol)</th><th>Method</th><th>Type</th><th>Source</th></tr></thead>
+      <tbody>
+      {% for a in v.affinities[:80] %}
+        <tr><td class="mono">{{ m.kd_fmt(a.kd_M) }}</td><td class="mono">{{ m.nr(a.kd_original) }}</td>
+            <td>{{ a.delta_g_kJmol if a.delta_g_kJmol is not none else '—' }}</td>
+            <td>{{ m.nr(a.method) }}</td>
+            <td>{% if a.is_predicted %}<span class="badge b-amber">Predicted</span>{% else %}<span class="badge b-green">Experimental</span>{% endif %}</td>
+            <td style="font-size:11px;color:var(--muted)">{{ m.nr(a.source) }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    </div>
+    {% else %}<p class="nr">No quantitative affinity reported.</p>{% endif %}
+  </div>
+  <div class="row">
+    <div class="col panel">
+      <h3>Functional activity</h3>
+      {% if v.experiments %}<table class="data"><thead><tr><th>Assay</th><th>Tested</th><th>Binder</th><th>Source</th></tr></thead>
+        <tbody>{% for e in v.experiments %}<tr><td>{{ m.nr(e.assay) }}</td><td>{{ '✓' if e.tested else '—' }}</td><td>{{ '✓' if e.binder else '—' }}</td><td style="font-size:11px;color:var(--muted)">{{ m.nr(e.source) }}</td></tr>{% endfor %}</tbody></table>
+      {% else %}<p class="nr">No functional assay reported.</p>{% endif %}
+    </div>
+    <div class="col panel">
+      <h3>Specificity</h3>
+      {% if v.specificities %}<table class="data"><thead><tr><th>On-target</th><th>Label</th><th>Source</th></tr></thead>
+        <tbody>{% for sp in v.specificities %}<tr><td>{{ '✓' if sp.on_target else '—' }}</td><td>{{ m.nr(sp.label) }}</td><td style="font-size:11px;color:var(--muted)">{{ m.nr(sp.source) }}</td></tr>{% endfor %}</tbody></table>
+      {% else %}<p class="nr">No cross-reactivity / specificity data reported.</p>{% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- DESIGN -->
+<div class="tabpane" id="design">
+  <div class="panel">
+    <h3>Design / discovery method</h3>
+    <table class="kv">
+      <tr><th>Method class</th><td>{{ m.design_badge(v.design_method.method_class) }}</td></tr>
+      <tr><th>Method name</th><td>{{ m.nr(v.design_method.method_name) }}</td></tr>
+      <tr><th>Software / tool</th><td>{{ m.nr(v.design_method.software) }}</td></tr>
+      <tr><th>Design status</th><td>{{ v.design_status }}</td></tr>
+    </table>
+    <p class="note" style="margin-top:12px">Design method is mined from the linked publication where
+      disclosed. Where a repertoire/patent record gives no method, it is <span class="nr">Not reported</span> —
+      not assumed.</p>
+  </div>
+  <div class="panel">
+    <h3>Discovery pipeline</h3>
+    <ol style="line-height:2">
+      <li><b>Target selection</b> — {{ v.target.name if v.target else 'Not reported' }}</li>
+      <li><b>Antigen</b> — {{ v.antigen.name or 'Not reported' }}</li>
+      <li><b>Design / discovery</b> — {{ v.design_method.method_name or 'Not reported' }}</li>
+      <li><b>Experimental testing</b> — {{ 'Tested' if v.experiments and v.experiments[0].tested else 'Not reported' }}</li>
+      <li><b>Binding / affinity</b> — {{ 'K_D ' ~ ('%.2e'|format(v.best_kd_M)) ~ ' M' if v.best_kd_M else 'Not reported' }}</li>
+      <li><b>Structure</b> — {{ v.structures[0].pdb_id if v.structures else 'Not reported' }}</li>
+    </ol>
+  </div>
+</div>
+
+<!-- LITERATURE -->
+<div class="tabpane" id="literature">
+  <div class="panel">
+    <h3>Primary publication</h3>
+    {% if v.publication and v.publication.pmid %}
+    <div class="citation">
+      <div style="font-weight:600">{{ v.publication.title or 'Title not reported' }}</div>
+      <div style="margin:5px 0">{{ v.publication.authors or 'Authors not reported' }}</div>
+      <div class="j">{{ v.publication.journal or '' }} {% if v.publication.year %}({{ v.publication.year }}){% endif %}</div>
+      <div class="pill-row" style="margin-top:10px">
+        {% if v.publication.doi %}<a class="badge b-blue" href="https://doi.org/{{ v.publication.doi }}" rel="noopener">DOI: {{ v.publication.doi }}</a>{% endif %}
+        {% if v.publication.pmid %}<a class="badge b-gray" href="https://pubmed.ncbi.nlm.nih.gov/{{ v.publication.pmid }}" rel="noopener">PMID: {{ v.publication.pmid }}</a>{% endif %}
+        {% if v.publication.pmcid %}<a class="badge b-gray" href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ v.publication.pmcid }}" rel="noopener">{{ v.publication.pmcid }}</a>{% endif %}
+      </div>
+      <div class="pill-row" style="margin-top:10px">
+        <a class="btn outline sm" href="/api/v1/vhh/{{ v.denovovhh_id }}/cite.bib">⬇ BibTeX</a>
+        <a class="btn outline sm" href="/api/v1/vhh/{{ v.denovovhh_id }}/cite.ris">⬇ RIS</a>
+      </div>
+    </div>
+    {% else %}<p class="nr">No linked publication located for this record.</p>{% endif %}
+  </div>
+</div>
+
+<!-- PROVENANCE -->
+<div class="tabpane" id="provenance">
+  <div class="panel">
+    <h3>Field-level provenance <span style="font-weight:400;font-size:12px;color:var(--muted)">({{ v.provenance|length }} events)</span></h3>
+    <p class="note">Each field's value is traced to its origin (source type, identifier, extraction
+      method, verification status). This is the auditable design → validation chain.</p>
+    <div class="panel" style="padding:0;max-height:460px;overflow:auto;margin-top:12px">
+    <table class="data">
+      <thead><tr><th>Field</th><th>Value</th><th>Source</th><th>Identifier</th><th>Extraction</th><th>Status</th></tr></thead>
+      <tbody>
+      {% for p in v.provenance %}
+        <tr><td class="fld">{{ p.field }}</td>
+            <td class="mono" style="max-width:200px;overflow:hidden;text-overflow:ellipsis">{{ (p.value or '')|string|truncate(40) }}{{ ' ' ~ p.unit if p.unit }}</td>
+            <td>{{ m.nr(p.source_type) }}</td>
+            <td class="mono" style="font-size:11px">{{ m.nr(p.source_id) }}</td>
+            <td style="font-size:11px">{{ m.nr(p.extraction_method) }}</td>
+            <td>{% if p.verification_status=='verified' %}<span class="badge b-green">verified</span>{% else %}<span class="badge b-gray">{{ p.verification_status or 'reported' }}</span>{% endif %}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+{% block scripts %}
+<script>
+document.querySelectorAll('#tabs button').forEach(function(b){
+  b.addEventListener('click',function(){
+    document.querySelectorAll('#tabs button').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.tabpane').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    document.getElementById(b.dataset.t).classList.add('active');
+    if(b.dataset.t==='structure') loadViewer();
+  });
+});
+var _viewerLoaded=false;
+function loadViewer(){
+  var el=document.getElementById('molstar');
+  if(!el||_viewerLoaded)return; _viewerLoaded=true;
+  var pdb=el.dataset.pdb;
+  el.innerHTML='<iframe title="Mol* viewer" style="width:100%;height:100%;border:0;border-radius:9px" '+
+    'src="https://molstar.org/viewer/?pdb='+encodeURIComponent(pdb)+'&hide-controls=0"></iframe>';
+}
+</script>
+{% endblock %}

@@ -1,0 +1,156 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block masthead %}
+<section class="masthead">
+  <div class="container">
+    <div class="kicker">Design · Validate · Benchmark</div>
+    <h1>DeNovoVHH-DB</h1>
+    <div class="tag">A provenance-first database of de novo designed and experimentally
+      validated single-domain antibodies (VHH / nanobodies).</div>
+    <div class="hsearch">
+      <div class="htabs">
+        <a class="active" href="/browse">Search by Sequence</a>
+        <a href="/structures">Search by Structure</a>
+        <a href="/targets">Search by Target</a>
+        <a href="/search">Advanced Search</a>
+      </div>
+      <form action="/browse" method="get">
+        <input type="text" name="q" placeholder="Enter a sequence motif, VHH ID, target, or UniProt accession…"
+               value="{{ request.query_params.get('q','') }}">
+        <button type="submit">Search</button>
+      </form>
+      <div class="helper">Every hit links to its source PDB / UniProt / publication;
+        absent evidence is shown as “Not reported”, never estimated.</div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block body %}
+<!-- Action cards -->
+<div class="actioncards">
+  <div class="actioncard">
+    <h3>Browse Data</h3>
+    <div class="row3">
+      <a href="/browse"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 6h16M4 12h16M4 18h16"/></svg>Records</a>
+      <a href="/structures"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="7" cy="8" r="2.4"/><circle cx="17" cy="7" r="2.4"/><circle cx="12" cy="17" r="2.4"/><path d="M9 9l6-1M8.5 10l3 5M15 9l-2.5 6"/></svg>Structures</a>
+      <a href="/publications"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 4h9l5 5v11H5z"/><path d="M14 4v5h5"/></svg>Literature</a>
+    </div>
+  </div>
+  <div class="actioncard">
+    <h3>Explore &amp; Download</h3>
+    <div class="row3">
+      <a href="/datasets"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 4v10m0 0l-4-4m4 4l4-4M5 19h14"/></svg>Datasets</a>
+      <a href="/datasets"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 7h16M4 12h10M4 17h13"/></svg>Benchmark</a>
+      <a href="/docs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 6l-5 6 5 6M15 6l5 6-5 6"/></svg>API</a>
+    </div>
+  </div>
+  <div class="actioncard">
+    <h3>Analyze &amp; Visualize</h3>
+    <div class="row3">
+      <a href="/structures"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="8"/><path d="M12 4c3 3 3 13 0 16M4 12h16"/></svg>Viewer</a>
+      <a href="/statistics"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 19V9M12 19V5M19 19v-7"/></svg>Statistics</a>
+      <a href="/compare"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 4v16M7 8L4 12l3 4M17 8l3 4-3 4"/></svg>Compare</a>
+    </div>
+  </div>
+</div>
+
+<!-- Dashboard -->
+<div class="dashboard">
+  <div class="dash-main">
+    <!-- Donut: design provenance -->
+    <div class="tile">
+      <h3>Design provenance <a class="more" href="/design-methods">details →</a></h3>
+      <div class="donut-wrap">
+        <svg class="donut" viewBox="0 0 130 130">
+          <g transform="rotate(-90 65 65)">
+            <circle cx="65" cy="65" r="52" fill="none" stroke="#eef2f6" stroke-width="18"/>
+            {% for d in donut %}
+            <circle cx="65" cy="65" r="52" fill="none" stroke="{{ d.color }}" stroke-width="18"
+                    stroke-dasharray="{{ d.dash }}" stroke-dashoffset="{{ d.offset }}"/>
+            {% endfor %}
+          </g>
+          <text x="65" y="61" text-anchor="middle" font-size="17" font-weight="800" fill="#153050">{{ "{:,}".format(stats.n_vhh) }}</text>
+          <text x="65" y="76" text-anchor="middle" font-size="8.5" fill="#5b6b7b">records</text>
+        </svg>
+        <div class="legend">
+          {% for d in donut %}
+          <div class="li"><span class="sw" style="background:{{ d.color }}"></span>
+            {{ d.label|capitalize }}<span class="n">{{ "{:,}".format(d.n) }} · {{ d.pct }}%</span></div>
+          {% endfor %}
+        </div>
+      </div>
+      <p class="note" style="margin-top:12px">“Unknown” = records whose design method was not
+        reported in the source; retained and labelled, not discarded.</p>
+    </div>
+
+    <!-- Top targets -->
+    <div class="tile">
+      <h3>Top target antigens <a class="more" href="/targets">all targets →</a></h3>
+      <div class="hbars">
+        {% for name,up,n in top_targets %}
+        <div class="b">
+          <span class="lab" title="{{ name }}"><a href="/targets?q={{ name }}">{{ name }}</a></span>
+          <span class="track"><span style="width:{{ (n/tt_max*100)|round(1) }}%"></span></span>
+          <span class="val">{{ "{:,}".format(n) }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Featured high-evidence records -->
+    <div class="tile wide">
+      <h3>Featured records — high-evidence (structure + affinity + publication) <a class="more" href="/browse?quality=High">more →</a></h3>
+      <table class="data">
+        <thead><tr><th>ID</th><th>Name</th><th>Target</th><th>Method</th><th>K<sub>D</sub></th><th>Struct.</th><th>Status</th></tr></thead>
+        <tbody>{% for r in featured %}{{ m.vhh_row(r) }}{% endfor %}</tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="dash-side">
+    <div class="sidepanel">
+      <h3>Database Statistics</h3>
+      <div class="body">
+        <div class="statlist">
+          <div class="r"><span class="k">VHH / nanobody records</span><span class="v">{{ "{:,}".format(stats.n_vhh) }}</span></div>
+          <div class="r"><span class="k">Molecular targets</span><span class="v">{{ "{:,}".format(stats.n_targets) }}</span></div>
+          <div class="r"><span class="k">Experimental structures</span><span class="v">{{ "{:,}".format(stats.n_structures) }}</span></div>
+          <div class="r"><span class="k">With measured affinity</span><span class="v">{{ "{:,}".format(stats.n_with_affinity) }}</span></div>
+          <div class="r"><span class="k">Computational / de novo</span><span class="v">{{ "{:,}".format(stats.n_de_novo) }}</span></div>
+          <div class="r"><span class="k">Linked publications</span><span class="v">{{ "{:,}".format(stats.n_publications) }}</span></div>
+        </div>
+        <p style="font-size:11.5px;color:var(--muted);margin:12px 0 0">Counts are live from the loaded
+          database. <a href="/statistics">See full statistics →</a></p>
+      </div>
+    </div>
+
+    <div class="sidepanel">
+      <h3>About this release</h3>
+      <div class="body" style="font-size:13px;color:var(--muted)">
+        <p style="margin:0 0 8px"><b style="color:var(--navy)">Version 1.0</b> — first public release.</p>
+        <p style="margin:0 0 8px">Integrates ANDD sequences/affinities with RCSB PDB structures,
+          UniProt target annotation, and Europe PMC literature into one provenance-first record per antibody.</p>
+        <p style="margin:0">Ships with leakage-controlled 70/15/15 benchmark splits (disjoint targets)
+          for ML evaluation. <a href="/datasets">Download →</a></p>
+      </div>
+    </div>
+
+    {% if featured %}{% set f = featured[0] %}
+    <div class="sidepanel">
+      <h3>Featured record</h3>
+      <div class="body feat">
+        <div class="fid"><a href="/vhh/{{ f.denovovhh_id }}">{{ f.denovovhh_id }}</a></div>
+        <div style="margin:6px 0 10px">{{ m.quality_badge(f.quality_label) }} {{ m.design_badge(f.design_class) }}</div>
+        <div class="frow"><span class="k">Target</span><span>{{ m.nr(f.target) }}</span></div>
+        <div class="frow"><span class="k">K<sub>D</sub></span><span class="mono">{{ m.kd_fmt(f.best_kd_M) }}</span></div>
+        <div class="frow"><span class="k">Structures</span><span>{% if f.has_structure %}{{ f.n_structures }} PDB{% else %}<span class="nr">—</span>{% endif %}</span></div>
+        <div class="frow"><span class="k">Evidence</span><span>{{ m.ev_flags(f.evidence_flags) }}</span></div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

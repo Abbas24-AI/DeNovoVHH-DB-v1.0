@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+{% block title %}Structures — {{ brand }}{% endblock %}
+{% block body %}
+<div class="breadcrumb"><a href="/">Home</a> / Structures</div>
+<h1>Experimental structures</h1>
+<p class="lead">{{ "{:,}".format(total) }} PDB entries linked to VHH/nanobody records.</p>
+<form class="searchbox" action="/structures" method="get" style="margin:12px 0 18px;max-width:360px">
+  <input name="q" value="{{ q }}" placeholder="PDB ID or title…"><button>⌕</button></form>
+<div class="panel" style="padding:0;overflow-x:auto">
+<table class="data">
+  <thead><tr><th>PDB</th><th>Method</th><th>Res. (Å)</th><th>Complex</th><th>Title</th><th>Deposited</th></tr></thead>
+  <tbody>
+  {% for x in rows %}
+    <tr><td><a class="mono" href="/structure/{{ x.pdb_id }}">{{ x.pdb_id }}</a></td>
+        <td>{{ m.nr(x.method) }}</td><td>{{ x.resolution or '—' }}</td>
+        <td>{{ '✓' if x.is_complex else '—' }}</td>
+        <td style="font-size:12px">{{ (x.title or '')[:80] or m.nr(none) }}</td>
+        <td>{{ m.nr(x.deposition_date) }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% if pages>1 %}<div class="pager">
+  {% for pn in range([1,page-3]|max,[pages,page+3]|min+1) %}
+    {% if pn==page %}<span class="cur">{{ pn }}</span>{% else %}<a href="/structures?q={{ q }}&page={{ pn }}">{{ pn }}</a>{% endif %}
+  {% endfor %}</div>{% endif %}
+{% endblock %}

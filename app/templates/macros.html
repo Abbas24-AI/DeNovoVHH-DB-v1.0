@@ -1,0 +1,45 @@
+{% macro nr(v) %}{% if v is none or v=='' %}<span class="nr">Not reported</span>{% else %}{{ v }}{% endif %}{% endmacro %}
+
+{% macro status_badge(v) %}
+  {% set st = v.design_status or '' %}
+  {% if 'binder' in st %}<span class="badge b-green">Validated binder</span>
+  {% elif 'designed' in st %}<span class="badge b-amber">Designed</span>
+  {% else %}<span class="badge b-gray">Reported</span>{% endif %}
+{% endmacro %}
+
+{% macro quality_badge(q) %}
+  {% if q=='High' %}<span class="badge b-green">High</span>
+  {% elif q=='Moderate' %}<span class="badge b-blue">Moderate</span>
+  {% elif q=='Low' %}<span class="badge b-gray">Low</span>
+  {% else %}<span class="badge b-gray">{{ q }}</span>{% endif %}
+{% endmacro %}
+
+{% macro design_badge(c) %}
+  {% if c=='computational' %}<span class="badge b-purple">Computational</span>
+  {% elif c=='natural' %}<span class="badge b-teal">Natural</span>
+  {% elif c=='library' %}<span class="badge b-blue">Library</span>
+  {% elif c=='engineering' %}<span class="badge b-amber">Engineered</span>
+  {% elif c %}<span class="badge b-gray">{{ c|capitalize }}</span>
+  {% else %}<span class="nr">Not reported</span>{% endif %}
+{% endmacro %}
+
+{% macro ev_flags(flags) %}
+  {% for f in flags %}<span class="ev" title="{{ f }}">{{ f }}</span>{% endfor %}
+{% endmacro %}
+
+{% macro kd_fmt(kd) %}
+  {% if kd %}{{ '%.2e'|format(kd) }} M{% else %}<span class="nr">Not reported</span>{% endif %}
+{% endmacro %}
+
+{% macro vhh_row(r) %}
+<tr>
+  <td><a href="/vhh/{{ r.denovovhh_id }}" class="mono">{{ r.denovovhh_id }}</a></td>
+  <td>{{ r.name or ('Anti-' ~ r.target if r.target else '—') }}
+      <div style="font-size:11.5px;color:var(--muted)">{{ ev_flags(r.evidence_flags) }}</div></td>
+  <td>{% if r.target %}{{ r.target }}{% if r.target_uniprot %}<br><span class="mono" style="font-size:11px;color:var(--muted)">{{ r.target_uniprot }}</span>{% endif %}{% else %}<span class="nr">Not reported</span>{% endif %}</td>
+  <td>{{ design_badge(r.design_class) }}</td>
+  <td class="mono">{{ kd_fmt(r.best_kd_M) }}</td>
+  <td>{% if r.has_structure %}<span class="badge b-blue">{{ r.n_structures }} PDB</span>{% else %}<span class="nr">—</span>{% endif %}</td>
+  <td>{{ status_badge(r) }} {{ quality_badge(r.quality_label) }}</td>
+</tr>
+{% endmacro %}

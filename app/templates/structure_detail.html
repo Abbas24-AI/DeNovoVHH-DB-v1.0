@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+{% block title %}{{ st.pdb_id }} — {{ brand }}{% endblock %}
+{% block body %}
+<div class="breadcrumb"><a href="/">Home</a> / <a href="/structures">Structures</a> / {{ st.pdb_id }}</div>
+<div class="pill-row" style="justify-content:space-between">
+  <h1 class="mono" style="margin-bottom:4px">{{ st.pdb_id }}</h1>
+  <div class="pill-row">
+    <a class="btn outline sm" href="https://www.rcsb.org/structure/{{ st.pdb_id }}" rel="noopener">RCSB ↗</a>
+    <a class="btn outline sm" href="https://files.rcsb.org/download/{{ st.pdb_id }}.pdb" rel="noopener">PDB file ↗</a>
+  </div>
+</div>
+<div class="row">
+  <div class="col" style="flex:2">
+    <div class="viewer" id="molstar" data-pdb="{{ st.pdb_id }}">
+      <iframe title="Mol* viewer" style="width:100%;height:100%;border:0;border-radius:9px"
+        src="https://molstar.org/viewer/?pdb={{ st.pdb_id }}&hide-controls=0"></iframe>
+    </div>
+    <p class="note" style="margin-top:10px">Coordinates streamed from RCSB PDB — experimental model.</p>
+  </div>
+  <div class="col panel">
+    <h3>Structure information</h3>
+    <table class="kv">
+      <tr><th>PDB ID</th><td class="mono">{{ st.pdb_id }}</td></tr>
+      <tr><th>Method</th><td>{{ m.nr(st.method) }}</td></tr>
+      <tr><th>Resolution</th><td>{% if st.resolution %}{{ st.resolution }} Å{% else %}{{ m.nr(none) }}{% endif %}</td></tr>
+      <tr><th>Title</th><td>{{ m.nr(st.title) }}</td></tr>
+      <tr><th>Deposited</th><td>{{ m.nr(st.deposition_date) }}</td></tr>
+      <tr><th>Complex</th><td>{{ 'VHH–antigen complex' if st.is_complex else 'No / not reported' }}</td></tr>
+      {% if st.pdb_doi %}<tr><th>DOI</th><td><a href="https://doi.org/{{ st.pdb_doi }}" rel="noopener" class="mono">{{ st.pdb_doi }}</a></td></tr>{% endif %}
+      {% if st.pdb_pmid %}<tr><th>PMID</th><td><a href="https://pubmed.ncbi.nlm.nih.gov/{{ st.pdb_pmid }}" rel="noopener">{{ st.pdb_pmid }}</a></td></tr>{% endif %}
+    </table>
+  </div>
+</div>
+{% if vhhs %}
+<div class="panel" style="padding:0;overflow-x:auto">
+  <div style="padding:14px 18px"><h3 style="margin:0">Linked VHH records</h3></div>
+  <table class="data">
+    <thead><tr><th>ID</th><th>Name</th><th>Target</th><th>Method</th><th>K<sub>D</sub></th><th>Struct.</th><th>Status</th></tr></thead>
+    <tbody>{% for r in vhhs %}{{ m.vhh_row(r) }}{% endfor %}</tbody>
+  </table>
+</div>
+{% endif %}
+{% endblock %}

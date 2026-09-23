@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Datasets & downloads — {{ brand }}{% endblock %}
+{% block body %}
+<div class="breadcrumb"><a href="/">Home</a> / Datasets</div>
+<h1>Datasets &amp; downloads</h1>
+<p class="lead">Bulk downloads of the full release and filtered subsets. All exports carry field-level
+  provenance columns; nothing is fabricated.</p>
+
+<div class="panel">
+  <h3>Full release — v1.0 ({{ "{:,}".format(stats.n_vhh) }} records)</h3>
+  <div class="pill-row">
+    <a class="btn" href="/api/v1/download/csv">⬇ CSV</a>
+    <a class="btn" href="/api/v1/download/tsv">⬇ TSV</a>
+    <a class="btn teal" href="/api/v1/download/fasta">⬇ FASTA (sequences)</a>
+    <a class="btn outline" href="/api/v1/download/json">⬇ JSON</a>
+  </div>
+  <p class="note" style="margin-top:12px">Downloads reflect any active browse filters when launched
+    from the Browse page. The API supports the same filters (see <a href="/docs">/docs</a>).</p>
+</div>
+
+<div class="panel" style="padding:0;overflow-x:auto">
+  <div style="padding:14px 18px"><h3 style="margin:0">Registered source datasets</h3></div>
+  <table class="data">
+    <thead><tr><th>Dataset</th><th>Version</th><th>Formats</th><th>License</th><th>Description</th></tr></thead>
+    <tbody>
+    {% for d in datasets %}
+      <tr><td><b>{{ d.name }}</b></td><td>{{ d.release_version or '—' }}</td>
+          <td>{{ d.formats or '—' }}</td><td>{{ d.license or '—' }}</td>
+          <td style="font-size:12px">{{ d.description or '' }}</td></tr>
+    {% endfor %}
+    {% if not datasets %}<tr><td colspan="5" style="color:var(--muted);padding:20px">No dataset registry entries.</td></tr>{% endif %}
+    </tbody>
+  </table>
+</div>
+
+<div class="panel">
+  <h3>Programmatic access (REST API)</h3>
+  <p>A versioned JSON API is available under <code class="mono">/api/v1</code>. Interactive documentation:
+    <a href="/docs">OpenAPI / Swagger UI</a>.</p>
+  <table class="data">
+    <thead><tr><th>Endpoint</th><th>Description</th></tr></thead>
+    <tbody>
+      <tr><td class="mono">GET /api/v1/vhh</td><td>List / filter records (paginated)</td></tr>
+      <tr><td class="mono">GET /api/v1/vhh/{id}</td><td>Full record with provenance</td></tr>
+      <tr><td class="mono">GET /api/v1/targets</td><td>Molecular targets</td></tr>
+      <tr><td class="mono">GET /api/v1/structures</td><td>Linked PDB structures</td></tr>
+      <tr><td class="mono">GET /api/v1/stats</td><td>Live database statistics</td></tr>
+      <tr><td class="mono">GET /api/v1/download/{fmt}</td><td>Bulk export (csv/tsv/fasta/json)</td></tr>
+    </tbody>
+  </table>
+</div>
+{% endblock %}

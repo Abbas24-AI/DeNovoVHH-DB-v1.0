@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+{% block title %}Design methods — {{ brand }}{% endblock %}
+{% block body %}
+<div class="breadcrumb"><a href="/">Home</a> / Design Methods</div>
+<h1>Design &amp; discovery methods</h1>
+<p class="lead">How the single-domain antibodies in the database were generated — from natural immune
+  repertoires to fully computational de novo design. Methods are mined from linked publications;
+  absent disclosure is <span class="nr">Not reported</span>.</p>
+
+<div class="panel">
+  <h3>Method taxonomy</h3>
+  <div class="card-grid">
+  {% for k,desc in taxonomy.items() %}
+    <div class="vhh-card"><div class="id">{{ m.design_badge(k) }}</div>
+      <div class="meta">{{ desc }}</div></div>
+  {% endfor %}
+  </div>
+</div>
+
+<div class="panel" style="padding:0;overflow-x:auto">
+  <div style="padding:14px 18px"><h3 style="margin:0">Methods in the database</h3></div>
+  <table class="data">
+    <thead><tr><th>Class</th><th>Method</th><th>Software / tool</th><th style="text-align:right">VHH records</th></tr></thead>
+    <tbody>
+    {% for d,n in rows %}
+      <tr><td>{{ m.design_badge(d.method_class) }}</td><td>{{ m.nr(d.method_name) }}</td>
+          <td>{{ m.nr(d.software) }}</td><td style="text-align:right">{{ n }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

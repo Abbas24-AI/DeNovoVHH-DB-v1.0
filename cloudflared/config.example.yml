@@ -1,0 +1,18 @@
+# Cloudflare Tunnel config — exposes the app on your domain WITHOUT opening
+# any inbound ports on the server. Place at /etc/cloudflared/config.yml.
+#
+# One-time setup (on the server, after `cloudflared login`):
+#   cloudflared tunnel create denovovhh-db
+#   cloudflared tunnel route dns denovovhh-db denovovhh-db.org
+# The create step writes a credentials JSON whose filename is the tunnel UUID.
+# Fill both fields below with that UUID / path.
+
+tunnel: REPLACE_WITH_TUNNEL_UUID
+credentials-file: /etc/cloudflared/REPLACE_WITH_TUNNEL_UUID.json
+
+ingress:
+  - hostname: denovovhh-db.org          # your domain (or www./subdomain)
+    service: http://127.0.0.1:8000
+  - service: http_status:404            # catch-all, required last rule
+
+# Run as a service:  sudo cloudflared service install  &&  sudo systemctl start cloudflared

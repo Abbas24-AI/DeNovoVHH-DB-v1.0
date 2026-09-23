@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+{% block title %}Compare — {{ brand }}{% endblock %}
+{% block body %}
+<div class="breadcrumb"><a href="/">Home</a> / Compare</div>
+<h1>Compare records</h1>
+<form action="/compare" method="get" style="margin-bottom:18px">
+  <div class="fgroup"><label>Comma-separated DeNovoVHH IDs</label>
+    <input name="ids" value="{{ ids }}" placeholder="DNVHH000153, DNVHH000200" class="mono" style="width:100%;max-width:520px;padding:9px;border:1px solid var(--line);border-radius:6px"></div>
+  <button class="btn" type="submit">Compare</button>
+</form>
+{% if recs %}
+<div class="panel" style="overflow-x:auto">
+<table class="kv" style="min-width:600px">
+  <tr><th>Field</th>{% for r in recs %}<th style="color:var(--navy)">{{ r.denovovhh_id }}</th>{% endfor %}</tr>
+  <tr><th>Name</th>{% for r in recs %}<td>{{ m.nr(r.name) }}</td>{% endfor %}</tr>
+  <tr><th>Target</th>{% for r in recs %}<td>{{ r.target.name if r.target else m.nr(none) }}</td>{% endfor %}</tr>
+  <tr><th>Design class</th>{% for r in recs %}<td>{{ m.design_badge(r.design_class) }}</td>{% endfor %}</tr>
+  <tr><th>Length</th>{% for r in recs %}<td>{{ r.length }} aa</td>{% endfor %}</tr>
+  <tr><th>Best K<sub>D</sub></th>{% for r in recs %}<td class="mono">{{ m.kd_fmt(r.best_kd_M) }}</td>{% endfor %}</tr>
+  <tr><th>Structures</th>{% for r in recs %}<td>{{ r.n_structures }}</td>{% endfor %}</tr>
+  <tr><th>Quality</th>{% for r in recs %}<td>{{ m.quality_badge(r.quality_label) }}</td>{% endfor %}</tr>
+  <tr><th>Evidence</th>{% for r in recs %}<td>{{ m.ev_flags(r.evidence_flags) }}</td>{% endfor %}</tr>
+  <tr><th>CDR3</th>{% for r in recs %}<td class="mono" style="font-size:11px">{{ m.nr(r.cdr3) }}</td>{% endfor %}</tr>
+</table>
+</div>
+{% elif ids %}<p class="nr">No matching records for those IDs.</p>{% endif %}
+{% endblock %}

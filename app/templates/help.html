@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}Help & methods — {{ brand }}{% endblock %}
+{% block body %}
+<div class="breadcrumb"><a href="/">Home</a> / Help</div>
+<h1>Help &amp; methods</h1>
+
+<div class="panel">
+  <h3>What this database is — and is not</h3>
+  <p>DeNovoVHH-DB catalogues single-domain antibodies (VHH / nanobodies) across the full continuum
+    from computational design to experimental validation. Every field carries its source and a
+    data-status label. Crucially, the database preserves the distinction:</p>
+  <p class="note"><b>designed ≠ tested ≠ binder ≠ functional ≠ therapeutic.</b> A record's presence
+    does not imply it binds, works, or is a drug — only what the evidence located actually shows.</p>
+</div>
+
+<div class="panel">
+  <h3>Evidence hierarchy</h3>
+  <table class="data">
+    <thead><tr><th>Flag</th><th>Meaning</th></tr></thead>
+    <tbody>{% for k,d in evidence.items() %}<tr><td><span class="ev">{{ k }}</span></td><td>{{ d }}</td></tr>{% endfor %}</tbody>
+  </table>
+</div>
+
+<div class="panel">
+  <h3>Data-status labels</h3>
+  <div class="pill-row">
+    {% for s in data_status %}<span class="badge b-teal">{{ s }}</span>{% endfor %}
+  </div>
+  <p style="margin-top:10px;font-size:13px"><b>Experimental</b> — measured in a wet lab · <b>Curated</b> —
+    taken from a curated source database · <b>Calculated</b> — computed from sequence
+    (e.g. MW, pI) · <b>Predicted</b> — from a computational model · <b>Inferred</b> — deduced from
+    related evidence · <b>Not reported</b> — no evidence located.</p>
+</div>
+
+<div class="panel">
+  <h3>How records are built</h3>
+  <ol style="line-height:1.9">
+    <li>Sequences, targets, affinities and CDRs are ingested from the ANDD dataset (Zenodo 18151718, CC-BY-4.0) and cross-referenced source databases.</li>
+    <li>Every PDB entry is enriched live from <b>RCSB PDB</b> (method, resolution, title, deposition, linked PMID/DOI).</li>
+    <li>Targets are annotated from <b>UniProt</b>; publications and mined design methods from <b>Europe PMC</b>.</li>
+    <li>Physicochemical properties are <b>calculated</b> from sequence with Biopython and labelled as such.</li>
+    <li>CDRs are taken from the source curation; framework boundaries are derived by exact substring matching (IMGT numbering tools were not forced where unavailable).</li>
+  </ol>
+</div>
+
+<div class="panel">
+  <h3>API</h3>
+  <p>See the interactive <a href="/docs">OpenAPI documentation</a>. All list endpoints support the same
+    filters as the Browse page and return paginated JSON.</p>
+</div>
+{% endblock %}

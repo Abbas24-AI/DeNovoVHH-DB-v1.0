@@ -1,0 +1,213 @@
+denovovhh_id,target,split,has_structure,has_affinity,is_de_novo,quality
+DNVHH000014,,validation,True,False,False,Moderate
+DNVHH000015,,validation,True,False,False,Moderate
+DNVHH000016,,validation,True,False,False,Moderate
+DNVHH000022,,validation,True,False,False,Moderate
+DNVHH000026,,validation,True,False,False,Moderate
+DNVHH000089,,validation,True,False,False,Moderate
+DNVHH000090,,validation,True,False,False,Moderate
+DNVHH000092,,validation,True,False,False,Moderate
+DNVHH000105,LAB; HSPC046; NTAL; LAT2; WSCR5; WBSCR15; WBSCR5,validation,True,True,False,High
+DNVHH000118,,validation,True,False,False,Moderate
+DNVHH000119,Alpha-synuclein,validation,True,True,False,High
+DNVHH000123,Gag-Pol polyprotein,validation,True,True,False,Moderate
+DNVHH000125,Type II secretion system protein I,validation,True,False,False,Moderate
+DNVHH000137,Botulinum neurotoxin type A,validation,True,True,False,High
+DNVHH000139,mp18 rna editing complex protein,validation,True,True,False,High
+DNVHH000142,,validation,True,False,False,Moderate
+DNVHH000153,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1,validation,True,True,False,High
+DNVHH000154,mp18 rna editing complex protein,validation,True,True,False,High
+DNVHH000157,,validation,True,False,False,Moderate
+DNVHH000159,Botulinum neurotoxin type A,validation,True,True,False,High
+DNVHH000165,RecQ-like DNA helicase BLM,validation,True,False,False,Moderate
+DNVHH000166,RecQ-like DNA helicase BLM,validation,True,True,False,High
+DNVHH000170,Myosin-A tail-interacting protein,validation,True,True,False,High
+DNVHH000171,Myosin-A tail-interacting protein,validation,True,False,False,Moderate
+DNVHH000172,Interleukin-12 subunit beta,validation,True,True,False,High
+DNVHH000173,Interleukin-12 subunit beta,validation,True,True,False,High
+DNVHH000174,Interleukin-12 subunit beta,validation,True,False,False,Moderate
+DNVHH000187,Major prion protein,validation,True,False,True,Moderate
+DNVHH000188,Major prion protein,validation,True,False,True,Moderate
+DNVHH000199,Muscarinic acetylcholine receptor M2,validation,True,False,False,Moderate
+DNVHH000206,Major prion protein,validation,True,False,True,Moderate
+DNVHH000212,,validation,True,False,False,Moderate
+DNVHH000213,,validation,True,False,False,Moderate
+DNVHH000214,,validation,True,False,False,Moderate
+DNVHH000217,T-cell-specific surface glycoprotein CD28,validation,True,False,False,Moderate
+DNVHH000226,K88 fimbrial protein AD,validation,True,True,False,High
+DNVHH000229,vp1,validation,True,True,False,High
+DNVHH000232,G protein-coupled receptor homolog US28,validation,True,False,False,Moderate
+DNVHH000236,octarellin v.1,validation,True,True,True,High
+DNVHH000239,54 kDa nucleoporin,validation,True,False,False,Moderate
+DNVHH000240,54 kDa nucleoporin,validation,True,False,False,Moderate
+DNVHH000241,54 kDa nucleoporin,validation,True,False,False,Moderate
+DNVHH000242,54 kDa nucleoporin,validation,True,True,False,High
+DNVHH000247,Vacuolar protein sorting-associated protein 38,validation,True,True,False,High
+DNVHH000257,,validation,True,False,False,Moderate
+DNVHH000263,Protein translocase subunit SecA,validation,True,True,False,High
+DNVHH000276,Interleukin-6,validation,True,True,False,High
+DNVHH000279,Zinc metalloprotease,validation,True,False,False,Moderate
+DNVHH000280,Zinc metalloprotease,validation,True,True,False,High
+DNVHH000283,,validation,True,True,False,High
+DNVHH000284,,validation,True,True,False,High
+DNVHH000291,,validation,True,True,False,High
+DNVHH000295,Torsin-1A,validation,True,True,False,High
+DNVHH000303,,validation,True,True,False,High
+DNVHH000311,Botulinum neurotoxin type A,validation,True,True,False,High
+DNVHH000315,,validation,True,False,False,Moderate
+DNVHH000316,,validation,True,False,False,Moderate
+DNVHH000318,t9ss component cytoplasmic membrane protein porm,validation,True,False,False,Moderate
+DNVHH000327,,validation,True,False,False,Moderate
+DNVHH000328,cytotoxic translational repressor of toxin-antitoxinstability system,validation,True,True,False,High
+DNVHH000340,,validation,True,False,True,Moderate
+DNVHH000341,immunoglobulin heavy constant epsilon,validation,True,True,False,High
+DNVHH000350,Gamma-aminobutyric acid receptor subunit beta-3,validation,True,False,False,Moderate
+DNVHH000357,Vitamin B12-binding protein,validation,True,True,False,High
+DNVHH000373,Invasin IpaD,validation,True,True,False,Moderate
+DNVHH000374,Invasin IpaD,validation,True,True,False,Moderate
+DNVHH000375,Invasin IpaD,validation,True,True,False,Moderate
+DNVHH000376,Invasin IpaD,validation,True,True,False,Moderate
+DNVHH000381,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1,validation,True,True,False,High
+DNVHH000384,fusion protein of lysozyme and beta-2 adrenergic receptor,validation,True,False,False,Moderate
+DNVHH000387,,validation,True,False,False,Moderate
+DNVHH000393,t9ss component cytoplasmic membrane protein porm,validation,True,False,False,Moderate
+DNVHH000395,proprotein convertase subtilisin/kexin type 9,validation,True,True,False,High
+DNVHH000397,,validation,True,False,False,Moderate
+DNVHH000419,Low-density lipoprotein receptor-related protein 6,validation,True,True,False,High
+DNVHH000420,Low-density lipoprotein receptor-related protein 6,validation,True,True,False,High
+DNVHH000426,Thioredoxin 1,validation,True,True,False,High
+DNVHH000427,Potassium channel Ftrac_2467,validation,True,False,False,Moderate
+DNVHH000429,Major prion protein,validation,True,True,False,High
+DNVHH000437,Succinate receptor 1,validation,True,True,False,High
+DNVHH000440,Protein translocase subunit SecA,validation,True,False,False,Moderate
+DNVHH000441,Protein translocase subunit SecA,validation,True,False,False,Moderate
+DNVHH000442,,validation,True,True,False,High
+DNVHH000445,,validation,True,False,False,Moderate
+DNVHH000452,metabotropic glutamate receptor 5,validation,True,True,False,High
+DNVHH000462,Gamma-aminobutyric acid receptor subunit beta-3,validation,True,True,False,High
+DNVHH000463,Outer membrane protein assembly factor BamA,validation,True,True,False,High
+DNVHH000464,Outer membrane protein assembly factor BamA,validation,True,True,False,High
+DNVHH000465,Outer membrane protein assembly factor BamA,validation,True,True,False,High
+DNVHH000473,Melanoma-associated antigen B1,validation,True,True,False,Moderate
+DNVHH000475,Cytotoxic T-lymphocyte protein 4,validation,True,True,False,Moderate
+DNVHH000476,Cytotoxic T-lymphocyte protein 4,validation,True,True,False,Moderate
+DNVHH000483,drug abc transporter atp-binding protein,validation,True,True,False,High
+DNVHH000491,Botulinum neurotoxin type B,validation,True,True,False,Moderate
+DNVHH000494,Botulinum neurotoxin type A,validation,True,True,False,Moderate
+DNVHH000496,Botulinum neurotoxin type B,validation,True,True,False,Moderate
+DNVHH000497,Botulinum neurotoxin type A,validation,True,True,False,Moderate
+DNVHH000498,Antigen-presenting glycoprotein CD1d,validation,True,True,False,Moderate
+DNVHH000499,Antigen-presenting glycoprotein CD1d,validation,True,True,False,Moderate
+DNVHH000500,Antigen-presenting glycoprotein CD1d,validation,True,True,False,Moderate
+DNVHH000516,"complement c4-b,complement c4-b",validation,True,True,False,High
+DNVHH000519,,validation,True,True,False,High
+DNVHH000520,Complement C1q subcomponent subunit A,validation,True,True,False,High
+DNVHH000526,,validation,True,False,False,Moderate
+DNVHH000530,Polyphosphatidylinositol phosphatase SYNJ1,validation,True,True,False,High
+DNVHH000531,Polyphosphatidylinositol phosphatase SYNJ1,validation,True,False,False,Moderate
+DNVHH000532,Polyphosphatidylinositol phosphatase SYNJ1,validation,True,True,False,High
+DNVHH000533,aph colied-coil,validation,True,True,True,High
+DNVHH000534,aph coiled-coil,validation,True,True,True,High
+DNVHH000536,General control transcription factor GCN4,validation,True,True,True,High
+DNVHH000537,,validation,True,True,True,High
+DNVHH000544,Discoidin domain-containing receptor 2,validation,True,True,False,Moderate
+DNVHH000551,complement c4 gamma chain; complement c4 alpha chain,validation,True,True,False,High
+DNVHH000561,spike protein s1,validation,True,True,False,High
+DNVHH000562,spike protein s1,validation,True,True,False,High
+DNVHH000563,Tumor necrosis factor receptor superfamily member 9,validation,True,True,False,High
+DNVHH000566,,validation,True,False,False,Moderate
+DNVHH000570,Cytotoxic T-lymphocyte protein 4,validation,True,True,False,High
+DNVHH000603,,validation,True,False,False,Moderate
+DNVHH000604,,validation,True,False,False,Moderate
+DNVHH000605,botulinum neurotoxin a light chain,validation,True,False,False,Moderate
+DNVHH000621,Polyubiquitin-B,validation,True,True,False,High
+DNVHH000623,Polymerase basic protein 2,validation,True,True,False,High
+DNVHH000624,Polymerase basic protein 2,validation,True,True,False,High
+DNVHH000625,Polymerase basic protein 2,validation,True,True,False,High
+DNVHH000626,"proton/glutamate symporter, sdf family",validation,True,True,False,High
+DNVHH000640,Solute carrier family 15 member 2,validation,True,False,False,Moderate
+DNVHH000642,Leukocyte tyrosine kinase receptor,validation,True,True,False,High
+DNVHH000644,Centrosomal protein of 164 kDa,validation,True,False,False,Moderate
+DNVHH000645,Centrosomal protein of 164 kDa,validation,True,True,False,High
+DNVHH000646,,validation,True,False,False,Moderate
+DNVHH000656,LPS-assembly protein LptD,validation,True,True,False,High
+DNVHH000657,LPS-assembly protein LptD,validation,True,True,False,High
+DNVHH000660,Integrin alpha-M,validation,True,True,False,High
+DNVHH000661,Volume-regulated anion channel subunit LRRC8A,validation,True,True,False,High
+DNVHH000662,Volume-regulated anion channel subunit LRRC8A,validation,True,True,False,High
+DNVHH000663,Volume-regulated anion channel subunit LRRC8A,validation,True,True,False,High
+DNVHH000664,Volume-regulated anion channel subunit LRRC8A,validation,True,True,False,High
+DNVHH000665,Volume-regulated anion channel subunit LRRC8A,validation,True,True,False,High
+DNVHH000673,Multidrug resistance protein NorM,validation,True,False,False,Moderate
+DNVHH000682,Transcobalamin-2,validation,True,True,False,High
+DNVHH000683,Transcobalamin-2,validation,True,True,False,High
+DNVHH000684,Transcobalamin-2,validation,True,True,False,High
+DNVHH000685,Transcobalamin-2,validation,True,True,False,High
+DNVHH000691,Gamma-aminobutyric acid receptor subunit beta-3,validation,True,True,False,High
+DNVHH000692,Gamma-aminobutyric acid receptor subunit beta-3,validation,True,True,False,High
+DNVHH000700,,validation,True,False,False,Moderate
+DNVHH000708,Interleukin-2 receptor subunit beta,validation,True,False,False,Moderate
+DNVHH000715,"rpa-related protein radx peptide,beta-2-microglobulin,mhcclass i antigen chimera",validation,True,False,False,Moderate
+DNVHH000717,Botulinum neurotoxin type B,validation,True,True,False,High
+DNVHH000721,,validation,True,True,False,High
+DNVHH000730,cysteine-rich small secreted protein css,validation,True,True,False,High
+DNVHH000731,cysteine-rich small secreted protein css,validation,True,True,False,High
+DNVHH000732,Tribbles homolog 2,validation,True,False,False,Moderate
+DNVHH000733,Gametocyte surface protein P230,validation,True,True,False,High
+DNVHH000734,Gametocyte surface protein P230,validation,True,True,False,High
+DNVHH000736,Replicase polyprotein 1ab,validation,True,True,False,High
+DNVHH000737,Replicase polyprotein 1ab,validation,True,True,False,High
+DNVHH000739,,validation,True,True,False,High
+DNVHH000742,,validation,True,False,False,Moderate
+DNVHH000748,Nucleoside transporter 1,validation,True,True,True,High
+DNVHH000749,Nucleoside transporter 1,validation,True,True,True,High
+DNVHH000754,Iron-regulated surface determinant protein H,validation,True,False,False,Moderate
+DNVHH000755,Transforming protein RhoA,validation,True,True,False,High
+DNVHH000761,Auxin efflux carrier component 1,validation,True,False,False,Moderate
+DNVHH000788,Peripherin-2,validation,True,False,False,Moderate
+DNVHH000790,Endo-beta-N-acetylglucosaminidase EndoS,validation,True,False,False,Moderate
+DNVHH000791,Polyubiquitin-B,validation,True,True,False,High
+DNVHH000795,ER lumen protein-retaining receptor 2,validation,True,False,False,Moderate
+DNVHH000801,GTPase KRas,validation,True,False,False,Moderate
+DNVHH000808,Solute carrier family 22 member 6,validation,True,False,False,Moderate
+DNVHH000816,Bifunctional heparan sulfate N-deacetylase/N-sulfotransferase 1,validation,True,True,False,High
+DNVHH000819,complement c5 alpha chain,validation,True,True,False,High
+DNVHH000821,,validation,True,False,False,Moderate
+DNVHH000840,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",validation,True,False,False,Moderate
+DNVHH000841,Replicase polyprotein 1ab,validation,True,False,False,Moderate
+DNVHH000847,cftr inhibitory factor,validation,True,False,False,Moderate
+DNVHH000848,CFTR inhibitory factor,validation,True,False,False,Moderate
+DNVHH000849,cftr inhibitory factor,validation,True,False,False,Moderate
+DNVHH000850,"Glutamate receptor ionotropic, NMDA 1",validation,True,True,False,High
+DNVHH000851,CFTR inhibitory factor,validation,True,False,False,Moderate
+DNVHH000855,vp1,validation,True,True,False,High
+DNVHH000858,vp1,validation,True,True,False,High
+DNVHH000861,vp1,validation,True,True,False,High
+DNVHH000862,vp1,validation,True,True,False,High
+DNVHH000863,vp1,validation,True,True,False,High
+DNVHH000866,cftr inhibitory factor,validation,True,False,False,Moderate
+DNVHH000867,t-cell surface glycoprotein cd8 alpha chain,validation,True,True,False,High
+DNVHH000869,Rhodopsin,validation,True,True,False,High
+DNVHH000870,microcystin-lr,validation,True,True,False,Moderate
+DNVHH000871,,validation,True,False,False,Moderate
+DNVHH000876,vp1,validation,True,False,False,Moderate
+DNVHH000877,minig alpha s/q chimera; guanine nucleotide-binding protein g(i)/g(s)/g(t) subunitbeta-1,validation,True,False,False,Moderate
+DNVHH000897,,validation,True,False,False,Moderate
+DNVHH000904,Alpha-synuclein,validation,True,True,False,High
+DNVHH000905,Solute carrier family 22 member 1,validation,True,True,False,High
+DNVHH000909,S-layer protein EA1,validation,True,False,False,Moderate
+DNVHH000910,S-layer protein EA1,validation,True,False,False,Moderate
+DNVHH000912,Neutral amino acid transporter B(0),validation,True,False,False,Moderate
+DNVHH000917,Broad substrate specificity ATP-binding cassette transporter ABCG2,validation,True,False,False,Moderate
+DNVHH000918,,validation,True,False,False,Moderate
+DNVHH000919,,validation,True,False,False,Moderate
+DNVHH000920,Broad substrate specificity ATP-binding cassette transporter ABCG2,validation,True,False,False,Moderate
+DNVHH000921,Broad substrate specificity ATP-binding cassette transporter ABCG2,validation,True,False,False,Moderate
+DNVHH000924,pilin,validation,True,False,False,Moderate
+DNVHH000925,pilin,validation,True,False,False,Moderate
+DNVHH000926,pilin,validation,True,False,False,Moderate
+DNVHH000939,Mu-type opioid receptor,validation,True,False,False,Moderate
+DNVHH000941,alkane 1-monooxygenase,validation,True,False,False,Moderate
+DNVHH000946,Pre-glycoprotein polyprotein GP complex,validation,True,False,False,Moderate
+DNVHH000953,Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2,validation,True,True,False,High
+DNVHH016156,leukocyte common antigen(CD45),validation,False,True,False,Moderate

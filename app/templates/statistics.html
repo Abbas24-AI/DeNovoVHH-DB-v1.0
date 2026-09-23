@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}Statistics — {{ brand }}{% endblock %}
+{% block body %}
+<div class="breadcrumb"><a href="/">Home</a> / Statistics</div>
+<h1>Database statistics</h1>
+<p class="lead">Live counts from the loaded database release (v1.0).</p>
+
+<div class="stats">
+  <div class="stat"><div class="num">{{ "{:,}".format(stats.n_vhh) }}</div><div class="lbl">VHH records</div></div>
+  <div class="stat"><div class="num">{{ "{:,}".format(stats.n_targets) }}</div><div class="lbl">Targets</div></div>
+  <div class="stat"><div class="num">{{ "{:,}".format(stats.n_structures) }}</div><div class="lbl">Structures</div></div>
+  <div class="stat"><div class="num">{{ "{:,}".format(stats.n_with_affinity) }}</div><div class="lbl">With affinity</div></div>
+  <div class="stat"><div class="num">{{ "{:,}".format(stats.n_de_novo) }}</div><div class="lbl">Computational</div></div>
+  <div class="stat"><div class="num">{{ "{:,}".format(stats.n_publications) }}</div><div class="lbl">Publications</div></div>
+</div>
+
+<div class="row">
+  <div class="col panel">
+    <h3>Evidence quality distribution</h3>
+    {% set q=stats.quality %}
+    {% for lab in ['High','Moderate','Low','Unresolved'] %}
+    {% set val=q.get(lab,0) %}
+    <div style="margin-bottom:10px"><div style="display:flex;justify-content:space-between;font-size:12.5px"><span>{{ lab }}</span><span>{{ "{:,}".format(val) }} ({{ (val/stats.n_vhh*100)|round(1) }}%)</span></div>
+      <div class="bar"><span style="width:{{ (val/stats.n_vhh*100)|round(1) }}%"></span></div></div>
+    {% endfor %}
+  </div>
+  <div class="col panel">
+    <h3>Design-method distribution</h3>
+    {% set dc=stats.design_class %}
+    {% for lab,val in dc.items()|sort(attribute='1',reverse=true) %}
+    <div style="margin-bottom:10px"><div style="display:flex;justify-content:space-between;font-size:12.5px"><span>{{ lab|capitalize }}</span><span>{{ "{:,}".format(val) }}</span></div>
+      <div class="bar"><span style="width:{{ (val/stats.n_vhh*100)|round(1) }}%;background:var(--accent)"></span></div></div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="panel">
+  <h3>Coverage summary</h3>
+  <table class="data">
+    <thead><tr><th>Attribute</th><th style="text-align:right">Records</th><th style="text-align:right">% of DB</th></tr></thead>
+    <tbody>
+    {% for lab,val in [('Has experimental structure',stats.n_with_structure),('Has measured affinity',stats.n_with_affinity),('Computational / de novo',stats.n_de_novo),('Linked to publication',stats.n_with_publication)] %}
+      <tr><td>{{ lab }}</td><td style="text-align:right">{{ "{:,}".format(val) }}</td><td style="text-align:right">{{ (val/stats.n_vhh*100)|round(1) }}%</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <p class="note" style="margin-top:12px">The large "Low quality / Unknown method" fractions are honest:
+    most records derive from repertoire and patent sources that disclose a sequence and target but
+    no independent binding, structure, or design method. They are retained and labelled, not discarded.</p>
+</div>
+{% endblock %}

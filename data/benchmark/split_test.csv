@@ -1,0 +1,212 @@
+denovovhh_id,target,split,has_structure,has_affinity,is_de_novo,quality
+DNVHH000023,Carbonic anhydrase 2,test,True,True,False,High
+DNVHH000024,Carbonic anhydrase 2,test,True,True,False,High
+DNVHH000025,,test,True,False,False,Moderate
+DNVHH000081,Antitoxin MazE,test,True,False,False,Moderate
+DNVHH000082,Antitoxin MazE,test,True,False,False,Moderate
+DNVHH000088,,test,True,False,False,Moderate
+DNVHH000093,,test,True,False,False,Moderate
+DNVHH000094,,test,True,False,False,Moderate
+DNVHH000106,,test,True,False,False,Moderate
+DNVHH000116,,test,True,False,False,Moderate
+DNVHH000117,,test,True,False,False,Moderate
+DNVHH000140,,test,True,False,False,Moderate
+DNVHH000146,Endolysin,test,True,True,False,High
+DNVHH000150,METHOTREXATE,test,True,True,False,High
+DNVHH000152,c186 gp120,test,True,True,False,Moderate
+DNVHH000155,,test,True,False,False,Moderate
+DNVHH000160,Beta-secretase 2,test,True,True,False,High
+DNVHH000161,beta-secretase 2,test,True,True,False,High
+DNVHH000162,beta-secretase 2,test,True,True,False,High
+DNVHH000163,Cyclin-G-associated kinase,test,True,True,False,High
+DNVHH000164,Cyclin-G-associated kinase,test,True,True,False,High
+DNVHH000177,Interleukin-18,test,True,False,False,Moderate
+DNVHH000178,Interleukin-18,test,True,False,False,Moderate
+DNVHH000185,,test,True,False,False,Moderate
+DNVHH000186,Immunoglobulin heavy variable 3-23,test,True,True,False,High
+DNVHH000189,Epidermal growth factor receptor,test,True,True,False,High
+DNVHH000190,,test,True,False,False,Moderate
+DNVHH000191,DAR; CR2; ATP2B; CD21; C3DR; SERCA2; ATP2A2,test,True,True,False,High
+DNVHH000192,ATP-dependent translocase ABCB1,test,True,True,False,High
+DNVHH000208,"shiga toxin 2e, subunit b",test,True,True,False,High
+DNVHH000216,Cellular tumor antigen p53,test,True,True,False,High
+DNVHH000218,Gelsolin,test,True,False,False,Moderate
+DNVHH000224,K88 fimbrial protein AC,test,True,True,False,High
+DNVHH000225,K88 fimbrial protein AC,test,True,True,False,High
+DNVHH000244,,test,True,False,False,Moderate
+DNVHH000245,sulphate transporter,test,True,True,False,High
+DNVHH000248,Microtubule-associated protein tau,test,True,False,False,Moderate
+DNVHH000249,Microtubule-associated protein tau,test,True,False,False,Moderate
+DNVHH000250,Microtubule-associated protein tau,test,True,False,False,Moderate
+DNVHH000254,,test,True,False,False,Moderate
+DNVHH000255,,test,True,False,False,Moderate
+DNVHH000256,,test,True,False,False,Moderate
+DNVHH000262,,test,True,True,False,High
+DNVHH000278,,test,True,False,False,Moderate
+DNVHH000281,Lactose permease,test,True,True,False,High
+DNVHH000282,,test,True,False,False,Moderate
+DNVHH000287,Carboxypeptidase B2,test,True,True,False,High
+DNVHH000288,Carboxypeptidase B2,test,True,True,False,High
+DNVHH000289,Carboxypeptidase B2,test,True,True,False,High
+DNVHH000290,Carboxypeptidase B2,test,True,True,False,High
+DNVHH000292,,test,True,False,False,Moderate
+DNVHH000293,Neuronal migration protein doublecortin,test,True,True,False,High
+DNVHH000294,cadherin derived peptide,test,True,True,False,High
+DNVHH000301,,test,True,True,False,High
+DNVHH000305,Endolysin,test,True,False,False,Moderate
+DNVHH000306,Endolysin,test,True,False,False,Moderate
+DNVHH000323,Tumor necrosis factor,test,True,True,False,High
+DNVHH000324,Tumor necrosis factor,test,True,True,False,High
+DNVHH000325,Tumor necrosis factor,test,True,True,False,High
+DNVHH000329,Secretin XcpQ,test,True,True,False,High
+DNVHH000332,Receptor tyrosine-protein kinase erbB-2,test,True,True,False,High
+DNVHH000333,PC4 and SFRS1-interacting protein,test,True,True,False,High
+DNVHH000337,,test,True,False,True,Moderate
+DNVHH000339,,test,True,False,True,Moderate
+DNVHH000342,capsid protein,test,True,True,False,High
+DNVHH000351,"human gabaa receptor chimera beta3-alpha5,gamma-aminobutyric acid receptor subunit beta-3,gamma-aminobutyric acid receptor subunit alpha-5",test,True,True,False,High
+DNVHH000352,,test,True,False,False,Moderate
+DNVHH000361,Fusion glycoprotein F0,test,True,True,False,High
+DNVHH000362,Fusion glycoprotein F0,test,True,True,False,High
+DNVHH000363,Fusion glycoprotein F0,test,True,True,False,High
+DNVHH000368,tyrosine--tRNA ligase,test,True,True,False,High
+DNVHH000370,"N-(4-chlorophenyl)-N'-(3,4-dichlorophenyl)urea",test,True,False,False,Moderate
+DNVHH000371,"N-(4-chlorophenyl)-N'-(3,4-dichlorophenyl)urea",test,True,True,False,High
+DNVHH000372,,test,True,False,False,Moderate
+DNVHH000377,Fractalkine,test,True,False,False,Moderate
+DNVHH000378,Fractalkine,test,True,False,False,Moderate
+DNVHH000379,,test,True,False,False,Moderate
+DNVHH000383,Lactose permease,test,True,True,False,High
+DNVHH000389,,test,True,False,False,Moderate
+DNVHH000390,,test,True,False,False,Moderate
+DNVHH000392,Complement C3,test,True,True,False,High
+DNVHH000394,putative amino acid/polyamine transport protein,test,True,True,False,High
+DNVHH000398,"kinesin light chain 1,torsin-1a",test,True,True,False,High
+DNVHH000399,Hemagglutinin,test,True,True,False,High
+DNVHH000400,Hemagglutinin,test,True,True,False,High
+DNVHH000401,Hemagglutinin,test,True,True,False,High
+DNVHH000415,Dipeptide and tripeptide permease A,test,True,True,False,High
+DNVHH000425,beta-1 adrenergic receptor,test,True,False,False,Moderate
+DNVHH000428,,test,True,False,False,Moderate
+DNVHH000430,S-layer protein sap,test,True,False,False,Moderate
+DNVHH000431,S-layer protein sap,test,True,False,False,Moderate
+DNVHH000435,Protein EDS1L,test,True,True,False,High
+DNVHH000436,Protein EDS1L,test,True,True,False,High
+DNVHH000443,Tumor necrosis factor receptor superfamily member 17,test,True,True,False,High
+DNVHH000446,,test,True,False,False,Moderate
+DNVHH000450,thermostable green fluorescent protein,test,True,False,False,Moderate
+DNVHH000454,Beta-arrestin-1,test,True,False,False,Moderate
+DNVHH000461,Protein EDS1L,test,True,True,False,High
+DNVHH000471,uncharacterized abc transporter atp-binding proteintm_0288,test,True,True,False,High
+DNVHH000472,S-layer protein sap,test,True,False,False,Moderate
+DNVHH000477,Protein patched homolog 1,test,True,True,False,High
+DNVHH000479,Protein patched homolog 1,test,True,True,False,High
+DNVHH000480,Rho-related GTP-binding protein RhoB,test,True,True,False,High
+DNVHH000484,Chaperone Ric-8A,test,True,False,False,Moderate
+DNVHH000485,Chaperone Ric-8A,test,True,True,False,High
+DNVHH000486,Chaperone Ric-8A,test,True,False,False,Moderate
+DNVHH000487,Internalin B,test,True,True,False,High
+DNVHH000495,Chaperone Ric-8A,test,True,True,False,High
+DNVHH000501,Lactose permease,test,True,True,False,High
+DNVHH000502,Kappa-type opioid receptor,test,True,False,False,Moderate
+DNVHH000506,Nucleoporin NUP133,test,True,False,False,Moderate
+DNVHH000507,,test,True,False,False,Moderate
+DNVHH000515,Complement C3,test,True,True,False,High
+DNVHH000521,unknown,test,True,True,False,High
+DNVHH000522,Sodium- and chloride-dependent glycine transporter 1,test,True,True,False,High
+DNVHH000525,Energy-coupling factor transporter ATP-binding protein EcfA1,test,True,True,True,High
+DNVHH000535,,test,True,False,True,Moderate
+DNVHH000539,von Willebrand factor,test,True,True,False,High
+DNVHH000548,unknown,test,True,True,True,High
+DNVHH000549,complement c4 alpha chain; complement c4 beta chain,test,True,True,False,High
+DNVHH000550,complement c4 alpha chain; complement c4 beta chain,test,True,True,False,High
+DNVHH000553,Proton-coupled folate transporter,test,True,False,True,Moderate
+DNVHH000555,,test,True,False,False,Moderate
+DNVHH000564,Quinolone resistance protein NorB,test,True,True,False,High
+DNVHH000580,Inducible T-cell costimulator,test,True,False,False,Moderate
+DNVHH000583,Protein patched homolog 1,test,True,True,False,High
+DNVHH000586,ricin chain b; ricin chain a,test,True,False,False,Moderate
+DNVHH000587,ricin chain b; ricin chain a,test,True,False,False,Moderate
+DNVHH000590,Surface protein P12p,test,True,False,False,Moderate
+DNVHH000591,Surface protein P12p,test,True,False,False,Moderate
+DNVHH000599,,test,True,False,False,Moderate
+DNVHH000602,Fusion glycoprotein F0,test,True,True,False,High
+DNVHH000616,nucleoprotein,test,True,False,False,Moderate
+DNVHH000622,lipid a abc transporter atp-binding protein/permease msba,test,True,True,False,High
+DNVHH000651,lexa repressor,test,True,True,False,High
+DNVHH000652,abc transporter atp-binding protein,test,True,True,False,High
+DNVHH000655,Epidermal growth factor receptor,test,True,True,False,High
+DNVHH000658,Cyclin-dependent kinase inhibitor 2A,test,True,False,False,Moderate
+DNVHH000669,ATP-dependent lipid A-core flippase,test,True,True,False,High
+DNVHH000670,ATP-dependent lipid A-core flippase,test,True,False,False,Moderate
+DNVHH000671,ATP-dependent lipid A-core flippase,test,True,False,False,Moderate
+DNVHH000672,ATP-dependent lipid A-core flippase,test,True,True,False,High
+DNVHH000675,,test,True,False,False,Moderate
+DNVHH000676,,test,True,False,False,Moderate
+DNVHH000677,Hepatic sodium/bile acid cotransporter,test,True,True,False,High
+DNVHH000678,Hepatic sodium/bile acid cotransporter,test,True,True,False,High
+DNVHH000679,Protein-cysteine N-palmitoyltransferase HHAT,test,True,True,False,High
+DNVHH000688,complement c3b alpha' chain; complement c3 beta chain,test,True,True,False,High
+DNVHH000693,Receptor tyrosine-protein kinase erbB-2,test,True,True,False,High
+DNVHH000709,Merozoite surface protein P12,test,True,False,False,Moderate
+DNVHH000711,Sodium/glucose cotransporter 1,test,True,False,False,Moderate
+DNVHH000713,hyaluronan synthase,test,True,False,False,Moderate
+DNVHH000714,hyaluronan synthase,test,True,False,False,Moderate
+DNVHH000720,,test,True,False,False,Moderate
+DNVHH000722,,test,True,True,False,High
+DNVHH000723,CHLORAMPHENICOL,test,True,True,False,High
+DNVHH000729,Histamine H2 receptor,test,True,False,False,Moderate
+DNVHH000735,,test,True,False,False,Moderate
+DNVHH000763,Kappa-type opioid receptor,test,True,False,False,Moderate
+DNVHH000764,alpha1a adrenergic receptor,test,True,True,False,High
+DNVHH000765,Adenylate cyclase,test,True,False,False,Moderate
+DNVHH000773,Fascin,test,True,True,False,High
+DNVHH000774,Interleukin-27 subunit beta,test,True,True,False,High
+DNVHH000789,Hepatic sodium/bile acid cotransporter,test,True,False,False,Moderate
+DNVHH000796,Dipeptide and tripeptide permease B,test,True,False,True,Moderate
+DNVHH000799,Plexin-B1,test,True,True,False,High
+DNVHH000800,Son of sevenless homolog 1,test,True,False,False,Moderate
+DNVHH000802,Son of sevenless homolog 1,test,True,False,False,Moderate
+DNVHH000803,Son of sevenless homolog 1,test,True,False,False,Moderate
+DNVHH000804,Son of sevenless homolog 1,test,True,False,False,Moderate
+DNVHH000806,Plexin-B1,test,True,True,False,High
+DNVHH000807,nucleoprotein,test,True,False,False,Moderate
+DNVHH000809,Ferroportin,test,True,True,False,High
+DNVHH000812,,test,True,False,False,Moderate
+DNVHH000815,Neuronal acetylcholine receptor subunit alpha-7,test,True,True,False,High
+DNVHH000817,Neuronal acetylcholine receptor subunit alpha-7,test,True,True,False,High
+DNVHH000837,Voltage-dependent L-type calcium channel subunit beta-1,test,True,True,False,High
+DNVHH000865,Prostaglandin G/H synthase 2,test,True,True,False,Moderate
+DNVHH000872,,test,True,False,False,Moderate
+DNVHH000880,,test,True,False,False,Moderate
+DNVHH000883,7d5 fab light chain; 7d5 fab heavy chain,test,True,False,False,Moderate
+DNVHH000885,Fragilysin,test,True,True,False,High
+DNVHH000886,Fragilysin,test,True,True,False,High
+DNVHH000889,,test,True,False,False,Moderate
+DNVHH000893,vp3 of capsid protein; vp2 of capsid protein,test,True,True,False,High
+DNVHH000895,Tumor necrosis factor receptor superfamily member 17,test,True,True,False,High
+DNVHH000896,Tumor necrosis factor receptor superfamily member 17,test,True,True,False,High
+DNVHH000900,Prostaglandin F2-alpha receptor,test,True,True,False,High
+DNVHH000907,Uracil permease,test,True,True,False,High
+DNVHH000908,Metal transporter,test,True,True,False,High
+DNVHH000911,Complement C3,test,True,False,False,Moderate
+DNVHH000929,Cyclin-dependent kinase 7,test,True,True,False,High
+DNVHH000940,,test,True,False,False,Moderate
+DNVHH000942,hyaluronan synthase,test,True,False,False,Moderate
+DNVHH000943,hyaluronan synthase,test,True,False,False,Moderate
+DNVHH000944,hyaluronan synthase,test,True,False,False,Moderate
+DNVHH000947,Melibiose permease,test,True,False,False,Moderate
+DNVHH000951,Fusion glycoprotein F0,test,True,True,False,High
+DNVHH000952,Claudin-4,test,True,False,False,Moderate
+DNVHH001392,Ebola virus envelope glycoprotein (EBOV GP),test,False,True,False,Moderate
+DNVHH002933,Ebola virus envelope glycoprotein (EBOV GP),test,False,True,False,Moderate
+DNVHH003046,Ebola virus envelope glycoprotein (EBOV GP),test,False,True,False,Moderate
+DNVHH003084,Ebola virus envelope glycoprotein (EBOV GP),test,False,True,False,Moderate
+DNVHH003097,Ebola virus envelope glycoprotein (EBOV GP),test,False,True,False,Moderate
+DNVHH003114,Ebola virus envelope glycoprotein (EBOV GP),test,False,True,False,Moderate
+DNVHH016157,leukocyte common antigen(CD46),test,False,True,False,Moderate
+DNVHH020884,green fluorescent protein (GFP),test,False,True,False,Moderate
+DNVHH020886,green fluorescent protein (GFP),test,False,True,False,Moderate
+DNVHH020888,green fluorescent protein (GFP),test,False,True,False,Moderate
+DNVHH020895,green fluorescent protein (GFP),test,False,True,False,Moderate
+DNVHH020907,green fluorescent protein (GFP),test,False,True,False,Moderate

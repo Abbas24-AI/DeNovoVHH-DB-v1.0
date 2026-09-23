@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+{% block title %}Literature — {{ brand }}{% endblock %}
+{% block body %}
+<div class="breadcrumb"><a href="/">Home</a> / Literature</div>
+<h1>Linked literature</h1>
+<p class="lead">{{ "{:,}".format(total) }} publication(s) linked to records in the database.</p>
+<form class="searchbox" action="/publications" method="get" style="margin:12px 0 18px;max-width:420px">
+  <input name="q" value="{{ q }}" placeholder="Filter by title…"><button>⌕</button></form>
+{% for p in rows %}
+<div class="citation" style="margin-bottom:12px">
+  <div style="font-weight:600">{{ p.title or 'Title not reported' }}</div>
+  <div class="j">{{ p.journal or '' }} {% if p.year %}({{ p.year }}){% endif %}</div>
+  <div class="pill-row" style="margin-top:8px">
+    {% if p.doi %}<a class="badge b-blue" href="https://doi.org/{{ p.doi }}" rel="noopener">DOI</a>{% endif %}
+    {% if p.pmid %}<a class="badge b-gray" href="https://pubmed.ncbi.nlm.nih.gov/{{ p.pmid }}" rel="noopener">PMID {{ p.pmid }}</a>{% endif %}
+    {% if p.disclosure_type %}<span class="badge b-teal">{{ p.disclosure_type }}</span>{% endif %}
+  </div>
+</div>
+{% endfor %}
+{% if pages>1 %}<div class="pager">
+  {% for pn in range([1,page-3]|max,[pages,page+3]|min+1) %}
+    {% if pn==page %}<span class="cur">{{ pn }}</span>{% else %}<a href="/publications?q={{ q }}&page={{ pn }}">{{ pn }}</a>{% endif %}
+  {% endfor %}</div>{% endif %}
+{% endblock %}

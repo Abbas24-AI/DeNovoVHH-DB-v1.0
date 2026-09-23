@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+{% block title %}Browse — {{ brand }}{% endblock %}
+{% block body %}
+<div class="breadcrumb"><a href="/">Home</a> / Browse</div>
+<h1>Browse records</h1>
+<p class="lead">{{ "{:,}".format(total) }} record(s) match the current filters.</p>
+
+<div class="layout-2">
+  <form class="filters" method="get" action="/browse">
+    <h3>Filters</h3>
+    <input type="hidden" name="size" value="{{ size }}">
+    <div class="fgroup">
+      <label>Keyword</label>
+      <input name="q" value="{{ params.q or '' }}" placeholder="ID, target, sequence…">
+    </div>
+    <div class="fgroup">
+      <label>Target</label>
+      <input name="target" value="{{ params.target or '' }}" placeholder="e.g. VEGF, spike">
+    </div>
+    <div class="fgroup">
+      <label>Design method</label>
+      <select name="design_class"><option value="">Any</option>
+        {% for c in design_classes %}<option value="{{ c }}" {{ 'selected' if params.design_class==c }}>{{ c|capitalize }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="fgroup">
+      <label>Evidence quality</label>
+      <select name="quality"><option value="">Any</option>
+        {% for c in qualities %}<option value="{{ c }}" {{ 'selected' if params.quality==c }}>{{ c }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="fgroup">
+      <label>Evidence flag</label>
+      <select name="evidence"><option value="">Any</option>
+        {% for c in evidences %}<option value="{{ c }}" {{ 'selected' if params.evidence==c }}>{{ c }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="fgroup">
+      <label><input type="checkbox" name="has_structure" value="true" {{ 'checked' if params.has_structure }}> Has experimental structure</label>
+      <label><input type="checkbox" name="has_affinity" value="true" {{ 'checked' if params.has_affinity }}> Has measured affinity</label>
+      <label><input type="checkbox" name="is_de_novo" value="true" {{ 'checked' if params.is_de_novo }}> Computational / de novo</label>
+    </div>
+    <button class="btn" type="submit" style="width:100%">Apply filters</button>
+    <a href="/browse" class="btn outline sm" style="width:100%;margin-top:8px;justify-content:center">Reset</a>
+  </form>
+
+  <div>
+    <div class="pill-row" style="justify-content:space-between;margin-bottom:10px">
+      <div style="font-size:13px;color:var(--muted)">Showing {{ (page-1)*size+1 }}–{{ [page*size,total]|min }} of {{ "{:,}".format(total) }}</div>
+      <div class="pill-row">
+        <a class="btn outline sm" href="/api/v1/download/csv?{{ request.url.query }}">⬇ CSV</a>
+        <a class="btn outline sm" href="/api/v1/download/fasta?{{ request.url.query }}">⬇ FASTA</a>
+        <a class="btn outline sm" href="/api/v1/download/json?{{ request.url.query }}">⬇ JSON</a>
+      </div>
+    </div>
+    <div class="panel" style="padding:0;overflow-x:auto">
+      <table class="data">
+        <thead><tr><th>ID</th><th>Name</th><th>Target</th><th>Method</th><th>K<sub>D</sub></th><th>Struct.</th><th>Status</th></tr></thead>
+        <tbody>
+          {% for r in results %}{{ m.vhh_row(r) }}{% endfor %}
+          {% if not results %}<tr><td colspan="7" style="text-align:center;padding:30px;color:var(--muted)">No records match these filters.</td></tr>{% endif %}
+        </tbody>
+      </table>
+    </div>
+    {% if pages > 1 %}
+    <div class="pager">
+      {% set qp = request.query_params %}
+      {% macro plink(pnum,label,cls='') %}
+        {% set parts = [] %}
+        {% for k,v in qp.items() if k!='page' %}{% set _ = parts.append(k~'='~v) %}{% endfor %}
+        {% set _ = parts.append('page='~pnum) %}
+        {% if cls=='disabled' or cls=='cur' %}<span class="{{ cls }}">{{ label }}</span>
+        {% else %}<a href="/browse?{{ parts|join('&') }}">{{ label }}</a>{% endif %}
+      {% endmacro %}
+      {{ plink(page-1,'‹ Prev','disabled' if page<=1 else '') }}
+      {% set lo = [1,page-3]|max %}{% set hi = [pages,page+3]|min %}
+      {% if lo>1 %}{{ plink(1,'1') }}<span class="disabled">…</span>{% endif %}
+      {% for pn in range(lo,hi+1) %}{{ plink(pn,pn,'cur' if pn==page else '') }}{% endfor %}
+      {% if hi<pages %}<span class="disabled">…</span>{{ plink(pages,pages) }}{% endif %}
+      {{ plink(page+1,'Next ›','disabled' if page>=pages else '') }}
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block title %}About — {{ brand }}{% endblock %}
+{% block body %}
+<div class="breadcrumb"><a href="/">Home</a> / About</div>
+<h1>About DeNovoVHH-DB</h1>
+
+<div class="panel">
+  <h3>Maintainer</h3>
+  <div class="profile">
+    <img class="photo" src="/static/img/abbas_khan.png" alt="Dr. Abbas Khan">
+    <div class="who">
+      <div class="nm">Dr. Abbas Khan</div>
+      <div class="role">Associate Professor</div>
+      <div class="aff">
+        Department of Biomedical Sciences<br>
+        Faculty of Medical and Life Sciences<br>
+        Sunway University, Bandar Sunway<br>
+        Petaling Jaya, Selangor, Malaysia<br>
+        <a href="mailto:abbask@sunway.edu.my">abbask@sunway.edu.my</a>
+      </div>
+    </div>
+    <div class="uni">
+      <img src="/static/img/sunway_logo.png" alt="Sunway University">
+    </div>
+  </div>
+</div>
+
+<div class="panel">
+  <h3>Overview</h3>
+  <p class="lead">DeNovoVHH-DB is an open academic resource that catalogues single-domain antibodies
+    (VHH / nanobodies) across the design → validation continuum. It integrates sequence, structure,
+    target, binding, design-method, and literature evidence into a single provenance-first record for
+    each antibody, with the explicit goal of never conflating what was <i>designed</i> with what was
+    <i>experimentally validated</i>.</p>
+</div>
+
+<div class="row">
+  <div class="col panel">
+    <h3>Principles</h3>
+    <ul style="line-height:1.9">
+      <li><b>No fabrication.</b> Absent evidence is "Not reported", never estimated.</li>
+      <li><b>Field-level provenance.</b> Every value traces to a source and extraction method.</li>
+      <li><b>Original + normalized values kept separately.</b></li>
+      <li><b>Evidence-graded.</b> E0–E6 flags and status labels on every record.</li>
+      <li><b>Experimental vs. predicted kept distinct.</b></li>
+    </ul>
+  </div>
+  <div class="col panel">
+    <h3>Release at a glance</h3>
+    <div class="kpi">
+      <div class="k"><b>{{ "{:,}".format(stats.n_vhh) }}</b>VHH records</div>
+      <div class="k"><b>{{ "{:,}".format(stats.n_targets) }}</b>targets</div>
+      <div class="k"><b>{{ "{:,}".format(stats.n_structures) }}</b>structures</div>
+      <div class="k"><b>{{ "{:,}".format(stats.n_with_affinity) }}</b>with affinity</div>
+      <div class="k"><b>{{ "{:,}".format(stats.n_publications) }}</b>publications</div>
+    </div>
+  </div>
+</div>
+
+<div class="panel">
+  <h3>Data sources &amp; licenses</h3>
+  <table class="data">
+    <thead><tr><th>Source</th><th>Use</th><th>License</th></tr></thead>
+    <tbody>
+      <tr><td>ANDD (Zenodo 18151718)</td><td>Sequences, targets, affinities, CDRs</td><td>CC-BY-4.0</td></tr>
+      <tr><td>RCSB PDB</td><td>Structure metadata &amp; coordinates</td><td>CC0</td></tr>
+      <tr><td>UniProt</td><td>Target annotation</td><td>CC-BY-4.0</td></tr>
+      <tr><td>Europe PMC</td><td>Publications &amp; mined design methods</td><td>Varies by article</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="panel">
+  <h3>Citation</h3>
+  <div class="citation">
+    <p>When using DeNovoVHH-DB, please cite the underlying data sources — in particular the ANDD dataset
+      (Zenodo record 18151718) and RCSB PDB / UniProt / Europe PMC as applicable — alongside this resource.</p>
+  </div>
+  <p class="note" style="margin-top:12px">This is a research resource, not a clinical or regulatory
+    database. Nothing here should be read as evidence of therapeutic safety or efficacy.</p>
+</div>
+{% endblock %}
