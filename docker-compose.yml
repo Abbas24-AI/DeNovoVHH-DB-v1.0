@@ -1,0 +1,21 @@
+# VPS deployment (Hostinger KVM, Hetzner, DigitalOcean, ...).
+# Usage on the server:
+#   docker compose up -d --build
+# The app listens on 127.0.0.1:8000. Expose it publicly via ONE of:
+#   (a) Cloudflare Tunnel  -> see cloudflared/  (recommended; no open ports)
+#   (b) a reverse proxy (Caddy/nginx) terminating TLS on 443
+services:
+  web:
+    build: .
+    image: denovovhh-db:latest
+    restart: unless-stopped
+    environment:
+      WEB_CONCURRENCY: "2"
+      PORT: "8000"
+    ports:
+      - "127.0.0.1:8000:8000"   # bound to localhost only; not world-reachable
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8000/')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
