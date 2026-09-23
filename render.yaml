@@ -1,0 +1,15 @@
+# Render blueprint — https://render.com/docs/blueprint-spec
+# Deploy: push this repo to GitHub, then New > Blueprint in the Render dashboard.
+services:
+  - type: web
+    name: denovovhh-db
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free               # sleeps after 15 min idle (~30s cold start). Upgrade to "starter" ($7/mo) for always-on.
+    region: singapore        # nearest region to Malaysia; also: oregon, frankfurt
+    healthCheckPath: /
+    autoDeploy: true
+    envVars:
+      - key: WEB_CONCURRENCY
+        value: "1"           # free tier is 512MB; 1 worker avoids OOM with pandas/biopython
+      # Render injects PORT automatically; the Dockerfile CMD honours it.
